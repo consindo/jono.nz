@@ -1,0 +1,27 @@
+{
+  "name": "jono.nz",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass ./css/main.scss --output ./css",
+    "watch": "node-sass -w ./css/main.scss --output ./css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/consindo/jono.nz.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Jono Cooper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/consindo/jono.nz/issues"
+  },
+  "homepage": "https://github.com/consindo/jono.nz#readme",
+  "devDependencies": {
+    "node-sass": "^3.8.0"
+  }
+}
