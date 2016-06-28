@@ -12,10 +12,12 @@ nav {
 
 	h1 {
 		margin: 0;
-		font-size: 16px;
-		text-transform: uppercase;
+		font-size: 22px;
+		// text-transform: uppercase;
+		font-weight: 300;
 		padding: 10px 0;
 		text-align: center;
+		color: lighten(#8793a0, 15%);
 	}
 	img {
 		box-sizing: border-box;
@@ -29,7 +31,7 @@ nav {
 		background: rgba(0,0,0,0.2);
 		text-decoration: none;
 		display: block;
-		color: lighten(#8793a0, 30%);
+		color: lighten(#8793a0, 25%);
 		padding: 5px 10px;
 		line-height: 28px;
 
@@ -37,13 +39,17 @@ nav {
 			background: rgba(0,0,0,0.35);
 		}
 
-		span {
-			font-family: emoji;
+		img {
+			width: 12px;
+			padding: 0;
+			margin-right: 10px;
 		}
 	}
 	footer {
 		font-size: 11px;
 		padding: 0 10px;
+		color: #8793a0;
+
 		img {
 			margin: 5px 0;
 			padding: 0;
