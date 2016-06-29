@@ -12,22 +12,35 @@ nav {
 	}
 	
 	h1 a {
+		text-transform: lowercase;
+		letter-spacing: -1px;
 		display: block;
 		font-size: 22px;
 		text-decoration: none;
 		font-weight: normal;
-		padding: 10px 0 0 ;
 		text-align: center;
 		color: lighten(#8793a0, 15%);
-		letter-spacing: -0.5px;
 
 		&:hover {
 			color: lighten(#8793a0, 80%);
 		}
 	}
-	img {
+	img.fb {
+		cursor: pointer;
 		box-sizing: border-box;
-		padding: 15px 10px 0;
+		padding: 10px;
+		transition: 300ms ease all;
+		transform-origin: top left;
+		border-radius: 0 50% 50%;
+		
+		&:hover {
+			background: rgba(0,0,0,0.2);
+		}
+		
+		&.enlarge {
+			transform: scale(3);
+			background: #fafafa;
+		}
 	}
 	ul {
 		list-style-type: none;
