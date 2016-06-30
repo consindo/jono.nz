@@ -9,7 +9,7 @@ tags:
 <section class="col">
 
 <div class="project">
-<h2>MyAucklandUni Redesign<a href="#">Get It</a></h2>
+<h2>MyAucklandUni Redesign<a href="" f="#">Get It</a></h2>
 <img src="aucklanduni.jpg">
 <p>install this to prettify the student portal</p>
 </div>
@@ -18,10 +18,8 @@ tags:
 
 <div class="project">
 <h2>GPA Calculator<a href="#">Get It</a></h2>
-<p>Work out what grade you need so you don't fail</p>
-</div><div class="project">
-<h2>map comparer<a href="#">Get It</a></h2>
-<p>compare maps at the same zoom level</p>
+<img src="gpa.jpg">
+<p>work out what grade you need so you don't fail</p>
 </div>
 
 </section>
