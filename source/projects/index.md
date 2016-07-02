@@ -3,7 +3,8 @@ title: projects
 date: 2016-06-30 14:53:36
 tags:
 ---
-<header class="article-header"><h1 class="article-title" itemprop="name">projects</h1><h2>sometimes I make things</h2></header>
+<header class="article-header"><h1 class="article-title" itemprop="name">projects</h1>
+<h2>sometimes I make things</h2></header>
 
 <main class="projects">
 <section class="col">
