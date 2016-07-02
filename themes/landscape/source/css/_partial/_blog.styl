@@ -1,4 +1,57 @@
 .banner.blog {
-	background-image: url('images/blog.jpg');
-	background-size: cover;
+	text-align: center;
+	padding: 25px 0;
+	
+	h1 {
+		// color: #000;
+		font-size: 6em;
+		letter-spacing: -4px;
+		padding: 0;
+		line-height: 1.75;
+		// text-align: center;
+		display: inline-block;
+		margin: 0 auto;
+		background: #000;
+		color: #fff;
+	}
+}
+
+.archives {
+	text-align: center;
+}
+
+.archive-year-wrap {
+	text-align: center;
+	margin-bottom: 1.5em;
+	
+	a {
+		color: #999;
+		font-weight: bold;
+		font-size: 1.3em;
+		text-decoration: none;
+	}
+}
+
+.archive-article-inner {
+	time {
+		font-size: 0.9em;
+		color: #888;
+	}
+	h1 {
+		max-width: 600px;
+		margin: 0 auto 1.5em;
+		line-height: 1.33;
+	}
+	h1 a {
+		
+		color: #000;
+		font-size: 1.2em;
+		text-decoration: none;
+		transition: 150ms ease all;
+
+		&:hover {
+			background: #000;
+			color: #fff;
+		}
+	}
 }
