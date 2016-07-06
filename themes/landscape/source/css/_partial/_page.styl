@@ -6,7 +6,7 @@ html, body {
 }
 
 #main {
-	margin-left: 150px;
+	// margin-left: 150px;
 }
 
 .article-type-page .article-header {
@@ -31,7 +31,6 @@ html, body {
 
 img {
 	height: auto;
-	width: 100%;
 }
 
 p {
@@ -45,4 +44,26 @@ p {
 	padding: 0 40px 15px;
 	font-size: 13px;
 	// background: #000;
+}
+
+$footer-height = 32px;
+footer {
+	height: $footer-height;
+	margin-top: $footer-height * -1;
+	color: #fff;
+	font-size: 12px;
+	line-height: $footer-height;
+	padding: 0 8px;
+	display: flex;
+	a {
+		color: #fff;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.right {
+		flex: 1;
+		text-align: right;
+	}
 }
