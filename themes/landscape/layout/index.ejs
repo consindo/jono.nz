@@ -1,6 +1,27 @@
+<style>
+nav.sidebar, footer {
+  background: transparent;
+}
+footer {
+  margin-top: -32px;
+  color: #fff;
+}
+footer .wrapper {
+  margin: 0;
+  padding: 0;
+}
+</style>
 <div class="home">
     <h2>Hi, I’m Jono</h2>
     <!-- <h2>你好，我叫Jono</h2> -->
     <h3>I’m a designer, developer, and student. I make things, travel the world, and this is my super awesome website.</h3>
     <a href="https://m.me/jonocoopernz" class="big-button">Message Me</a>
 </div>
+<footer>
+<div class="wrapper">
+  <div class="copyright">
+    &copy; <%= date(new Date(), 'YYYY') %> jono.nz 
+    &middot;&nbsp;<a rel="license" href="https://creativecommons.org/licenses/by/4.0/">some rights reserved</a>
+  </div>
+</div>
+</footer>
