@@ -3,21 +3,45 @@ $blue = #0084ff;
 .home {
 	background-color: $blue;
 	background-image: url(images/home.jpg);
+	background-position: 50% 50%;
 	height: 100vh;
 	background-size: cover;
 	color: #fff;
 	text-align: center;
+	
+	@media (max-width: 700px) {
+		background-image: url(images/home_small.jpg);
+		background-size: cover;
+	}
 
 	h2 {
-	font-size: 5em;
-	margin: 0;
-	padding-top: 35vh;
-
+		font-size: 5em;
+		margin: 0;
+		padding: 35vh 25px 0;
 	}
 	h3 {
 		max-width: 700px;
 		margin: 0 auto;
 		font-size: 1.4em;
+		box-sizing: border-box;
+		padding: 0 25px;
+	}
+
+	@media (max-width: 500px) {
+		h2 {
+			font-size: 3em;
+		}
+		h3 {
+			font-size: 1.2em;
+		}
+	}
+	@media (max-width: 400px) {
+		h2 {
+			font-size: 2.5em;
+		}
+		h3 {
+			font-size: 1.1em;
+		}
 	}
 }
 
@@ -39,5 +63,10 @@ $blue = #0084ff;
 		background: #fff;
 		color: #222;
 	}
-
+	
+	@media (max-width: 500px) {
+		font-size: 14px;
+		margin-top: 15px;
+		padding: 7px 30px;
+	}
 }
