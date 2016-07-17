@@ -87,3 +87,5 @@ css/main.css
 
 # Hexo
 db.json
+public/
+.deploy_git/
