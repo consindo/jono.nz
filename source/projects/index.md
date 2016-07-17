@@ -17,7 +17,7 @@ tags:
 </section><section class="col">
 
 <div class="project">
-<h2>GPA Calculator<a href="#">Get It</a></h2>
+<h2>GPA Calculator<a href="gpa">Get It</a></h2>
 <img src="gpa.jpg">
 <p>work out what grade you need so you don't fail</p>
 </div>

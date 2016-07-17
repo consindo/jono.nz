@@ -1,0 +1,170 @@
+layout: page
+title: GPA Calculator
+date: 2016-06-29 14:53:36
+tags:
+---
+
+<style>
+  body {
+    background: #ecf0f1;
+  }
+  .gpatitle {
+    font-weight: 900;
+    color: #888;
+    text-shadow: 0 -1px 0 #eee;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .gpacalc h2 {
+    margin: 10px 0;
+  }
+  .gpacalc h2 span {
+    font-weight: normal;
+  }
+  .gpacalc  {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    background: #fff;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .gpacalc ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .gpacalc li {
+    height: 32px;
+    margin-bottom: 10px;
+  }
+  .gpacalc li span {
+    font-size: 28px;
+    line-height: 32px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .gpacalc li span.slash {
+    font-size: 18px;
+  }
+  .gpacalc input {
+    vertical-align: top;
+    font-size: 18px;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    height: 34px;
+    box-sizing: border-box;
+    outline: 0;
+    border: 1px solid #ccc;
+  }
+  .gpacalc input:active, input:focus {
+    border-color: #2980b9;
+  }
+  .gpacalc button {
+    font-size: 16px;
+    padding: 5px 10px;
+    background: #eee;
+    border: 1px solid #ccc;
+    color: #222;
+    font-family: "San Francisco", "Segoe UI", sans-serif;
+    margin-bottom: 15px;
+  }
+  .gpacalc button:hover {
+    border-color: #2980b9;
+  }
+  #instructions {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto 50px;
+    font-size: 14px;
+    color: #333;
+  }
+  </style>
+<h1 class="gpatitle">Subject Grade Calculator</h1>
+<section class="gpacalc">
+  <ul>
+    <li>
+      <input class="grade" type="text" placeholder="grade"> <span class="slash">/</span>
+      <input class="marks" type="text" placeholder="total">&nbsp;&nbsp;
+      <span class="percentage">0%</span>
+      <span class="lettergrade">?</span>
+    </li>
+  </ul>
+  <button id="add">Add Another Section</button> <button id="reset">Reset Everything</button>
+  <h2 id="total">Total Grade: <span></span></h2>
+  <h2 id="remainingEarnings">Percentage Left to Earn: <span></span></h2>
+</section>
+<div id="instructions">
+<strong>Instructions:</strong> Put all your weighted grades in by adding new sections. You can work out what grade you have as well as what grade you need to get in your final exam.
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+<script>
+var lettergrade = function(percentage) {
+  if (percentage >= 90) {
+    return "A+"
+  } else if (percentage >= 85) {
+    return "A"
+  } else if (percentage >= 80) {
+    return "A-"
+  } else if (percentage >= 75) {
+    return "B+"
+  } else if (percentage >= 70) {
+    return "B"
+  } else if (percentage >= 65) {
+    return "B-"
+  } else if (percentage >= 60) {
+    return "C+"
+  } else if (percentage >= 55) {
+    return "C"
+  } else if (percentage >= 50) {
+    return "C-"
+  } else if (percentage >= 45) {
+    return "D+"
+  } else if (percentage >= 40) {
+    return "D"
+  } else if (percentage >= 35) {
+    return "D-"
+  } else if (percentage < 35) {
+    return "you suck"
+  }
+}
+var calculateTotal = function() {
+  totalGrade = 0
+  totalMarks = 0
+  $('.gpacalc li').map(function() {
+    totalGrade += parseFloat($(this).find('.grade').val())
+    totalMarks += parseFloat($(this).find('.marks').val()+"%")
+  })
+  console.log(totalGrade, totalMarks)
+  var percentage = Math.round(totalGrade/totalMarks * 1000)/10;
+  $("#total span").text(lettergrade(percentage) + " (" + percentage + "%)");
+  $("#remainingEarnings span").text(100-totalMarks);
+}
+$(function() {
+  $("#reset").click(function() {
+    var node = $(".gpacalc ul li").first().clone();
+    $('.gpacalc ul li').remove();
+    node.appendTo('.gpacalc ul');
+    $('.gpacalc input').val('');
+    $('.gpacalc .percentage').text('%')
+    $('.gpacalc .lettergrade').text('?')
+    $("#total span, #remainingEarnings span").text("")
+  })
+  $("body").on("change keyup", ".grade, .marks", function() {
+    var parent = $(this).parent(),
+        grade = parent.find('.grade').val(),
+        marks = parent.find('.marks').val();
+
+    var percentage = Math.round(grade/marks * 1000)/10;
+    parent.find('.percentage').html(percentage+"%");
+    parent.find('.lettergrade').html(lettergrade(percentage));
+    calculateTotal();
+  });
+  $('#add').on('click', function() {
+    $(".gpacalc ul li").first().clone().appendTo(".gpacalc ul");
+  })
+})
+</script>
