@@ -84,3 +84,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 css/main.css
+
+# Hexo
+db.json
