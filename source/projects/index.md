@@ -9,7 +9,7 @@ tags:
 <section class="col">
 
 <div class="project">
-<h2>MyAucklandUni Redesign<a href="" f="#">Get It</a></h2>
+<h2>MyAucklandUni Redesign<a href="https://userstyles.org/styles/130334/myaucklanduni">Get It</a></h2>
 <img src="aucklanduni.jpg">
 <p>install this to prettify the student portal</p>
 </div>
