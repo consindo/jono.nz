@@ -4,7 +4,7 @@ date: 2016-06-29 14:53:36
 tags:
 ---
 
-<h1 class="header work">featured works</h1>
+<!-- <h1 class="header work">featured works</h1> -->
 
 <div class="orbitsound">
 <div>
@@ -31,5 +31,9 @@ br {
 }
 .article-meta {
 	display: none;
+}
+footer {
+  background: #000;
+  padding: 5px 0;
 }
 </style>

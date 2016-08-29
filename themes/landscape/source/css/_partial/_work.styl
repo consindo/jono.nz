@@ -13,11 +13,13 @@ h1.work {
 }
 
 .orbitsound {
-	height: calc(70vh - 40px);
+	height: 500px;
+	max-width: 1200px;
 	background: url('images/orbitsound.jpg') 50% 50%;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	position: relative;
+	margin: 0 auto;
 	
 	div {
 		position: absolute;
@@ -41,19 +43,81 @@ h1.work {
 			color: #fff;
 		}
 	}
+	
+	@media (max-width: 1050px) {
+		height: 400px;
+		
+		div {
+			top: 25%;
+		}
+		
+		img {
+			width: 320px;
+			margin-left: -25px;
+		}
+		
+		.big-button {
+			font-size: 14px;
+			padding: 7px 35px;
+		}
+	}
+	@media (max-width: 700px) {
+		height: 300px;
+		div {
+			top: 20%;
+		}
+		
+		img {
+			width: 250px;
+			margin-left: -20px;
+		}
+		.big-button {
+			font-size: 13px;
+			padding: 6px 30px;
+		}
+	}
+	@media (max-width: 500px) {
+		height: 300px;
+		background-position: 50% 50%;
+		
+		div {
+			top: 0;
+			left: 0;
+			width: 100%;
+			text-align: center;
+		}
+		img {
+			margin: 0 auto 175px;
+		}
+	}
+	@media (max-width: 400px) {
+		height: 275px;
+		img {
+			margin: 0 auto 150px;
+		}
+	}
 }
 
 .otherwork {
-	background: #000;
+	// background: #000;
 	font-size: 0;
+	background: 
+		linear-gradient(63deg, #000 23%, transparent 23%) 7px 0, 
+		linear-gradient(63deg, transparent 74%, #000 78%), 
+		linear-gradient(63deg, transparent 34%, #000 38%, #000 58%, transparent 62%), 
+		#1a1a1a;
+		background-size: 16px 48px;
 	
 	.dymajo, .hireme {
 		width: 50%;
 		display: inline-block;
 		font-size: 16px;
-		height: calc(30vh - 25px);
 		text-align: center;
 		vertical-align: top;
+		
+		@media (max-width: 600px) {
+			width: 100%;
+		}
 	}
 	
 	.dymajo {
@@ -61,6 +125,7 @@ h1.work {
 		background: url('images/dymajo.jpg') 50% 50%;
 		background-size: cover;
 		color: #fff;
+		padding-bottom: 50px;
 		
 		h3 {
 			font-weight: normal;
@@ -97,17 +162,16 @@ h1.work {
 	}
 	
 	h2 {
-		margin-top: 15%;
+		// margin-top: 15%;
 		font-weight: 300;
 	}
 	
 	.hireme {
 		color: #fff;
-		background: 
-		linear-gradient(63deg, #000 23%, transparent 23%) 7px 0, 
-		linear-gradient(63deg, transparent 74%, #000 78%), 
-		linear-gradient(63deg, transparent 34%, #000 38%, #000 58%, transparent 62%), 
-		#1a1a1a;
-		background-size: 16px 48px;
+		padding-bottom: 75px;
+		h2 {
+			margin-top: 75px;
+		}
+		
 	}
 }
