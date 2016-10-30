@@ -1,6 +1,6 @@
 layout: page
 title: GPA Calculator
-date: 2016-06-29 14:53:36
+date: 2016-10-31 12:00:00
 tags:
 ---
 
@@ -52,7 +52,7 @@ tags:
   .gpacalc input {
     vertical-align: top;
     font-size: 18px;
-    width: 100px;
+    width: 120px;
     text-align: center;
     line-height: 30px;
     height: 34px;
@@ -75,6 +75,12 @@ tags:
   .gpacalc button:hover {
     border-color: #2980b9;
   }
+  .gpacalc .lettergrade {
+    padding: 0 5px;
+    font-size: 22px;
+    border-radius: 2px;
+    background: #eee;
+  }
   #instructions {
     width: 100%;
     max-width: 600px;
@@ -82,15 +88,18 @@ tags:
     font-size: 14px;
     color: #333;
   }
+  #instructions p {
+    margin-bottom:0.5em;
+  }
   </style>
 <h1 class="gpatitle">Subject Grade Calculator</h1>
 <section class="gpacalc">
   <ul>
     <li>
-      <input class="grade" type="text" placeholder="grade"> <span class="slash">/</span>
-      <input class="marks" type="text" placeholder="total">&nbsp;&nbsp;
+      <input class="grade" type="text" placeholder="grade/total"> <span class="slash">-</span>
+      <input class="weight" type="tel" placeholder="weighting">&nbsp;
       <span class="percentage">0%</span>
-      <span class="lettergrade">?</span>
+      <span class="lettergrade"></span>
     </li>
   </ul>
   <button id="add">Add Another Section</button> <button id="reset">Reset Everything</button>
@@ -98,7 +107,8 @@ tags:
   <h2 id="remainingEarnings">Percentage Left to Earn: <span></span></h2>
 </section>
 <div id="instructions">
-<strong>Instructions:</strong> Put all your weighted grades in by adding new sections. You can work out what grade you have as well as what grade you need to get in your final exam.
+<p><strong>Unweighted Grades:</strong> If your number is less than one, it'll be an unweighted grade (you can also use the division). You can then use the weighting box to add a weight.</p>
+<p><strong>Weighted Grades:</strong> If your number is greater than one, it's a weighted grade - just put what it's out of in the weighting box.</p>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
 <script>
@@ -127,19 +137,21 @@ var lettergrade = function(percentage) {
     return "D"
   } else if (percentage >= 35) {
     return "D-"
+  } else if (percentage === 0) {
+    return ""
   } else if (percentage < 35) {
-    return "you suck"
+    return "💩"
   }
 }
 var calculateTotal = function() {
   totalGrade = 0
   totalMarks = 0
   $('.gpacalc li').map(function() {
-    totalGrade += parseFloat($(this).find('.grade').val())
-    totalMarks += parseFloat($(this).find('.marks').val()+"%")
+    totalGrade += parseFloat($(this).find('.percentage').text().slice(0,-1))/100 * parseFloat($(this).find('.weight').val())
+    totalMarks += parseFloat($(this).find('.weight').val())
   })
   console.log(totalGrade, totalMarks)
-  var percentage = Math.round(totalGrade/totalMarks * 1000)/10;
+  var percentage = Math.round((totalGrade/totalMarks)*100)
   $("#total span").text(lettergrade(percentage) + " (" + percentage + "%)");
   $("#remainingEarnings span").text(100-totalMarks);
 }
@@ -149,22 +161,49 @@ $(function() {
     $('.gpacalc ul li').remove();
     node.appendTo('.gpacalc ul');
     $('.gpacalc input').val('');
-    $('.gpacalc .percentage').text('%')
-    $('.gpacalc .lettergrade').text('?')
+    $('.gpacalc .percentage').text('0%')
+    $('.gpacalc .lettergrade').text('')
     $("#total span, #remainingEarnings span").text("")
   })
-  $("body").on("change keyup", ".grade, .marks", function() {
-    var parent = $(this).parent(),
-        grade = parent.find('.grade').val(),
-        marks = parent.find('.marks').val();
+  $("body").on("change keyup", ".grade, .weight", function() {
+    var parent = $(this).parent()
+    var grade = parent.find('.grade').val()
+    var weight = parent.find('.weight').val()
 
-    var percentage = Math.round(grade/marks * 1000)/10;
-    parent.find('.percentage').html(percentage+"%");
-    parent.find('.lettergrade').html(lettergrade(percentage));
-    calculateTotal();
+    var divisions = grade.split('/')
+    var percentage = null
+    if (divisions.length > 1) {
+      divisions.forEach(function(division) {
+        if (percentage === null) {
+          percentage = division
+        } else {
+          if (division === '') {
+            return
+          }
+          percentage = percentage / division
+        }
+      })
+      percentage = percentage * 100
+    } else {
+      if (grade === '') {
+        percentage = 0
+      } else if (parseFloat(grade) >= 1) {
+        percentage = parseFloat(grade)/parseFloat(weight) * 100
+      } else {
+        percentage = parseFloat(grade) * 100
+      }
+    }
+
+    // var percentage = parseFloat(grade) * 100;
+    parent.find('.percentage').html(Math.round(percentage)+"%")
+    parent.find('.lettergrade').html(lettergrade(percentage))
+    calculateTotal()
   });
   $('#add').on('click', function() {
-    $(".gpacalc ul li").first().clone().appendTo(".gpacalc ul");
+    var elem = $(".gpacalc ul li").first().clone().appendTo(".gpacalc ul");
+    elem.find('input').val('');
+    elem.find('.percentage').text('0%')
+    elem.find('.lettergrade').text('')
   })
 })
 </script>
