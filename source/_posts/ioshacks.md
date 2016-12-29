@@ -59,7 +59,7 @@ if (top === 0) {
 **Solution:** If setting the container height with the CSS variable you made doesn't work, use `calc()` with that variable. It's really not ideal, but this is what I've found works best.
 
 ## Force Touch
-**Problem:** If you force touch on an link that you styled like a button because you have fancy single page routing, it'll pop up a preciew.
+**Problem:** If you force touch on an link that you styled like a button because you have fancy single page routing, it'll pop up a preview.
 **Solution:** If iOS, don't use the anchor tag (or at least a href). Bind an event to the button, [and push the new URL to the History](https://developer.mozilla.org/en/docs/Web/API/History).
 
 ## No caching when pinned to home screen
