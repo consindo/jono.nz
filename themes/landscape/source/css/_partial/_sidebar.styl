@@ -1,4 +1,5 @@
 $header-size = 60px;
+$header-size-small = 48px;
 
 @keyframes show {
 	0% {
@@ -29,12 +30,12 @@ nav.sidebar {
 	}
 	
 	h1 a {
-		text-transform: lowercase;
-		letter-spacing: -1px;
+		text-transform: uppercase;
+		letter-spacing: 0;
 		display: block;
-		font-size: 24px;
+		font-size: 18px;
 		text-decoration: none;
-		font-weight: normal;
+		font-weight: bold;
 		line-height: $header-size;
 		color: #fff;
 
@@ -61,11 +62,15 @@ nav.sidebar {
 		color: #fff;
 		padding: 0 10px;
 		line-height: $header-size;
-		font-size: 14px;
+		font-size: 13px;
+		text-transform: uppercase;
+		font-weight: bold;
 
 		img {
 			padding: 0;
-			margin-right: 8px;
+			margin-right: 6px;
+			vertical-align: top;
+			margin-top: ($header-size / 2) - 6px;
 		}
 	}
 	
@@ -75,7 +80,10 @@ nav.sidebar {
 		background-image: url('images/icons/menu.png');
 		background-size: 11px 11px;
 		background-repeat: no-repeat;
-		background-position: 14px 55%;
+		background-position: 12px 52%;
+		font-weight: bold;
+		font-size: 13px;
+		text-transform: uppercase;
 		padding-left: 30px;
 		padding-right: 14px;
 		margin-right: -14px;
@@ -89,15 +97,15 @@ nav.sidebar {
 		#expand {
 			display: inline-block;
 		}
-		height: 48px;
+		height: $header-size-small;
 		
 		h1 a {
-			line-height: 48px;
+			line-height: $header-size-small;
 		}
 		ul {
 			position: absolute;
 			display: none;
-			top: 48px;
+			top: $header-size-small;
 			left: 0;
 			right: 0;
 			background: #222;
@@ -120,7 +128,11 @@ nav.sidebar {
 			}
 
 			a {
-				line-height: 48px;
+				line-height: $header-size-small;
+				
+				img {
+					margin-top: ($header-size-small /2) - 6px;
+				}
 			}
 		}
 	}
