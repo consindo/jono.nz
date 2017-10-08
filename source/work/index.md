@@ -5,11 +5,12 @@ tags:
 ---
 
 # Portfolio
+Currently I'm a student at the [University of Auckland](https://www.auckland.ac.nz), finishing at the end of 2017. In 2018, I'll be starting as a graduate at [Xero](https://www.xero.com).
 
 ## Sandfield
-While studying at the [University of Auckland](https://www.auckland.ac.nz), I'm also employed as an Intern at [Sandfield](https://www.sandfield.co.nz). I'm working with the [Crossfire EDI](http://crossfireedi.com/) team where we have built a web app for customers to manage their orders, products, and EDI implementations. I work with the full stack, developing with ES6, React, ASP.NET, and Microsoft SQL Server. 
+I'm was employed as an Intern at [Sandfield](https://www.sandfield.co.nz) from November 2016 - September 2017. I worked with the [Crossfire EDI](http://crossfireedi.com/) team where we built a web app for customers to manage their orders, products, and EDI implementations. I worked with the full stack, developing with ES6, React, ASP.NET, and Microsoft SQL Server. 
 
-Through the creation of this app, we have seen a significant reduction in support time and costs for the Crossfire EDI product.
+Through the creation of this app, we saw a significant reduction in support time and costs for the Crossfire EDI product.
 
 ## Side Projects
 For many years I have loved building open-source apps as an opportunity to learn new technologies and skills outside of work and school.
@@ -33,12 +34,9 @@ My micro projects are similar to my side projects, but they only do one thing an
 [GPA Calculator](/projects/gpa/) is a basic web app to calculate what grade you need so you don't fail.
 
 ### swipeviewjs
-[swipeviewjs](https://github.com/consindo/swipeviewjs) is a minimal Android style swipeview for the web, primarily used in [Transit](https://transit.dymajo.com).
+[swipeviewjs](https://github.com/consindo/swipeviewjs) is a minimal Android style swipeview for the web, which was used in [Transit](https://transit.dymajo.com).
 
 ---
-
-
-I'm currently looking for graduate opportunities starting the end of 2017. Please have a look at my [résumé](https://www.dropbox.com/s/9xqdihv9l45vrh6/R%C3%A9sum%C3%A9.pdf?dl=0) and [get in touch](mailto:jono@jonocooper.com).
 
 <style>
 .article-entry {
