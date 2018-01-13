@@ -1,6 +1,6 @@
 layout: page
 title: Me
-date: 2017-04-18 2:00:00
+date: 2018-01-14 2:00:00
 tags:
 ---
 
@@ -17,14 +17,12 @@ In my spare time, I like to distract myself with side projects. I helped build [
 
 *But Jono, that was 2012-2013! What have you been doing since?* In 2014, I realized that building open source apps for the rest of your life isn't particularly profitable, so I put some effort into school, tried to get a few scholarships, and took a trip overseas. In 2015, I started University, finally started working on a new app, and then I took three months for another trip around the world.
 
-Now it's 2017 and I'm almost 21. I'm now in my last year at University and I'm currently working as an Intern at [Sandfield](https://www.sandfield.co.nz/). I built an app called called [Transfer](https://dymajo.com), it's an FTP + SFTP app, and we can't release it because of some terrible software design decisions. I also built [Transit](https://transit.dymajo.com), a progressive web app for getting around Auckland's public transport (yes, very niche). Currently I'm trying to bring Nitro back from the dead. [Sign up to get early access](http://nitrotasks.com).
+Now it's 2017 and I'm almost 21. I'm now in my last year at University and I'm currently working as an Intern at [Sandfield](https://www.sandfield.co.nz/). I built an app called [Transfer](https://dymajo.com), it's an FTP + SFTP app, and we can't release it because of some poor software design decisions. I also built [Waka](https://getwaka.com), a progressive web app for getting around Auckland & Wellington. Currently I'm trying to bring Nitro back from the dead. [Sign up to get early access](http://nitrotasks.com).
 
 ## Get in touch
-I like talking to people! [Message me](https://m.me/jonocoopernz) if you just wanna chat, work together, or just wanna hang out. I also have [email](mailto:jono@jonocooper.com).
+I like talking to people! [Email me](mailto:jono@jonocooper.com) if you want to chat, work together, or just hang out.
 
 You can also check out my [blog](/archives), [Twitter](https://twitter.com/consindo), and [GitHub](https://github.com/consindo).
-
-I'm currently looking for graduate opportunities starting the end of 2017. Please have a look at my [résumé](https://www.dropbox.com/s/9xqdihv9l45vrh6/R%C3%A9sum%C3%A9.pdf?dl=0) and [get in touch](mailto:jono@jonocooper.com).
 
 <style>
 .article-entry {
