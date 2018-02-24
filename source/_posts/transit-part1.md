@@ -110,5 +110,5 @@ Here’s some things you might want to do when modifying or using Waka as a dev.
 ## Now what?
 Hopefully you download the code and have a play - fix a few issues, or even just file some 😃 https://github.com/consindo/waka/issues
 
-In Part 2, we’ll go over the client-side development.
+In [Part 2](/2018/02/25/transit-part2/), we’ll go over the client-side development.
 
