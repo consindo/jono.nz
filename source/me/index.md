@@ -5,7 +5,7 @@ tags:
 ---
 
 <div class="mainimg">
-<img src="me.jpg">
+![A photo of Jono](/me/me.jpg)
 <span>Monolithos, Greece - Feb 2016</span>
 </div>
 
