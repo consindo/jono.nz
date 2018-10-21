@@ -5,7 +5,11 @@ tags:
 ---
 
 # Portfolio
-I'm currently a graduate developer at [Xero](https://www.xero.com) in Wellington, New Zealand. At the end of 2017, I finished studying Applied Mathematics & Computer Science at the [University of Auckland](https://www.auckland.ac.nz).
+I'm currently a graduate developer at [Xero](https://www.xero.com) in Wellington, New Zealand. I work in the Financial Services team, where we build [Bank Feeds](www.scoop.co.nz/stories/BU1809/S00133/xero-launches-open-banking-api-for-accounting.htm
+) and [Payments](https://www.nab.com.au/about-us/innovation/partnerships/xero
+). I'm a full stack developer, and work with React, .NET (C#), Terraform, Docker, and AWS.
+
+At the end of 2017, I finished studying Applied Mathematics & Computer Science at the [University of Auckland](https://www.auckland.ac.nz).
 
 ## Sandfield
 I was employed as an Intern at [Sandfield](https://www.sandfield.co.nz) from November 2016 - September 2017. I worked with the [Crossfire EDI](http://crossfireedi.com/) team where we built a web app for customers to manage their orders, products, and EDI implementations. I worked with the full stack, developing with ES6, React, ASP.NET, and Microsoft SQL Server. 
