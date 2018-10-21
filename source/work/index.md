@@ -20,7 +20,7 @@ Through the creation of this app, we saw a significant reduction in support time
 For many years I have loved building open-source apps as an opportunity to learn new technologies and skills outside of work and school.
 
 ### Waka
-[Waka](https://getwaka.com) is a progressive web app for getting around Auckland & Wellington. It uses GTFS and real-time data to provide an easy way to check lines and schedules on the go.
+[Waka](https://waka.app) is a progressive web app for getting around Auckland & Wellington. It uses GTFS and real-time data to provide an easy way to check lines and schedules on the go.
 
 ### Nitro
 [Nitro](http://nitrotasks.com) is a cross platform task management app built with web technologies. I'm working on a new version and you can [sign up for early access](http://nitrotasks.com).

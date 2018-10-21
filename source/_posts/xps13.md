@@ -1,7 +1,8 @@
 layout: post
 title: XPS 13 vs Surface
 date: 2016-08-31 22:00:00
-tags: tech
+tags:
+- tech
 ---
 I recently bought a Dell XPS 13, to replace my Surface Pro 3. These devices roughly cost the same, but I managed to snag a last generation XPS with the improved screen for the same price as a current generation with the regular HD display. I miss out on USB-C and improved graphics, but that's not a huge deal.
 

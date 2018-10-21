@@ -3,6 +3,7 @@ layout: post
 title: Turbolinks
 date: 2018-04-02 10:28:17
 tags:
+- dev
 ---
 Single Page Routing is cool, because it allows your pages to load without incurring the cost a full load. It can be difficult to set up, but I would recommend checking out [Turbolinks](https://github.com/turbolinks/turbolinks). You can Single Page Routing running on your existing site in like, twenty minutes. It's great.
 

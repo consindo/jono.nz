@@ -3,6 +3,8 @@ layout: post
 title: How does Waka work? - Part 1
 date: 2017-10-08 19:56:43
 tags:
+- dev
+- waka
 ---
 
 Matt keeps asking me how Waka works, so I’ve decided to write a guide. In Part 1, we go over how the server does things. I’ll try make an effort to keep this guide updated - contact me if it’s not. 
@@ -84,7 +86,7 @@ For most of these requests, just pop a JSON object with the prefix (region) and 
 - `POST /import-complete` - Used internally from the worker - tells master that an import has completed so it can update the database and run any callbacks.
 
 ## Server-Worker & Server-Static Public API
-This is the public API. You can generate them with `npm run document` or just head to <https://getwaka.com/docs/index.html>.
+This is the public API. You can generate them with `npm run document` or just head to <https://waka.app/docs/index.html>.
 
 ## SQL Migrations
 Because we create the database from scratch every time a new worker is created, we don’t have to worry about migrations! Simply delete the worker and try again if you’re having any issues. The SQL files which create the tables and stored procedures are located in `/server-worker/db/procs`

@@ -1,9 +1,10 @@
 layout: post
 title: Mobile Safari Hacks
 date: 2016-12-30 8:30:00
-tags: dev
+tags:
+- dev
 ---
-While developing [Transit](https://transit.dymajo.com), I've discovered that Mobile Safari is the new IE6. Most of this arises because Apple has layered on a number of fancy features that work great for most sites, but create problems when you trying making a web app. Here's a couple of issues and fixes for these things:
+While developing [Waka](https://waka.app), I've discovered that Mobile Safari is the new IE6. Most of this arises because Apple has layered on a number of fancy features that work great for most sites, but create problems when you trying making a web app. Here's a couple of issues and fixes for these things:
 
 ## Desktop Safari is completely different to Mobile Safari
 **Problem:** Desktop Safari looks great, but the app doesn't work on iOS.

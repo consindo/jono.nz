@@ -3,6 +3,8 @@ layout: post
 title: How does Waka work? - Part 2
 date: 2018-02-25 19:56:43
 tags:
+- dev
+- waka
 ---
 
 Finally, part two of this guide! In part two, we'll go over how the frontend works. I managed to keep [part one](/2017/10/08/transit-part1/) reasonably well updated, but contact me if you have any issues.

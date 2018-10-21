@@ -17,7 +17,7 @@ In my spare time, I like to distract myself with side projects. I helped build [
 
 *But Jono, that was 2012-2013! What have you been doing since?* In 2014, I realized that building open source apps for the rest of your life isn't particularly profitable, so I put some effort into school, tried to get a few scholarships, and took a trip overseas. In 2015, I started University, finally started working on a new app, and then took three months for another trip around the world.
 
-In 2017 I worked as an Intern at [Sandfield](https://www.sandfield.co.nz/) and finished my final year of University. I built [Waka](https://getwaka.com), a progressive web app for getting around Auckland & Wellington. Currently I'm trying to bring Nitro back from the dead. [Sign up to get early access](http://nitrotasks.com).
+In 2017 I worked as an Intern at [Sandfield](https://www.sandfield.co.nz/) and finished my final year of University. I built [Waka](https://waka.app), a progressive web app for getting around Auckland & Wellington. Currently I'm trying to bring Nitro back from the dead. [Sign up to get early access](http://nitrotasks.com).
 
 ## Get in touch
 I like talking to people! [Email me](mailto:jono@jonocooper.com) if you want to chat, work together, or just hang out.
