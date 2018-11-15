@@ -11,8 +11,10 @@ I'm currently a graduate developer at [Xero](https://www.xero.com) in Wellington
 
 At the end of 2017, I finished studying Applied Mathematics & Computer Science at the [University of Auckland](https://www.auckland.ac.nz).
 
+I'm currently looking for new opportunities. Please have a look at my [résumé](https://db.tt/SmgPtfZNBv) and [get in touch](mailto:jono@jonocooper.com).
+
 ## Sandfield
-I was employed as an Intern at [Sandfield](https://www.sandfield.co.nz) from November 2016 - September 2017. I worked with the [Crossfire EDI](http://crossfireedi.com/) team where we built a web app for customers to manage their orders, products, and EDI implementations. I worked with the full stack, developing with ES6, React, ASP.NET, and Microsoft SQL Server. 
+I was employed as an Intern at [Sandfield](https://www.sandfield.co.nz) in Auckland, New Zealand from November 2016 - September 2017. I worked with the [Crossfire EDI](http://crossfireedi.com/) team where we built a web app for customers to manage their orders, products, and EDI implementations. I worked with the full stack, developing with ES6, React, ASP.NET, and Microsoft SQL Server. 
 
 Through the creation of this app, we saw a significant reduction in support time and costs for the Crossfire EDI product.
 
@@ -26,7 +28,7 @@ For many years I have loved building open-source apps as an opportunity to learn
 [Nitro](http://nitrotasks.com) is a cross platform task management app built with web technologies. I'm working on a new version and you can [sign up for early access](http://nitrotasks.com).
 
 ### Transfer
-[Transfer](https://dymajo.com) was supposed to be the best FTP + SFTP app for Windows. We're currently working on getting a version ready for the Windows Store.
+[Transfer](https://dymajo.com) is the best FTP + SFTP app for Windows. We're currently working on getting a version ready for the Windows Store.
 
 ### Other Projects
 I helped build [Gradiator](https://launchpad.net/gradiator) (a CSS gradients app), [Lightread](https://github.com/stayradiated/LightRead) - which [won the first Ubuntu App Showdown](http://www.omgubuntu.co.uk/2012/08/ubuntu-app-showdown-winners-announced), and [Stormcloud](https://github.com/consindo/stormcloud) - a weather app that was [the best selling app in the Ubuntu Store ever](http://www.omgubuntu.co.uk/tag/stormcloud). These projects have not been maintained, but the source code is available to download and modify.
