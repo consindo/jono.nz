@@ -1,0 +1,1008 @@
+﻿route_id,route_code,route_description,route_distance_meters
+12503-20180921103729_v70.37,125X,Helensville To City Centre Via Westgate Express,58962
+12504-20180921103729_v70.37,125X,City Centre To Helensville Via Westgate Express,57533
+39609-20180921103729_v70.37,396,Pukekohe Interchange To Waiuku Loop Via Patumahoe,49876
+30017-20180921103729_v70.37,SKY,Airport To Airport Via Dominion Rd,48240
+30015-20180921103729_v70.37,SKY,Airport To Downtown Via Mt Eden Rd Then To Airport Via Domin,47715
+30021-20180921103729_v70.37,SKY,Airport To Albany,47686
+30019-20180921103729_v70.37,SKY,Airport To Downtown Via Dominion Rd Then To Airport Via Mt E,47296
+30014-20180921103729_v70.37,SKY,Albany To Airport,47258
+30013-20180921103729_v70.37,SKY,Airport To Airport Via Mt Eden Rd,46770
+04756-20180921103729_v70.37,047,Carmel College And Westlake Girls To Gulf Harbour,45340
+39904-20180921103729_v70.37,399,Pukekohe To Port Waikato Via Tuakau,44215
+39903-20180921103729_v70.37,399,Port Waikato To Pukekohe Interchange Via Tuakau,44154
+04755-20180921103729_v70.37,047,Gulf Harbour To Westlake Girls And Carmel College,42720
+04553-20180921103729_v70.37,045,Orewa To Westlake Schools,39898
+17118-20180921103729_v70.37,171X,City Centre To New Lynn Via Laingholm,39235
+12501-20180921103729_v70.37,125,Helensville To Westgate,38485
+12502-20180921103729_v70.37,125,Westgate To Helensville,38368
+04958-20180921103729_v70.37,049,Westlake Boys To Manly,37951
+99701-20180921103729_v70.37,997,Warkworth To Omaha Via Matakana And Port Wells,37602
+39501-20180921103729_v70.37,395,Waiuku To Papakura Interchange,35700
+02655-20180921103729_v70.37,026,Gulf Harbour To Northcross Intermediate,34778
+39502-20180921103729_v70.37,395,Papakura Interchange To Waiuku,34479
+11008-20180921103729_v70.37,N11,City To Papakura Via Great South Rd,34477
+11018-20180921103729_v70.37,N11,City To Papakura Via Great South Rd (S),34477
+02660-20180921103729_v70.37,026,Northcross Intermediate To Gulf Harbour,33984
+04657-20180921103729_v70.37,046,Orewa To Rosmini College And Westlake Boys,33760
+12014-20180921103729_v70.37,120,Akoranga to Henderson,32827
+12013-20180921103729_v70.37,120,Henderson to Akoranga,32740
+27010-20180921103729_v70.37,NX1,Britomart (Lower Albert St) To Hibiscus Coast Stn,32119
+27004-20180921103729_v70.37,NX1,Britomart (Lower Albert St) To Hibiscus Coast Station,31847
+02861-20180921103729_v70.37,028,Whenuapai to North Shore Schools,31405
+820001-20180921103729_v70.37,STH,Papakura Train Station to Britomart Train Station,31194
+820007-20180921103729_v70.37,STH,Papakura Train Station to Britomart Train Station,31193
+820003-20180921103729_v70.37,STH,Papakura Train Station to Britomart Train Station,31190
+820005-20180921103729_v70.37,STH,Papakura Train Station to Britomart Train Station,31189
+820009-20180921103729_v70.37,STH,Papakura Train Station to Britomart Train Station,31189
+820011-20180921103729_v70.37,STH,Papakura Train Station to Britomart Train Station,31188
+820006-20180921103729_v70.37,STH,Britomart Train Station to Papakura Train Station,31169
+820004-20180921103729_v70.37,STH,Britomart Train Station to Papakura Train Station,31167
+820002-20180921103729_v70.37,STH,Britomart Train Station to Papakura Train Station,31167
+820018-20180921103729_v70.37,STH,Britomart Train Station to Papakura Train Station,31165
+07205-20180921103729_v70.37,72X,Botany And Howick To Britomart Express Via Panmure And Motor,31130
+27007-20180921103729_v70.37,NX1,Hibiscus Coast Station To Britomart (Lower Albert) AM Peak,30845
+27003-20180921103729_v70.37,NX1,Hibiscus Coast Station To Britomart (Lower Albert St),30845
+02862-20180921103729_v70.37,028,North Shore Schools to Whenuapai NN,30612
+73902-20180921103729_v70.37,739,Botany To Beachlands And Maraetai Via Ormiston And Whitford,30382
+01068-20180921103729_v70.37,010,Kingsway School To Greenhithe,30238
+73901-20180921103729_v70.37,739,Maraetai And Beachlands To BotanyýVia Whitford And Ormiston,30202
+07010-20180921103729_v70.37,70H,Britomart To Howick And Botany Via Ellerslie And Panmure,30092
+07206-20180921103729_v70.37,72X,Britomart To Howick And Botany Express Via Motorway And Panm,29787
+93011-20180921103729_v70.37,GULF,Gulf Harbour To Auckland,29721
+93012-20180921103729_v70.37,GULF,Auckland To Gulf Harbour,29721
+17107-20180921103729_v70.37,171X,Laingholm To City Centre Express,29706
+04560-20180921103729_v70.37,045,Westlake Schools To Silverdale,29593
+04668-20180921103729_v70.37,046,St Josephs To Orewa Express,29507
+99502-20180921103729_v70.37,995,Hibiscus Coast Station To Warkworth,29488
+01063-20180921103729_v70.37,010,Greenhithe To Kingsway School,29400
+99501-20180921103729_v70.37,995,Warkworth To Hibiscus Coast Station,29205
+02961-20180921103729_v70.37,029,Massey and West Harbour to North Shore Schools,28760
+38014-20180921103729_v70.37,380,Onehunga To Manukau Bus Station Via Airport,28303
+06456-20180921103729_v70.37,064,Albany Station To Epsom And Remuera Schools,28250
+38013-20180921103729_v70.37,380,Manukau Bus Station To Onehunga Via Airport,28054
+810005-20180921103729_v70.37,WEST,Swanson Train Station to Britomart Train Station,27729
+810006-20180921103729_v70.37,WEST,Britomart Train Station to Swanson Train Station,27683
+810007-20180921103729_v70.37,WEST,Swanson Train Station to Britomart Train Station,27673
+810001-20180921103729_v70.37,WEST,Swanson Train Station to Britomart Train Station,27673
+810003-20180921103729_v70.37,WEST,Swanson Train Station to Britomart Train Station,27673
+810004-20180921103729_v70.37,WEST,Britomart Train Station to Swanson Train Station,27659
+810002-20180921103729_v70.37,WEST,Britomart Train Station to Swanson Train Station,27657
+810008-20180921103729_v70.37,WEST,Britomart Train Station to Swanson Train Station,27657
+04666-20180921103729_v70.37,046,St Josephs School To Orewa,27550
+39608-20180921103729_v70.37,396,Pukekohe Interchange To Waiuku Via Patumahoe And Victoria Av,27333
+17116-20180921103729_v70.37,171,New Lynn To Laingholm Loop,27295
+10018-20180921103729_v70.37,N10,"City To Otara Via Manukau Rd, Onehunga, Mangere, Papatoetoe",27267
+10028-20180921103729_v70.37,N10,"City To Otara Via Manukau Rd, Onehunga, Mangere, Papatoe (S)",27267
+39607-20180921103729_v70.37,396,Waiuku To Pukekohe Interchange Via Kitchener Rd And Patumaho,27125
+06452-20180921103729_v70.37,064,Epsom And Remuera Schools To Albany Station,27062
+00302-20180921103729_v70.37,3,Matiatia Wharf To Rocky Bay Via Ostend & Onetangi,26981
+00310-20180921103729_v70.37,3,Matiatia Wharf To Rocky Bay Via Ostend & Onetangi (S),26981
+12004-20180921103729_v70.37,120,Constellation Station to Henderson via Westgate,26757
+99113-20180921103729_v70.37,RAK,Rakino Island To Auckland And Stanley Bay,26619
+99114-20180921103729_v70.37,RAK,Stanley Bay And Auckland To Rakino Island,26607
+85602-20180921103729_v70.37,856,Takapuna to Albany Station Via Milford And Beach Rd,26594
+85601-20180921103729_v70.37,856,Albany Station To Takapuna Via Beach Rd And Milford,26565
+12003-20180921103729_v70.37,120,Henderson to Constellation Station via Westgate,26486
+00301-20180921103729_v70.37,3,Rocky Bay To Matiatia Via Onetangi and Ostend,26379
+00865-20180921103729_v70.37,008,East Coast Rd To Kingsway School,26309
+00868-20180921103729_v70.37,008,KingsWay School To East Coast Rd,26044
+02762-20180921103729_v70.37,027,Long Bay To Stanmore Bay,25588
+30901-20180921103729_v70.37,309,Mangere Town Centre To City Centre,25466
+71203-20180921103729_v70.37,712,Panmure To Bucklands Beach Loop,25464
+73112-20180921103729_v70.37,OUT,Outer Link Clockwise,25462
+73120-20180921103729_v70.37,OUT,Outer Link Clockwise (S),25462
+72113-20180921103729_v70.37,OUT,Outer Link Anticlockwise,25453
+72121-20180921103729_v70.37,OUT,Outer Link Anticlockwise (S),25453
+850010-20180921103729_v70.37,EAST,Britomart Train Station to Manukau Train Station,25452
+850007-20180921103729_v70.37,EAST,Manukau Train Station to Britomart Train Station,25449
+850005-20180921103729_v70.37,EAST,Manukau Train Station to Britomart Train Station,25447
+850004-20180921103729_v70.37,EAST,Britomart Train Station to Manukau Train Station,25436
+850002-20180921103729_v70.37,EAST,Britomart Train Station to Manukau Train Station,25436
+850003-20180921103729_v70.37,EAST,Manukau Train Station to Britomart Train Station,25431
+850001-20180921103729_v70.37,EAST,Manukau Train Station to Britomart Train Station,25431
+02962-20180921103729_v70.37,029,North Shore Schools to Massey and West Harbour,25217
+02259-20180921103729_v70.37,022,Gulf Harbour To Stella Maris School,25083
+30902-20180921103729_v70.37,309,City Centre To Mangere Town Centre,25003
+02570-20180921103729_v70.37,025,Rangitoto College To Hatfields Beach,24988
+02759-20180921103729_v70.37,027,Stanmore Bay To Long Bay,24968
+30006-20180921103729_v70.37,SKY,Downtown To Airport Via Dominion Rd,24735
+02565-20180921103729_v70.37,025,Hatfields Beach To Rangitoto College,24658
+99111-20180921103729_v70.37,RAK,Rakino Island To Auckland,24416
+99112-20180921103729_v70.37,RAK,Auckland To Rakino Island,24405
+02266-20180921103729_v70.37,022,Stella Maris School To Gulf Harbour,24402
+12901-20180921103729_v70.37,129,Westgate To City Centre Via Don Buck Rd,24366
+00670-20180921103729_v70.37,006,Remuera Schools To Titirangi,24141
+95016-20180921103729_v70.37,HMB,Auckland Pier 1 to Half Moon Bay via Rangitoto Island,23923
+05555-20180921103729_v70.37,055,Papakura To McAuley High,23863
+12012-20180921103729_v70.37,120,Akoranga to Westgate,23840
+12015-20180921103729_v70.37,120,Westgate to Akoranga,23828
+05660-20180921103729_v70.37,056,Avondale College to Forest Hill,23808
+30002-20180921103729_v70.37,SKY,Downtown To Airport Via Mt Eden Rd,23790
+08301-20180921103729_v70.37,83,Massey University To Takapuna Via Browns Bay,23779
+08302-20180921103729_v70.37,83,Takapuna To Massey University Via Browns Bay,23766
+15101-20180921103729_v70.37,151X,Parrs Park to City Centre via New Lynn Express,23607
+30904-20180921103729_v70.37,309X,City Centre To Mangere Town Centre Express,23595
+05651-20180921103729_v70.37,056,Wattle Downs To Rosehill Schools,23585
+30005-20180921103729_v70.37,SKY,Airport To Downtown Via Dominion Rd,23505
+03161-20180921103729_v70.37,031,West Harbour and Greenhithe to North Shore Schools,23418
+05552-20180921103729_v70.37,055,McAuley High To Papakura,23415
+04454-20180921103729_v70.37,044,Westlake Girls To Silverdale,23397
+99605-20180921103729_v70.37,996,Algies Bay To Warkworth Via Snells Beach,23365
+30008-20180921103729_v70.37,SKY,Downtown To International Airport Via Dominion Rd,23338
+05655-20180921103729_v70.37,056,Forest Hill to Avondale College,23251
+30903-20180921103729_v70.37,309X,Mangere Town Centre To City Centre (Express),23207
+67012-20180921103729_v70.37,670,Otahuhu To New Lynn Via Onehunga Stoddard Rd And Avondale,22987
+30001-20180921103729_v70.37,SKY,Airport To Downtown Via Mt Eden Rd,22980
+12902-20180921103729_v70.37,129,City Centre To Westgate Via Don Buck Rd,22953
+00665-20180921103729_v70.37,006,Titirangi to Remuera Schools,22897
+98014-20180921103729_v70.37,MTIA,Auckland 2 To Waiheke Island 1 Via Devonport 2,22828
+98017-20180921103729_v70.37,MTIA,Waiheke Island 1 To Auckland 2 Via Devonport,22828
+31303-20180921103729_v70.37,313,Onehunga To Manukau Bus Station Via Mangere & Papatoetoe,22680
+99011-20180921103729_v70.37,PINE,Pine Harbour To Auckland,22636
+99012-20180921103729_v70.37,PINE,Auckland To Pine Harbour,22636
+32504-20180921103729_v70.37,325,Manukau Bus Station To Mangere Town Ctr Via Otara & Otahuhu,22527
+31304-20180921103729_v70.37,313,Manukau Bus Station To Onehunga Via Papatoetoe & Mangere,22524
+67011-20180921103729_v70.37,670,New Lynn To Otahuhu Via Avondale Stoddard Rd And Onehunga,22515
+17207-20180921103729_v70.37,172X,Glen Eden To City Centre Via Titirangi And New Lynn Express,22415
+98303-20180921103729_v70.37,983,Gulf Harbour To Hibiscus Coast Station Via Vipond Rd,22408
+36102-20180921103729_v70.37,361,Otara / Mit To Manurewa Interchange Via Mahia Rd,22406
+30004-20180921103729_v70.37,SKY,Downtown To International Airport Via Mt Eden Rd,22399
+30007-20180921103729_v70.37,SKY,International Airport To Downtown Via Dominion Rd,22388
+32503-20180921103729_v70.37,325,Mangere Town Ctr To Manukau Station Via Otahuhu & Otara,22329
+32101-20180921103729_v70.37,321,Middlemore Station To Britomart Via Greenlane Hospital,22282
+810010-20180921103729_v70.37,WEST,Britomart Train Station to Henderson Train Station,22173
+36101-20180921103729_v70.37,361,Manurewa Interchange To Otara / Mit Via Mahia Rd,22145
+94104-20180921103729_v70.37,941,Smales Farm To Beach Haven And Takapuna Anticlockwise (Late),22007
+32102-20180921103729_v70.37,321,Britomart To Middlemore Station Via Greenlane Hospital,22002
+03353-20180921103729_v70.37,033,Long Bay To Westlake Schools,21993
+86602-20180921103729_v70.37,866,Newmaket To Albany Station Via Auckland Hospital & Ponsonby,21941
+30003-20180921103729_v70.37,SKY,International Airport To Downtown Via Mt Eden Rd,21863
+05057-20180921103729_v70.37,050,West Harbour to Waitakere Schools and Holy Cross School,21818
+98604-20180921103729_v70.37,986,Albany Station To Hibiscus Coast Station Via Dairy Flat,21817
+98603-20180921103729_v70.37,986,Hibiscus Coast Station To Albany Station Via Dariy Flat,21810
+98011-20180921103729_v70.37,MTIA,Waiheke Island 1 To Auckland 2,21789
+98012-20180921103729_v70.37,MTIA,Auckland 2 To Waiheke Island 1,21789
+08208-20180921103729_v70.37,82,Mayoral Dr To Browns Bay Via Milford and Takapuna,21774
+15102-20180921103729_v70.37,151X,City Centre to Parrs Park via New Lynn Express,21751
+72117-20180921103729_v70.37,OUT,Outer Link Anticlockwise Herne Bay To City Centre,21715
+00253-20180921103729_v70.37,002,Mangere Bridge Shops To Seventh Day Adventist Primary,21710
+00450-20180921103729_v70.37,004,Manurewa High to Weymouth And Wattle Downs,21696
+94206-20180921103729_v70.37,942,Takapuna To Beach Haven & Smales Farm Clockwise (Late Night),21687
+07005-20180921103729_v70.37,70,Botany To Britomart Via Panmure,21652
+820021-20180921103729_v70.37,STH,Papakura Train Station to Penrose Train Station,21584
+820026-20180921103729_v70.37,STH,Penrose Train Station to Papakura Train Station,21560
+96603-20180921103729_v70.37,966,Beach Haven To Newmarket Via Ponsonby And Auckland Hospital,21560
+86601-20180921103729_v70.37,866,Albany Stn To Newmarket Via Ponsonby And Auckland Hospital,21554
+05656-20180921103729_v70.37,056,Rosehill College To Wattle Downs,21479
+06954-20180921103729_v70.37,069,St Johns School To Albany,21342
+35204-20180921103729_v70.37,352,Panmure To Manukau Bus Station Via East Tamaki,21277
+19508-20180921103729_v70.37,195,City Centre To New Lynn Via Blockhouse Bay Rd And Green Bay,21102
+17210-20180921103729_v70.37,172X,City Centre To Glen Eden Via New Lynn And Titirangi Express,21086
+73118-20180921103729_v70.37,OUT,Outer Link Clockwise Newmarket To City Centre,21076
+05060-20180921103729_v70.37,050,Holy Cross School and Waitakere Schools to West Harbour,21076
+35203-20180921103729_v70.37,352,Manukau Bus Station To Panmure Via East Tamaki,21063
+07006-20180921103729_v70.37,70,Britomart To Botany Via Panmure,21015
+07014-20180921103729_v70.37,70,Britomart To Botany Via Ellerslie And Panmure,21015
+19507-20180921103729_v70.37,195,New Lynn To City Centre Via Green Bay And Blockhouse Bay Rd,20991
+05952-20180921103729_v70.37,059,De La Salle College To Papakura,20928
+98208-20180921103729_v70.37,982,Hibiscus Coast Station To Gulf Harbour,20837
+96606-20180921103729_v70.37,966,Newmaket To Beach Haven Via Auckland Hospital And Ponsonby R,20784
+03301-20180921103729_v70.37,33,Papakura Interchange To Otahuhu Station Via Great South Rd,20781
+03302-20180921103729_v70.37,33,Otahuhu Station to Papakura Interchange Via Great South Rd,20768
+02968-20180921103729_v70.37,029,Northcross Intermediate To Silverdale,20745
+98304-20180921103729_v70.37,983,Hibiscus Coast Station To Gulf Harbour Via Vipond Rd,20692
+00455-20180921103729_v70.37,004,Army Bay To Orewa College,20660
+11005-20180921103729_v70.37,110,Westgate To City Centre Via Northwestern Motorway,20649
+00464-20180921103729_v70.37,004,Orewa College To Army Bay,20613
+00966-20180921103729_v70.37,009,Kingsway School To Torbay,20581
+98207-20180921103729_v70.37,982,Gulf Harbour To Hibiscus Coast Station,20559
+00963-20180921103729_v70.37,009,Torbay To Kingsway School,20544
+52351-20180921103729_v70.37,523,Glendowie to Epsom Schools,20516
+01259-20180921103729_v70.37,012,Gulf Harbour To Kingsway School,20451
+01268-20180921103729_v70.37,012,Kingsway School To Gulf Harbour,20443
+03162-20180921103729_v70.37,031,North Shore Schools to Greenhithe and West Harbour,20442
+13201-20180921103729_v70.37,132,Te Atatu Peninsula to City Centre,20068
+11401-20180921103729_v70.37,114,Hobsonville Pt To Westgate Via Herald Island And Whenuapai,19870
+11402-20180921103729_v70.37,114,Westgate To Hobsonville Pt Via Whenuapai And Herald Island,19860
+01806-20180921103729_v70.37,18,City Centre To Henderson Via Great North Rd,19727
+03360-20180921103729_v70.37,033,Westlake Boys To Northcross,19641
+91701-20180921103729_v70.37,917,Birkenhead Wharf To Albany Station Via Glenfield Rd,19638
+13301-20180921103729_v70.37,133,Henderson to City Centre via Te Atatu Rd,19553
+91702-20180921103729_v70.37,917,Albany Station To Birkenhead Wharf Via Glenfield Rd,19489
+13203-20180921103729_v70.37,132X,Te Atatu Peninsula to City Centre Express,19471
+13206-20180921103729_v70.37,132,City Centre to Te_Atatu Peninsula,19293
+05953-20180921103729_v70.37,059,Papakura To De La Salle College,19287
+11010-20180921103729_v70.37,110,City Centre To Westgate Via Northwestern Mwy (S),19278
+11006-20180921103729_v70.37,110,City Centre To Westgate Via Northwestern Motorway,19278
+02568-20180921103729_v70.37,025,Westlake Schools To Torbay,19190
+52352-20180921103729_v70.37,523,Epsom Schools to Glendowie,19119
+06601-20180921103729_v70.37,66,Pt Chevalier Beach To Sylvia Park Via Mt Albert Rd,19041
+13303-20180921103729_v70.37,133X,Henderson to City Centre via Te Atatu Rd Express,18957
+13403-20180921103729_v70.37,134,Henderson to City Centre via Edmonton Rd,18957
+65004-20180921103729_v70.37,650,Glen Innes To Selwyn Village Via Greenlane And Balmoral Rd,18898
+00458-20180921103729_v70.37,004,Seventh Day Adventist Primary To Mangere Bridge Shops,18875
+06602-20180921103729_v70.37,66,Sylvia Park To Pt Chevalier Beach Via Mt Albert Park,18827
+20012-20180921103729_v70.37,NX2,Auckland Universities To Albany Stn Via Wellesley St,18812
+12017-20180921103729_v70.37,120,Hobsonville to Akoranga,18755
+13204-20180921103729_v70.37,132X,City Centre to Te Atatu Peninsula Express,18712
+20003-20180921103729_v70.37,NX2,Albany Station To Auckland Universities Via Wellesley St,18697
+20008-20180921103729_v70.37,NX2,Auckland Universities To Albany Station Via Wellesley St,18540
+00362-20180921103729_v70.37,003,Alfriston Sch to Flat Bush and Alfrsiton Col to Takanini,18528
+27008-20180921103729_v70.37,NX1,Britomart (Lower Albert St) To Albany Stn,18455
+830003-20180921103729_v70.37,PUK,Pukekohe Train Station to Papakura Train Station,18253
+830006-20180921103729_v70.37,PUK,Papakura Train Station to Pukekohe Train Station,18253
+36503-20180921103729_v70.37,365,Papakura Interchange To Manukau Bus Station Via Porchester,18237
+04159-20180921103729_v70.37,041,Torbay To Westlake Schools,18235
+65003-20180921103729_v70.37,650,Selwyn Village To Glen Innes Via Balmoral Rd And Greenlane,18234
+830001-20180921103729_v70.37,PUK,Pukekohe Train Station to Papakura Train Station,18203
+830002-20180921103729_v70.37,PUK,Papakura Train Station to Pukekohe Train Station,18202
+830004-20180921103729_v70.37,PUK,Papakura Train Station to Pukekohe Train Station,18187
+27002-20180921103729_v70.37,NX1,Britomart (Lower Albert St) To Albany Station,18183
+78201-20180921103729_v70.37,782,Sylvia Park To Mission Bay Via Ellerslie And Meadowbank,18106
+13302-20180921103729_v70.37,133,City Centre to Henderson via Te Atatu Rd,18086
+07756-20180921103729_v70.37,077,Glenfield Intermediate To Beach Haven,18080
+36504-20180921103729_v70.37,365,Manukau Bus Station To Papakura Interchange Via Porchester,18074
+78202-20180921103729_v70.37,782,Mission Bay To Sylvia Park Via Meadowbank And Ellerslie,18051
+09503-20180921103729_v70.37,95B,Bayview To Britomart (Lower Albert St),18045
+86101-20180921103729_v70.37,861,Long Bay To Constellation Station Via Bush Rd,17936
+09506-20180921103729_v70.37,95B,Britomart (Quay St) To Bayview (Full Loop),17854
+04956-20180921103729_v70.37,049,St Josephs And Rosmini College To Browns Bay,17850
+05853-20180921103729_v70.37,058,Homai To Rosehill Schools,17800
+93301-20180921103729_v70.37,933,Beach Haven Wharf To University Of Auckland Via Customs St,17788
+12010-20180921103729_v70.37,120,Constellation to Westgate,17770
+00669-20180921103729_v70.37,006,Beach Haven To Westlake Schools,17748
+850017-20180921103729_v70.37,EAST,Otahuhu Train Station to Britomart Train Station,17736
+850018-20180921103729_v70.37,EAST,Britomart Train Station to Otahuhu Train Station,17725
+850015-20180921103729_v70.37,EAST,Otahuhu Train Station to Britomart Train Station,17720
+850016-20180921103729_v70.37,EAST,Britomart Train Station to Otahuhu Train Station,17710
+27001-20180921103729_v70.37,NX1,Albany Station To Britomart (Lower Albert St),17685
+09711-20180921103729_v70.37,97B,Beach Haven to Britomart (Lower Albert St),17599
+09703-20180921103729_v70.37,97R,Beach Haven To Britomart (Lower Albert St),17593
+12009-20180921103729_v70.37,120,Westgate to Constellation Station,17574
+13304-20180921103729_v70.37,133X,City Centre to Henderson via Te Atatu Rd Express,17501
+13406-20180921103729_v70.37,134,City Centre to Henderson via Edmonton Rd,17466
+07209-20180921103729_v70.37,72M,"Botany and Howick to Panmure via Millhouse Dr, Meadowland Dr",17421
+00351-20180921103729_v70.37,003,Mangere Bridge Shops To Holy Cross School (Papatoetoe),17364
+93901-20180921103729_v70.37,939,Windy Ridge To University of Auckland Via Customs St,17351
+86102-20180921103729_v70.37,861,Constellation Station To Long Bay Via Bush Rd,17338
+20904-20180921103729_v70.37,209,City Centre to Titirangi via New North Rd and Green Bay,17302
+94201-20180921103729_v70.37,942,Beach Haven To Takapuna Via Highbury And Northcote Shops,17290
+20903-20180921103729_v70.37,209,Titirangi to City Centre via Green Bay and New North Rd,17286
+09713-20180921103729_v70.37,97B,Beach Haven To Britomart (Lower Albert) Via Highbury,17280
+09705-20180921103729_v70.37,97R,Beach Haven to Britomart (Lower Albert) via Highbury Bypass,17275
+09714-20180921103729_v70.37,97B,Britomart (Quay St) To Beach Haven Via Birkdale Rd,17227
+01408-20180921103729_v70.37,14W,"New Lynn to Westgate via Henderson, Lincoln Rd & Waimumu Rd",17224
+09706-20180921103729_v70.37,97R,Britomart (Quay St) To Beach Haven Via Rangatira Rd,17222
+03157-20180921103729_v70.37,031,Pinehill To Westlake Schools,17219
+03102-20180921103729_v70.37,31,Botany Town Centre To Mangere Town Centre Via Otara,17201
+01405-20180921103729_v70.37,14W,"Westgate to New Lynn via Waimumu Rd, Lincoln Rd & Henderson",17160
+820008-20180921103729_v70.37,STH,Otahuhu Train Station to Papakura Train Station,17126
+07210-20180921103729_v70.37,72M,"Pamure to Howick and Botany via Pakuranga Rd, Meadowland Dr",17101
+04259-20180921103729_v70.37,042,Albany To Westlake Schools,17049
+65002-20180921103729_v70.37,650,Glen Innes To Pt Chevalier Shops Via Greenlane And Balmoral,17048
+94202-20180921103729_v70.37,942,Takapuna to Beach Haven Via Northcote & Highbury (Full Loop),17016
+03101-20180921103729_v70.37,31,Mangere Town Centre To Botany Town Centre Via Otara,16964
+09716-20180921103729_v70.37,97B,Britomart (Quay St) to Beach Haven via Highbury and Birkdale,16920
+09708-20180921103729_v70.37,97R,Britomart (Quay St) To Beach Haven Via Highbury & Rangitira,16915
+98403-20180921103729_v70.37,984,Orewa To Hibiscus Coast Station Via Maygrove,16855
+90601-20180921103729_v70.37,906,Constellation To Smales Farm Via Windy Ridge And Archers Rd,16834
+07459-20180921103729_v70.37,074,Windy Ridge To Westlake Schools,16767
+65001-20180921103729_v70.37,650,Pt Chevalier Shops To Glen Innes Via Greenlane,16676
+02404-20180921103729_v70.37,24B,City Centre To Blockhouse Bay New Lynn Via Sandringham Rd,16671
+35505-20180921103729_v70.37,355,Manukau Bus Station To Botany Via Ormiston & Mission Heights,16583
+09511-20180921103729_v70.37,95C,Constellation Station To Britomart (Albert St) Via Glenfield,16401
+77501-20180921103729_v70.37,775,Glendowie To Britomart Via Tamaki Dr,16398
+93302-20180921103729_v70.37,933,University Of Auckland To Beach Haven Wharf Via Customs St,16348
+35504-20180921103729_v70.37,355,Botany To Manukau Bus Station Via Mission Heights & Ormiston,16337
+07353-20180921103729_v70.37,073,Otahuhu To Edgewater College,16334
+00453-20180921103729_v70.37,004,Weymouth And Wattle Downs To Manurewa High,16330
+00559-20180921103729_v70.37,005,Arkles Bay/Manly To Orewa College,16244
+33302-20180921103729_v70.37,333X,Britomart To Otahuhu Limited Stops Via Great South Rd,16222
+08454-20180921103729_v70.37,084,St Josephs School (Onehunga) To Mangere Town Centre,16178
+08451-20180921103729_v70.37,084,Mangere To St Josephs School (Onehunga),16178
+01263-20180921103729_v70.37,012,Beach Haven To Northcote Schools And Takapuna,16159
+01070-20180921103729_v70.37,010,Westlake Girls To Beach Haven,16148
+17105-20180921103729_v70.37,171,Laingholm To New Lynn,16140
+93101-20180921103729_v70.37,931,Chatswood To Unniversity Of Auckland Via Customs St,16119
+09512-20180921103729_v70.37,95C,Britomart (Quay St) to Constellation Station via Glenfield,16116
+78302-20180921103729_v70.37,783,Eastern Bays Circuit Anticlockwise,16089
+07352-20180921103729_v70.37,073,Edgewater College To Otahuhu,16087
+02403-20180921103729_v70.37,24B,New Lynn And Blockhouse Bay To City Centre Via Sandingham Rd,16055
+52252-20180921103729_v70.37,522,Epsom Schools To St Heliers,16026
+52262-20180921103729_v70.37,522,Epsom Schools to St Heliers,16026
+00160-20180921103729_v70.37,001,Onehunga High To Mangere East,15995
+00769-20180921103729_v70.37,007,Salisbury Rd To Westlake Schools,15930
+04260-20180921103729_v70.37,042,Westlake Schools To Albany,15865
+77502-20180921103729_v70.37,775,Britomart To Glendowie Via Tamaki Dr,15844
+00564-20180921103729_v70.37,005,Orewa College To Arkles Bay/Manly,15815
+78301-20180921103729_v70.37,783,Eastern Bays Circuit Clockwise,15808
+41852-20180921103729_v70.37,418,Sacred Heart And Glendowie Colleges To Balmoral,15789
+29501-20180921103729_v70.37,295,Ellerslie Station To City Centre Via Royal Oak,15772
+04151-20180921103729_v70.37,041,Mangere To Otahuhu Schools,15637
+01758-20180921103729_v70.37,017,Westlake Schools To Devonport,15616
+07502-20180921103729_v70.37,75,Wynyard Quarter To Glen Innes Via Remuera Rd,15566
+95011-20180921103729_v70.37,HMB,Half Moon Bay To Auckland,15512
+95014-20180921103729_v70.37,HMB,Auckland Pier 1 To Half Moon Bay,15512
+52251-20180921103729_v70.37,522,St Heliers to Epsom Schools,15458
+52261-20180921103729_v70.37,522,St Heliers To Epsom Schools,15458
+07207-20180921103729_v70.37,72C,"Botany And Howick To Panmure Via Chapel Rd, Cook St, And Pak",15421
+92301-20180921103729_v70.37,923,Akoranga Station To City (Mayoral Dr) Via Hillcrest,15401
+00106-20180921103729_v70.37,1A,Matiatia Wharf To Onetangi Via Seaview Rd,15344
+01406-20180921103729_v70.37,14T,"New Lynn to Westgate via Henderson, Lincoln Rd & Triangle Rd",15339
+02402-20180921103729_v70.37,24R,City Centre To New Lynn Via Sandringham Rd,15313
+02202-20180921103729_v70.37,22R,City Centre To Rosebank Rd Via New North Rd,15273
+00105-20180921103729_v70.37,1A,Onetangi To Matiatia Wharf Via Seaview Rd,15272
+00964-20180921103729_v70.37,009,Westlake Schools To Glenfield.,15269
+01401-20180921103729_v70.37,14T,"Westgate to New Lynn via Triangle Rd, Lincoln Rd & Henderson",15267
+44052-20180921103729_v70.37,440,Sancta Maria To Bucklands Beach,15262
+02751-20180921103729_v70.37,027,Middlemore Hospital To Papatoetoe Schools,15235
+92302-20180921103729_v70.37,923,City (Mayoral Dr) To Akoranga Station Via Hillcrest,15218
+02766-20180921103729_v70.37,027,Carmel College To Beach Haven Via Lake Rd,15205
+44051-20180921103729_v70.37,440,Bucklands Beach To Sancta Maria,15181
+41452-20180921103729_v70.37,414,Sacred Heart To Commerce St,15178
+24310-20180921103729_v70.37,243X,City Centre to New Lynn via Sandringham Rd Express,15170
+07357-20180921103729_v70.37,073,Birkdale To Wairau Intermediate,15158
+02067-20180921103729_v70.37,020,Beach Haven To Rosmini St Josephs,15154
+01366-20180921103729_v70.37,013,Rangitoto College To Unsworth Heights,15129
+07208-20180921103729_v70.37,72C,"Pamure To Howick And Botany Via Pakuranga Rd, Cook St, and C",15119
+08751-20180921103729_v70.37,087,Stanley Bay To Westlake Schools,15100
+90602-20180921103729_v70.37,906,Smales Farm To Constellation Via Archers Rd And Windy Ridge,15051
+29502-20180921103729_v70.37,295,City Centre To Ellerslie Station Via Royal Oak,15028
+00202-20180921103729_v70.37,2,Matiatia Wharf To Rocky Bay,15021
+02068-20180921103729_v70.37,020,Rosmini To Beach Haven,15001
+04654-20180921103729_v70.37,046,De La Salle College To Otara,14976
+00353-20180921103729_v70.37,003,Flat Bush to Alfriston Sch and Takanini to Alfriston Col,14957
+02503-20180921103729_v70.37,25L,Lynfield To City Centre Via Dominion Rd,14951
+00674-20180921103729_v70.37,006,Westlake Boys To Beach Haven,14914
+07501-20180921103729_v70.37,75,Glen Innes To Wynyard Quarter Via Remuera Rd,14868
+93902-20180921103729_v70.37,939,University of Auckland To Windy Ridge Via Customs St,14824
+06251-20180921103729_v70.37,062,Favona To Onehunga Schools Via Mangere Bridge,14800
+02764-20180921103729_v70.37,027,Carmel College To Beach Haven,14796
+13202-20180921103729_v70.37,132,City Centre to Te Atatu Peninsula,14760
+36104-20180921103729_v70.37,361,MIT To Manurewa Interchange Via Mahia Rd,14757
+02401-20180921103729_v70.37,24R,New Lynn To City Centre Via Sandingham Rd,14747
+00109-20180921103729_v70.37,1,Onetangi To Matiatia Wharf via Jellicoe Parade,14735
+76201-20180921103729_v70.37,762,Glen Innes To Britomart Via Orakei,14717
+94102-20180921103729_v70.37,941,Takapuna To Beach Haven Smales Farm Station And Glenfield,14703
+00364-20180921103729_v70.37,003,Carmel And Westlake Schools To Chatswood,14683
+76202-20180921103729_v70.37,762,Britomart To Glen Innes Via Orakei,14677
+02201-20180921103729_v70.37,22R,Rosebank Rd To City Centre Via New North Rd,14649
+93102-20180921103729_v70.37,931,University Of Auckland To Chatswood Via Customs St,14607
+20005-20180921103729_v70.37,NX2,Constellation Station To Auckland Universities Via Wellesley,14606
+24307-20180921103729_v70.37,243X,New Lynn to City Centre via Sandringham Rd Express,14604
+07652-20180921103729_v70.37,076,Green Bay High School To Laingholm,14598
+94101-20180921103729_v70.37,941,Beach Haven To Takapuna Via Glenfield And Smales Farm Stn,14536
+02204-20180921103729_v70.37,22N,City Centre To New Lynn Via New North Rd,14517
+02504-20180921103729_v70.37,25L,City Centre To Lynfield Via Dominion Rd,14507
+52151-20180921103729_v70.37,521,Glen Innes To Epsom Schools,14506
+20010-20180921103729_v70.37,NX2,Auckland Universities To Constellation Station via Wellesley,14503
+00201-20180921103729_v70.37,2,Rocky Bay To Matiatia Wharf,14500
+22108-20180921103729_v70.37,221X,City Centre to Rosebank Rd via New North Rd Express,14488
+08303-20180921103729_v70.37,83,Browns Bay To Takapuna Via Mairangi Bay And Busway,14446
+80201-20180921103729_v70.37,802,Bayswater To City (Mayoral Dr),14421
+80202-20180921103729_v70.37,802,City (Mayoral Dr) To Bayswater,14388
+41752-20180921103729_v70.37,417,Sacred Heart And Glendowie Colleges To Ellerslie,14359
+15406-20180921103729_v70.37,154,New Lynn to Henderson via Glen Eden,14341
+98109-20180921103729_v70.37,981,Waiwera To Hibiscus Coast Station,14332
+00156-20180921103729_v70.37,001,McAuley High To Onehunga Transport Centre,14314
+01261-20180921103729_v70.37,012,Spinella Dr To Glenfield Intermediate Primary,14313
+01860-20180921103729_v70.37,018,Whangaparaoa College To Orewa,14277
+73501-20180921103729_v70.37,735,Botany To Half Moon Bay Via Cockle Bay And Howick,14214
+15202-20180921103729_v70.37,152,New Lynn to Henderson via Glen Eden and Sunnyvale,14196
+07701-20180921103729_v70.37,TMK,Glen Innes To Britomart Via St Heliers And Tamaki Dr,14192
+27006-20180921103729_v70.37,NX1,Britomart (Lower Albert St) To Constellation Station,14146
+07366-20180921103729_v70.37,073,Wairau Intermediate To Birkdale,14145
+44453-20180921103729_v70.37,444,Manukau Bus Station To Howick Intermediate,14117
+14601-20180921103729_v70.37,146,Waitakere Village to Henderson via Swanson and Central Park,14113
+01859-20180921103729_v70.37,018,Orewa To Whangaparaoa College,14105
+15405-20180921103729_v70.37,154,Henderson to New Lynn via Glen Eden,14091
+02955-20180921103729_v70.37,029,Silverdale To Northcross And Rangitoto College,14079
+07456-20180921103729_v70.37,074,Glen Eden Intermediate To Laingholm,14075
+98110-20180921103729_v70.37,981,Hibiscus Coast Station To Waiwera,14064
+820019-20180921103729_v70.37,STH,Otahuhu Train Station to Britomart Train Station,14050
+820016-20180921103729_v70.37,STH,Britomart Train Station to Otahuhu Train Station,14039
+71202-20180921103729_v70.37,712,Panmure To Bucklands Beach,14024
+07702-20180921103729_v70.37,TMK,Britomart To Glen Innes Via Tamaki Dr And St Heliers,14008
+15201-20180921103729_v70.37,152,Henderson to New Lynn via Sunnyvale and Glen Eden,14003
+02406-20180921103729_v70.37,24B,City Centre To Blockhouse Bay Via Sandringham Rd,14001
+10701-20180921103729_v70.37,107,Avondale Loop,13998
+71201-20180921103729_v70.37,712,Bucklands Beach To Panmure,13992
+74301-20180921103729_v70.37,743,Onehunga To Glen Innes Via Sylvia Park And Tripoli Rd,13983
+01270-20180921103729_v70.37,012,Takapuna Normal Intermediate To Beach Haven,13977
+44454-20180921103729_v70.37,444,Howick Intermediate To Manukau Bus Station,13973
+14602-20180921103729_v70.37,146,Henderson to Waitakere Village via Central Park Dr and Swans,13905
+05854-20180921103729_v70.37,058,Rosehill Intermediate To Manurewa Via Conifer Grove,13905
+74302-20180921103729_v70.37,743,Glen Innes To Onehunga Via Tripoli Rd and Sylvia Park,13878
+22107-20180921103729_v70.37,221X,Rosebank Rd to City Centre via New North Rd Express,13873
+24808-20180921103729_v70.37,248X,City Centre to Blockhouse Bay via Sandringham Rd Express,13858
+25201-20180921103729_v70.37,252,Lynfield To Civic Centre Via Dominion Rd,13827
+54852-20180921103729_v70.37,548,St Ignatius To Glendowie,13811
+73502-20180921103729_v70.37,735,Half Moon Bay To Botany Via Howick And Cockle Bay,13798
+41351-20180921103729_v70.37,413,St Heliers To Baradine College,13762
+00204-20180921103729_v70.37,2X,Matiatia Wharf To Rocky Bay via Pacific Pde,13756
+22310-20180921103729_v70.37,223X,City Centre to New Lynn via New North Rd Express,13731
+00358-20180921103729_v70.37,003,Seventh Day Adventist Primary To Mangere Town Centre,13725
+07753-20180921103729_v70.37,077,Verrans Corner To Glenfield Schools,13712
+41352-20180921103729_v70.37,413,Baradine College To St Heliers,13710
+98804-20180921103729_v70.37,988,The Plaza To Gulf Harbour Ferry Via Army Bay,13706
+00203-20180921103729_v70.37,2X,Rocky Bay To Matiatia Wharf via Pacific Pde,13695
+25202-20180921103729_v70.37,252,Civic Centre To Lynfield Via Dominion Rd,13666
+98803-20180921103729_v70.37,988,Gulf Harbour Ferry To The Plaza Via Army Bay,13665
+27005-20180921103729_v70.37,NX1,Constellation Station To Britomart (Lower Albert St),13642
+36606-20180921103729_v70.37,366,Manukau Bus Station To Manurewa Via The Gardens,13632
+41851-20180921103729_v70.37,418,Balmoral To Sacred Heart And Glendowie Colleges,13622
+72119-20180921103729_v70.37,OUT,Outer Link Anticlockwise St Lukes To City Centre,13564
+19518-20180921103729_v70.37,195,City Centre To Blockhouse Bay,13559
+00968-20180921103729_v70.37,009,Westlake Girls To Verrans Corner,13559
+02203-20180921103729_v70.37,22N,New Lynn To City Centre Via New North Rd,13550
+35104-20180921103729_v70.37,351,Otahuhu Station To Botany Via Highbrook,13540
+71101-20180921103729_v70.37,711,Howick To Panmure Via Cascades Road,13515
+03656-20180921103729_v70.37,036,St Marys Primary To Bayview,13509
+51252-20180921103729_v70.37,512,Epsom Girls Grammar To Lynfield,13504
+94208-20180921103729_v70.37,942,Takapuna to Beach Haven (Late Night),13466
+19515-20180921103729_v70.37,195,Blockhouse Bay To City Centre,13443
+02705-20180921103729_v70.37,27W,Waikowhai To Britomart Via Mt Eden Rd,13392
+03058-20180921103729_v70.37,030,Northcote College To Chatswood And Beachhaven,13383
+96019-20180921103729_v70.37,HOBS,Beach Haven To Auckland Via Hobsonville Indirect,13379
+02254-20180921103729_v70.37,022,Mcauley High To Flat Bush,13376
+02405-20180921103729_v70.37,24B,Blockhouse Bay To City Centre Via Sandingham Rd,13370
+03505-20180921103729_v70.37,35,Manukau Bus Station To Botany Via Chapel Rd And Ormiston,13359
+00104-20180921103729_v70.37,1,Matiatia Wharf To Onetangi,13330
+06164-20180921103729_v70.37,061,Albany Schools To Albany Heights,13311
+13803-20180921103729_v70.37,138,Henderson to New Lynn via Rosebank Rd,13308
+41251-20180921103729_v70.37,412,Glen Innes To Baradene Via West Tamaki Rd,13297
+07460-20180921103729_v70.37,074,Westlake Schools To Glenfield Shops,13291
+06155-20180921103729_v70.37,061,Albany Heights To Albany Schools,13281
+35103-20180921103729_v70.37,351,Botany To Otahuhu Station Via Highbrook,13277
+00255-20180921103729_v70.37,002,Clendon to Manurewa and Greenmeadows,13263
+00103-20180921103729_v70.37,1,Onetangi To Matiatia Wharf,13252
+41952-20180921103729_v70.37,419,Sacred Heart And Glendowie Colleges To Newmarket,13246
+14101-20180921103729_v70.37,141,Henderson West Loop Anticlockwise,13234
+24809-20180921103729_v70.37,248X,Blockhouse Bay to City Centre via Sandringham Rd Express,13227
+71102-20180921103729_v70.37,711,Panmure To Howick Via Cascades Road,13219
+02505-20180921103729_v70.37,25B,Blockhouse Bay To City Centre Via Dominion Rd,13203
+14205-20180921103729_v70.37,142,Henderson West Loop Clockwise,13188
+06158-20180921103729_v70.37,061,Onehunga High To Mangere Town Centre,13164
+02707-20180921103729_v70.37,27H,Waikowhai To Britomart Via Hillsborough Rd And Mt Eden Rd,13161
+36605-20180921103729_v70.37,366,Manurewa Interchange To Manukau Bus Station Via The Gardens,13160
+92401-20180921103729_v70.37,924,Hillcrest to City (Mayoral Dr),13140
+02452-20180921103729_v70.37,024,Papatoetoe Intermediate To Manukau,13122
+98210-20180921103729_v70.37,982,Hibiscus Coast Station To Manly,13093
+09504-20180921103729_v70.37,95B,Britomart (Quay St) To Bayview,13045
+02066-20180921103729_v70.37,020,Westlake Schools To Albany Via Albany Hwy,13029
+02702-20180921103729_v70.37,27W,Britomart To Waikowhai Via Mt Eden Rd,13018
+02754-20180921103729_v70.37,027,Papatoetoe Intermediate To Middlemore Hospital,13005
+41451-20180921103729_v70.37,414,Commerce St To Sacred Heart,13004
+03508-20180921103729_v70.37,35,Botany To Manukau Bus Station Via Chapel Rd And Ormiston,12998
+03510-20180921103729_v70.37,35,Botany To Manukau Bus Station Via Chapel Rd And Ormiston Rd,12998
+02704-20180921103729_v70.37,27H,Britomart To Waikowhai Via Mt Eden Rd And Hillsborough Rd,12986
+01762-20180921103729_v70.37,017,Whangaparaoa College To Silverdale,12982
+52152-20180921103729_v70.37,521,Epsom Schools To Glen Innes,12979
+04953-20180921103729_v70.37,049,Kowhai Rd To Long Bay College,12971
+42751-20180921103729_v70.37,427,Flat Bush To Bucklands Beach Intermediate And Macleans Colle,12952
+52052-20180921103729_v70.37,520,Remuera And Epsom Schools To Mt Roskill Shops,12949
+36803-20180921103729_v70.37,368,Wiri Industrial Loop Clockwise,12919
+78102-20180921103729_v70.37,781,Museum To Mission Bay Via Orakei,12915
+78101-20180921103729_v70.37,781,Mission Bay To Museum Via Orakei,12913
+98209-20180921103729_v70.37,982,Manly To Hibiscus Coast Station,12876
+29802-20180921103729_v70.37,298,Sylvia Park To Onehunga Via Ellerslie,12864
+02506-20180921103729_v70.37,25B,City Centre To Blockhouse Bay Via Dominion Rd,12863
+840002-20180921103729_v70.37,ONE,Britomart Train Station to Onehunga Train Station,12838
+840004-20180921103729_v70.37,ONE,Britomart Train Station to Onehunga Train Station,12838
+840006-20180921103729_v70.37,ONE,Britomart Train Station to Onehunga Train Station,12838
+01803-20180921103729_v70.37,18,New Lynn To City Centre Via Great North Rd,12837
+840007-20180921103729_v70.37,ONE,Onehunga Train Station to Britomart Train Station,12820
+840005-20180921103729_v70.37,ONE,Onehunga Train Station to Britomart Train Station,12820
+840003-20180921103729_v70.37,ONE,Onehunga Train Station to Britomart Train Station,12820
+840001-20180921103729_v70.37,ONE,Onehunga Train Station to Britomart Train Station,12820
+02065-20180921103729_v70.37,020,Gulf Harbour To Whangaparaoa College,12809
+07651-20180921103729_v70.37,076,Laingholm to Green Bay High School,12779
+22307-20180921103729_v70.37,223X,New Lynn to City Centre via New North Rd Express,12774
+36903-20180921103729_v70.37,369,Wiri Industrial Loop Anticlockwise,12769
+12008-20180921103729_v70.37,120,Constellation Station to Hobsonville,12757
+79922-20180921103729_v70.37,INN,Inner Link Clockwise,12754
+79932-20180921103729_v70.37,INN,Inner Link Clockwise (S),12754
+96012-20180921103729_v70.37,HOBS,Auckland To Hobsonville Via Beach Haven,12752
+96017-20180921103729_v70.37,HOBS,Hobsonville To Auckland Via Beach Haven,12750
+08203-20180921103729_v70.37,82,Milford To Mayoral Dr Via Takapuna,12740
+52051-20180921103729_v70.37,520,Mt Roskill Shops To Epsom And Remuera Schools,12739
+41252-20180921103729_v70.37,412,Baradene To Glen Innes Via West Tamaki Rd,12726
+77401-20180921103729_v70.37,774,West Tamaki Rd To Britomart Via Long Dr And Tamaki Dr,12718
+07554-20180921103729_v70.37,075,Green Bay High School To Laingholm Primary,12691
+06802-20180921103729_v70.37,68,Onehunga To New Lynn,12677
+04261-20180921103729_v70.37,042,Castor Bay To Campbells Bay Primary,12673
+08752-20180921103729_v70.37,087,Westlake Schools To Stanley Bay,12672
+08204-20180921103729_v70.37,82,Mayoral Dr To Milford Via Takapuna,12657
+96607-20180921103729_v70.37,966,Highbury To Newmarket Via Ponsonby And Auckland Hospital,12648
+44252-20180921103729_v70.37,442,Sancta Maria To Cockle Bay,12640
+02064-20180921103729_v70.37,020,Whangaparaoa College To Gulf Harbour,12634
+05951-20180921103729_v70.37,059,Mangere To Onehunga Schools,12616
+77402-20180921103729_v70.37,774,Britomart To West Tamaki Rd Via Tamaki Dr And Long Dr,12596
+03201-20180921103729_v70.37,32,Mangere Town Centre To Sylvia Park Via Otahuhu,12592
+06801-20180921103729_v70.37,68,New Lynn To Onehunga,12584
+99511-20180921103729_v70.37,WSTH,West Harbour To Auckland,12558
+99512-20180921103729_v70.37,WSTH,Auckland To West Harbour,12558
+06162-20180921103729_v70.37,061,Royal Oak Intermediate To Mangere Town Centre,12556
+51052-20180921103729_v70.37,510,St Peters College And Auckland Grammar To Lynfield,12552
+79821-20180921103729_v70.37,INN,Inner Link Anticlockwise,12549
+79829-20180921103729_v70.37,INN,Inner Link Anticlockwise (S),12549
+06159-20180921103729_v70.37,061,Mangere Town Centre To Onehunga Schools,12537
+01804-20180921103729_v70.37,18,City Centre To New Lynn Via Great North Rd,12530
+29801-20180921103729_v70.37,298,Onehunga To Sylvia Park Via Ellerslie,12516
+13804-20180921103729_v70.37,138,New Lynn to Henderson via Rosebank Rd,12515
+03202-20180921103729_v70.37,32,Sylvia Park To Mangere Town Centre Via Otahuhu,12510
+12007-20180921103729_v70.37,120,Hobsonville to Constellation Station,12501
+04258-20180921103729_v70.37,042,Campbells Bay Primary To Milford,12492
+07455-20180921103729_v70.37,074,Laingholm to Glen Eden Intermediate,12479
+08956-20180921103729_v70.37,089,Te Huruhi School to Rocky Bay,12471
+44251-20180921103729_v70.37,442,Cockle Bay To Sancta Maria,12457
+00959-20180921103729_v70.37,009,Glenfield To Westlake Schools,12456
+01361-20180921103729_v70.37,013,Stanmore Bay To Kingsway School,12445
+87801-20180921103729_v70.37,878,Browns Bay To Constellation Station Via and East Coast Rd,12443
+01467-20180921103729_v70.37,014,Manly To KingsWay School,12425
+02268-20180921103729_v70.37,022,St Josephs School To Takapuna Via Milford And Crown Hill,12418
+07364-20180921103729_v70.37,073,Westlake Schools To Totara Vale Via Sunnynook,12415
+84304-20180921103729_v70.37,843,Constellation Station To Akoranga Station Via Takapuna,12397
+05360-20180921103729_v70.37,053,Avondale College to Parrs Park,12360
+36203-20180921103729_v70.37,362,Weymouth To Manukau Bus Station Via Great South Rd,12342
+42752-20180921103729_v70.37,427,Bucklands Beach Intermedia And Macleans College to Flat Bush,12339
+05551-20180921103729_v70.37,055,Conifer Grove To Rosehill Schools,12336
+01468-20180921103729_v70.37,014,KingsWay School To Manly,12326
+02658-20180921103729_v70.37,026,Westlake Girls To Pinehill,12296
+00262-20180921103729_v70.37,002,Manurewa Schools To Clendon,12265
+05851-20180921103729_v70.37,058,Favona To Onehunga Schools,12263
+87802-20180921103729_v70.37,878,Constellation Station To Browns Bay Via East Coast Rd,12259
+13108-20180921103729_v70.37,131,Henderson to Te Atatu Peninsula Via Beach Rd,12259
+73301-20180921103729_v70.37,733,Botany To The Parade Via Highland Park,12254
+51054-20180921103729_v70.37,510,Auckland Grammar To Lynfield,12253
+05359-20180921103729_v70.37,053,Parrs Park to Avondale College,12253
+00402-20180921103729_v70.37,4,Matiatia Wharf To Onetangi Direct,12231
+09554-20180921103729_v70.37,095,Te Huruhi School & Waiheke Primary To Piemelon Bay Rd,12212
+13105-20180921103729_v70.37,131,Te Atatu Peninsula to Henderson,12190
+00401-20180921103729_v70.37,4,Onetangi Direct To Matiatia Wharf,12182
+96608-20180921103729_v70.37,966,Newmaket To Highbury Via Auckland Hospital And Ponsonby Rd,12123
+25301-20180921103729_v70.37,253,Blockhouse Bay To Civic Centre Via Dominion Rd,12079
+09555-20180921103729_v70.37,95G,Glenfield to Britomart (Lower Albert St),12055
+00866-20180921103729_v70.37,008,Westlake Schools To Bayview,12048
+00354-20180921103729_v70.37,003,Onehunga High To Mangere Bridge,12037
+44152-20180921103729_v70.37,441,Sancta Maria To Howick,12035
+25302-20180921103729_v70.37,253,Civic Centre To Blockhouse Bay Via Dominion Rd,12022
+03158-20180921103729_v70.37,031,St Johns Schools To Forrest Hill,12016
+44151-20180921103729_v70.37,441,Howick To Sancta Maria,12009
+05752-20180921103729_v70.37,057,Rosehill College To Manurewa,12003
+51051-20180921103729_v70.37,510,Lynfield To Auckland Grammar And St Peters College,11978
+03258-20180921103729_v70.37,032,Westlake Boys To Browns Bay,11926
+12203-20180921103729_v70.37,122,Huapai to Westgate,11913
+12206-20180921103729_v70.37,122,Westgate to Huapai,11909
+84303-20180921103729_v70.37,843,Akoranga Station To Constellation Station Via Takapuna,11898
+41751-20180921103729_v70.37,417,Ellerslie To Sacred Heart And Glendowie Colleges,11883
+73116-20180921103729_v70.37,OUT,Outer Link Clocwise St Lukes To City Centre,11876
+01465-20180921103729_v70.37,014,Beach Haven To Northcote Schools,11873
+73302-20180921103729_v70.37,733,Bucklands Beach To Botany Via Highland Park,11870
+39803-20180921103729_v70.37,398,Tuakau To Pukekohe,11861
+85606-20180921103729_v70.37,856,Browns Bay To Albany Station,11856
+42652-20180921103729_v70.37,426,Macleans College To Botany,11837
+85605-20180921103729_v70.37,856,Albany Station To Browns Bay,11812
+01368-20180921103729_v70.37,013,Kingsway School To Stanmore Bay,11792
+41652-20180921103729_v70.37,416,Sacred Heart College to Botany,11787
+06551-20180921103729_v70.37,065,Otahuhu Town Centre To Ellerslie Penrose Schools,11761
+42651-20180921103729_v70.37,426,Botany To Macleans College,11743
+05253-20180921103729_v70.37,052,Wairau Valley To Westlake Schools Via Sunnynook,11685
+02208-20180921103729_v70.37,22A,City Centre To Avondale Via New North Rd,11675
+01753-20180921103729_v70.37,017,Devonport To Westlake Schools,11665
+41651-20180921103729_v70.37,416,Botany To Sacred Heart College,11655
+09556-20180921103729_v70.37,95G,Britomart (Quay St) To Glenfield,11643
+41151-20180921103729_v70.37,411,Panmure To Baradene Via Stonefields,11641
+32301-20180921103729_v70.37,323,Otahuhu Station To Panmure Via Panama Rd,11568
+78104-20180921103729_v70.37,781,Newmarket To Mission Bay Via Orakei,11550
+07855-20180921103729_v70.37,078,Sunnynook To Glenfield College,11544
+32412-20180921103729_v70.37,324,Seaside Park To Mangere Town Centre Via Otahuhu,11538
+98503-20180921103729_v70.37,985,Orewa To Hibiscus Coast Station Via Millwater,11537
+32302-20180921103729_v70.37,323,Panmure To Otahuhu Station Via Panama Rd,11508
+39804-20180921103729_v70.37,398,Pukekohe To Tuakau,11462
+07856-20180921103729_v70.37,078,Glenfield Intermediate To Sunnynook,11442
+03008-20180921103729_v70.37,30,City Centre To Onehunga Via Manukau Rd,11396
+36302-20180921103729_v70.37,363,Manurewa Interchange To Wattle Downs Loop,11345
+94106-20180921103729_v70.37,941,Smales Farm to Beach Haven (Late Night),11315
+05363-20180921103729_v70.37,053,Unsworth To Westlake Schools,11313
+04558-20180921103729_v70.37,045,Long Bay College To Windsor Park,11286
+36204-20180921103729_v70.37,362,Manukau Bus Station To Weymouth Via Great South Rd,11272
+41152-20180921103729_v70.37,411,Baradene To Panmure Via Stonefields,11257
+40251-20180921103729_v70.37,402,Panama Rd To One Tree Hill College And Ellerslie Schools,11255
+32411-20180921103729_v70.37,324,Mangere Town Centre To Seaside Park Via Otahuhu,11239
+00180-20180921103729_v70.37,001,Hobsonville Primary School to Massey West,11227
+01354-20180921103729_v70.37,013,Edgewater College To Otara,11193
+00863-20180921103729_v70.37,008,Bayview To Westlake Schools,11159
+09251-20180921103729_v70.37,092,Piemelon Bay Rd To Te Huruhi School,11095
+79924-20180921103729_v70.37,INN,Inner Link Clockwise Customs St To Victoria Park,11030
+02209-20180921103729_v70.37,22A,Avondale To City Centre Via New North Rd,11013
+00261-20180921103729_v70.37,002,Hatfields Beach To Orewa Schools,11006
+09771-20180921103729_v70.37,97V,Verrans Corner To Britomart (Lower Albert St),10995
+03952-20180921103729_v70.37,039,Orewa College To Hibiscus Coast Station Via Bankside Road,10985
+78103-20180921103729_v70.37,781,Mission Bay To Newmarket Via Orakei,10979
+05156-20180921103729_v70.37,051,Seventh Day Adventist Primary To Papatoetoe,10951
+41951-20180921103729_v70.37,419,Newmarket To Sacred Heart And Glendowie Colleges,10930
+05362-20180921103729_v70.37,053,Long Bay College To Murrays Bay,10903
+08055-20180921103729_v70.37,080,Chatswood To Northcote Schools,10880
+32103-20180921103729_v70.37,321,Middlemore Station To Ellerslie Station Via Otahuhu,10875
+03007-20180921103729_v70.37,30,Onehunga To City Centre Via Manukau Rd,10854
+05756-20180921103729_v70.37,057,Westlake Schools To Glenfield,10841
+75503-20180921103729_v70.37,755,Benson Rd To Britomart Via Portland Rd,10841
+05452-20180921103729_v70.37,054,Papatoetoe High To Middlemore,10795
+35303-20180921103729_v70.37,353,Manukau Bus Station To Botany Town Centre Via Preston Rd,10791
+35304-20180921103729_v70.37,353,Botany Town Centre To Manukau Bus Station Via Preston Rd,10791
+04054-20180921103729_v70.37,040,Orewa College To Hibiscus Coast Station Via Millwater Pkwy,10781
+01962-20180921103729_v70.37,019,Gulf Harbour School To Whangaparaoa College,10779
+01769-20180921103729_v70.37,017,Silverdale To Whangaparaoa College,10777
+32601-20180921103729_v70.37,326,Mangere Town Centre To Otahuhu Station Via Tidal Road,10776
+01061-20180921103729_v70.37,010,Sandringham to Ponsonby Int,10774
+01066-20180921103729_v70.37,010,Ponsonby Int to Sandringham,10765
+02964-20180921103729_v70.37,029,Westlake Schools To Rothesay Bay,10750
+02953-20180921103729_v70.37,029,Puhinui To Papatoetoe Schools,10738
+51651-20180921103729_v70.37,516,Parnell To Auckland Grammar Via Epsom Schools,10731
+17030-20180921103729_v70.37,170,New Lynn to Titirangi South via Otitori Bay Rd,10718
+05852-20180921103729_v70.37,058,Rosehill College To Homai,10718
+31404-20180921103729_v70.37,314,Middlemore Station To Ormiston Via Otara,10695
+32602-20180921103729_v70.37,326,Otahuhu Station To Mangere Town Centre Via Tidal Road,10692
+00667-20180921103729_v70.37,006,Stanmore Bay To Orewa College Via Vipond Rd,10674
+09772-20180921103729_v70.37,97V,Britomart (Quay St) To Verrans Corner,10623
+09704-20180921103729_v70.37,97R,Beach Haven To Britomart (Lower Albert) Via Highbury Bypass,10623
+09712-20180921103729_v70.37,97B,Biritomart (Quay St) To Verrans Corner,10623
+01364-20180921103729_v70.37,013,Rutherford College to Glendene,10609
+51652-20180921103729_v70.37,516,Auckland Grammar To Parnell Via Epsom Schools,10606
+37802-20180921103729_v70.37,378,Papakura Shops To Karaka Harbourside Loop,10597
+31403-20180921103729_v70.37,314,Ormiston To Middlemore Station Via Otara,10573
+00672-20180921103729_v70.37,006,Orewa College To Stanmore Bay Via Vipond Rd,10568
+09652-20180921103729_v70.37,096,Waiheke High School To Piemelon Bay Rd,10548
+35503-20180921103729_v70.37,355,Ormiston To Botany Via Mission Heights,10543
+01754-20180921103729_v70.37,017,Otahuhu Schools To Mt Wellington,10540
+09451-20180921103729_v70.37,094,Palm Road To Waiheke Primary,10531
+03456-20180921103729_v70.37,034,Westlake Boys To Takapuna Via Milford And Crown Hill,10530
+01353-20180921103729_v70.37,013,Otara To Edgewater College,10509
+04664-20180921103729_v70.37,046,Carmel College And Westlake Girls To Glenfield,10469
+80101-20180921103729_v70.37,801,Bayswater Wharf To Akoranga Station Via Takapuna,10440
+00254-20180921103729_v70.37,002,Onehunga High To Favona,10425
+94204-20180921103729_v70.37,942,Takapuna to Beach Haven Via Northcote Shops And Highbury,10418
+09452-20180921103729_v70.37,094,Waiheke Primary To Palm Rd,10406
+05458-20180921103729_v70.37,054,St Johns School To Milford,10371
+00554-20180921103729_v70.37,005,Onehunga High To Mangere,10321
+01960-20180921103729_v70.37,019,Whangaparaoa College To Army Bay,10301
+01967-20180921103729_v70.37,019,Army Bay To Whangaparaoa College,10256
+75504-20180921103729_v70.37,755,Britomart To Benson Rd Via Portland Rd,10248
+80102-20180921103729_v70.37,801,Akoranga Station To Bayswater Wharf Via Takapuna,10246
+01567-20180921103729_v70.37,015,Bayview To Westlake Girls,10244
+00961-20180921103729_v70.37,009,Onewa Rd To Westlake Schools,10237
+42152-20180921103729_v70.37,421,Farm Cove Intermediate To Burswood,10237
+29506-20180921103729_v70.37,295,City Centre To Royal Oak,10211
+02566-20180921103729_v70.37,025,Glen Eden Intermediate to Wood Bay,10206
+43051-20180921103729_v70.37,430,Meadowlands To Owairoa Primary,10192
+42151-20180921103729_v70.37,421,Burswood To Farm Cove Intermediate,10189
+03553-20180921103729_v70.37,035,Mt Wellington To Otahuhu Schools,10167
+08206-20180921103729_v70.37,82,Mayoral Dr To Takapuna,10121
+01359-20180921103729_v70.37,013,Glendene to Rutherford College,10118
+16201-20180921103729_v70.37,162,Henderson to New Lynn via Glendene,10116
+03554-20180921103729_v70.37,035,St Marys Primary To Beach Haven,10094
+16202-20180921103729_v70.37,162,New Lynn to Henderson via Glendene,10084
+08205-20180921103729_v70.37,82,Takapuna To Mayoral Dr,10056
+02360-20180921103729_v70.37,023,Westlake Schools To Totara Vale,10053
+06057-20180921103729_v70.37,060,Meadowood To Albany Schools,10048
+14603-20180921103729_v70.37,146,Swanson Station to Henderson via Central Park Dr,10031
+06060-20180921103729_v70.37,060,Albany Schools to Meadowood,9978
+11201-20180921103729_v70.37,112,Hobsonville Point to Westgate via West Harbour,9972
+14604-20180921103729_v70.37,146,Henderson to Swanson Station via Central Park Dr,9969
+11202-20180921103729_v70.37,112,Westgate to Hobsonville Point via West Harbour,9922
+06656-20180921103729_v70.37,065,Rangitoto College To Takapuna,9916
+05155-20180921103729_v70.37,051,Middlemore To Seventh Day Adventist Primary,9898
+29505-20180921103729_v70.37,295,Royal Oak To City Centre,9887
+05556-20180921103729_v70.37,055,Rosehill College To Conifer Grove,9867
+00162-20180921103729_v70.37,001,Royal Oak Intermediate To Favona,9863
+07007-20180921103729_v70.37,70,Ellerslie To Britomart,9854
+90013-20180921103729_v70.37,BAYS,Bayswater To Auckland Via Northcote Point and Birkenhead,9835
+87102-20180921103729_v70.37,871,Takapuna To Constellation Station Via Forrest Hill Rd,9830
+43052-20180921103729_v70.37,430,Owairoa Primary To Meadowlands,9826
+01659-20180921103729_v70.37,016,Rothesay Bay Shops To Westlake Schools,9788
+88501-20180921103729_v70.37,885,Constellation Station To NHIE Loop Clockwise,9778
+40252-20180921103729_v70.37,402,One Tree Hill College To Panama Road,9765
+00356-20180921103729_v70.37,003,Royal Oak Intermediate To Mangere,9757
+02357-20180921103729_v70.37,023,Takapuna To East Coast Bays Schools,9747
+81401-20180921103729_v70.37,814,Devonport Wharf To Akoranga Station Via Takapuna,9741
+01260-20180921103729_v70.37,012,Otahuhu Intermediate To Mangere Town Centre,9737
+06064-20180921103729_v70.37,060,St Johns School To Pinehill,9712
+840012-20180921103729_v70.37,ONE,Britomart Train Station to Penrose Train Station,9706
+05860-20180921103729_v70.37,058,Torbay School To Long Bay,9705
+840014-20180921103729_v70.37,ONE,Britomart Train Station to Penrose Train Station,9704
+840010-20180921103729_v70.37,ONE,Britomart Train Station to Penrose Train Station,9704
+73303-20180921103729_v70.37,733,Botany To Bucklands Beach Via Highland Park,9701
+840011-20180921103729_v70.37,ONE,Penrose Train Station to Britomart Train Station,9687
+840013-20180921103729_v70.37,ONE,Penrose Train Station to Britomart Train Station,9687
+92602-20180921103729_v70.37,926,Akoranga Station To Glenfield Via Hillcrest West,9687
+840017-20180921103729_v70.37,ONE,Penrose Train Station to Britomart Train Station,9687
+90701-20180921103729_v70.37,907,Campbells Bay To Constellation Station Via Sunnynook Station,9682
+03757-20180921103729_v70.37,037,Glenfield To Westlake Schools Via Marlborough,9674
+87101-20180921103729_v70.37,871,Constellation Station To Takapuna Via Forrest Hill Rd,9639
+90702-20180921103729_v70.37,907,Constellation Station To Campbells Bay Via Sunnynook Station,9608
+840015-20180921103729_v70.37,ONE,Penrose Train Station to Britomart Train Station,9608
+01466-20180921103729_v70.37,014,Northcote College To Beach Haven,9608
+820023-20180921103729_v70.37,STH,Penrose Train Station to Britomart Train Station,9607
+820022-20180921103729_v70.37,STH,Britomart Train Station to Penrose Train Station,9606
+820014-20180921103729_v70.37,STH,Britomart Train Station to Penrose Train Station,9606
+820012-20180921103729_v70.37,STH,Britomart Train Station to Penrose Train Station,9605
+820020-20180921103729_v70.37,STH,Britomart Train Station to Penrose Train Station,9604
+820024-20180921103729_v70.37,STH,Britomart Train Station to Penrose Train Station,9604
+81402-20180921103729_v70.37,814,Akoranga Station To Devonport Wharf Via Takapuna,9597
+02555-20180921103729_v70.37,025,Wood Bay to Glen Eden Intermediate,9539
+01751-20180921103729_v70.37,017,Bayswater To Westlake Schools,9528
+92601-20180921103729_v70.37,926,Glenfield To Akoranga Station Via Hillcrest West,9482
+10101-20180921103729_v70.37,101,Pt Chevalier To Auckland University Via Jervois Rd,9468
+01969-20180921103729_v70.37,019,Whangaparaoa College To Gulf Harbour School,9446
+06166-20180921103729_v70.37,061,Rangitoto College To Torbay,9435
+43952-20180921103729_v70.37,439,Our Lady Star Of The Sea To Botany Downs,9432
+08304-20180921103729_v70.37,83,Browns Bay To Massey University Via Albany Station,9385
+01763-20180921103729_v70.37,017,Greenhithe to Albany High Schools via Upper Harbour Dr,9382
+03951-20180921103729_v70.37,039,Hibiscus Coast Station To Orewa College Via Bankside Rd,9374
+06554-20180921103729_v70.37,065,Rangitoto College To Takapuna Via Beach Rd,9370
+01764-20180921103729_v70.37,017,Albany High Schools to Greenhithe via Upper Habour Dr,9344
+10102-20180921103729_v70.37,101,Auckland University To Pt Chevalier Via Jervois Rd,9331
+05562-20180921103729_v70.37,055,Westlake Schools To Wairau Valley,9327
+98504-20180921103729_v70.37,985,Hibiscus Coast Station To Orewa Via Millwater,9322
+01464-20180921103729_v70.37,014,St Josephs School To Sunnynook,9291
+43152-20180921103729_v70.37,431,Somerville Intermediate And Howick College To Botany,9278
+02863-20180921103729_v70.37,028,Long Bay College To Northcross Intermediate,9269
+02868-20180921103729_v70.37,028,Northcross Intermediate To Long Bay College,9268
+05159-20180921103729_v70.37,051,Sunnynook To Westlake Schools,9261
+43151-20180921103729_v70.37,431,Botany To Howick College And Somerville Intermediate,9257
+73401-20180921103729_v70.37,734,Botany To Half Moon BayýVia Highland Park,9250
+88401-20180921103729_v70.37,884,Constellation Station To NHIE Loop Anticlockwise,9212
+02408-20180921103729_v70.37,24W,City Centre To Wesley Via Sandingham Rd,9198
+08754-20180921103729_v70.37,087,Te Huruhi School To Oneroa,9151
+17208-20180921103729_v70.37,172,New Lynn to Glen Eden via Titirangi,9146
+05455-20180921103729_v70.37,054,Totara Vale To Westlake Schools Via Sunnynook,9133
+02866-20180921103729_v70.37,028,Northcote Intermediate And St Marys Primary To Chatswood,9050
+09051-20180921103729_v70.37,090,Matiatia Wharf to Waiheke High School,9046
+09151-20180921103729_v70.37,091,Oneroa Beach To Waiheke High School,9006
+02257-20180921103729_v70.37,022,Henderson to Rangeview Intermediate via Glendene,8972
+92304-20180921103729_v70.37,923,Sylvan Ave To Akoranga Station,8950
+00170-20180921103729_v70.37,001,Greenmeadows Intermediate and Manurewa High to Everglades,8928
+00772-20180921103729_v70.37,007,Green Bay High to Oratia,8927
+06454-20180921103729_v70.37,064,One Tree Hill College To Otahuhu,8924
+79825-20180921103729_v70.37,INN,Inner Link Anticlockwise K Rd To Victoria Park,8921
+40151-20180921103729_v70.37,401,Mt Wellington To St Marys School And Ellerslie School,8921
+12011-20180921103729_v70.37,120,Henderson to Westgate,8912
+74402-20180921103729_v70.37,744,St Heliers To Panmure Via Glen Innes,8903
+39404-20180921103729_v70.37,394,Pukekohe Interchange To Wesley College/Paerata,8899
+02264-20180921103729_v70.37,022,Rangeview Intermediate to Henderson via Glendene,8882
+17205-20180921103729_v70.37,172,Glen Eden to New Lynn via Titirangi,8850
+19520-20180921103729_v70.37,195,Blockhouse Bay Intermediate To New Lynn,8834
+22056-20180921103729_v70.37,220,Waiheke High School to Oneroa,8833
+02717-20180921103729_v70.37,27T,Three Kings To Britomart Via Mt Eden Rd,8818
+73402-20180921103729_v70.37,734,Half Moon Bay To Botany Via Highland Park,8817
+74401-20180921103729_v70.37,744,Panmure To St Heliers Via Glen Innes,8803
+75102-20180921103729_v70.37,751,Newmarket To Panmure Via Marua Rd And Remuera Rd,8799
+00157-20180921103729_v70.37,001,Everglades to Manurewa High and Greenmeadows,8792
+07260-20180921103729_v70.37,072,Northcote College To Marlborough,8771
+00773-20180921103729_v70.37,007,Oratia to Green Bay High School,8729
+75101-20180921103729_v70.37,751,Panmure To Newmarket Via Marua Rd And Remuera Rd,8722
+07158-20180921103729_v70.37,071,Long Bay College To Pinehill,8715
+07155-20180921103729_v70.37,071,Pinehill To Long Bay College,8714
+01566-20180921103729_v70.37,015,Avondale College to Glendene,8653
+01576-20180921103729_v70.37,015,Westlake Girls To Bayview,8637
+54251-20180921103729_v70.37,542,Kohimarama To Remuera Intermediate Via Meadowbank,8611
+43651-20180921103729_v70.37,436,Flat Bush To Somerville Intermediate And Howick College,8585
+02407-20180921103729_v70.37,24W,Wesley To City Centre Via Sandringham Rd,8582
+07053-20180921103729_v70.37,070,Oakway Dr To Upper Harbour Primary,8542
+03362-20180921103729_v70.37,033,Rosmini College To Verrans Corner,8542
+40152-20180921103729_v70.37,401,Ellerslie School And St Marys School To Mt Wellington,8470
+90112-20180921103729_v70.37,901,Constellation Station To Smales Farm Via Wairau Rd,8466
+01563-20180921103729_v70.37,015,Glendene to Avondale College,8396
+04051-20180921103729_v70.37,040,Hibiscus Coast Station To Orewa College Via Millwater Pkwy,8388
+90111-20180921103729_v70.37,901,Smales Farm To Constellation Station Via Wairau Rd,8387
+02006-20180921103729_v70.37,20,Wynyard Quarter To St Lukes Via Kingsland,8381
+43752-20180921103729_v70.37,437,Howick College To Flat Bush,8360
+02710-20180921103729_v70.37,27T,Britomart To Three Kings Via Mt Eden Rd,8338
+09751-20180921103729_v70.37,097,Rocky Bay To Waiheke Schools,8297
+08155-20180921103729_v70.37,081,Hillcrest To Northcote Schools,8284
+08954-20180921103729_v70.37,089,Takapuna Normal Intermediate To Devonport,8265
+11101-20180921103729_v70.37,111,Royal Heights Loop,8260
+91016-20180921103729_v70.37,BIRK,Auckland To Birkenhead Via Bayswater and Northcote Point,8236
+07957-20180921103729_v70.37,079,Chatswood To Birkenhead Schools,8223
+00272-20180921103729_v70.37,002,Orewa Schools To Hatfields Beach,8215
+52451-20180921103729_v70.37,524,Remuera To Epsom Schools,8200
+88304-20180921103729_v70.37,883,Constellation Station To Schnapper Rock (Full Loop),8190
+54252-20180921103729_v70.37,542,Remuera Intermediate To Kohimarama Via Meadowbank Shops,8171
+04853-20180921103729_v70.37,048,Northcross To East Coast Bays Schools,8164
+52552-20180921103729_v70.37,525,Epsom Girls Grammar School to Herne Bay,8158
+42551-20180921103729_v70.37,425,Botany To Bucklands Beach Intermediate And Macleans College,8155
+54652-20180921103729_v70.37,546,Selwyn College To Ellerslie,8123
+37102-20180921103729_v70.37,371,Papakura Interchange To Takanini Station,8090
+07553-20180921103729_v70.37,075,Laingholm Primary to Green Bay High School,8062
+02005-20180921103729_v70.37,20,St Lukes To Wynyard Quarter Via Kingsland,8059
+05666-20180921103729_v70.37,056,Carmel College To Glenfield,8047
+07008-20180921103729_v70.37,70,Panmure To Botany,8012
+39304-20180921103729_v70.37,393,Pukekohe South Loop,8004
+41051-20180921103729_v70.37,410,Panmure To Baradene Via Marua Rd,7998
+52452-20180921103729_v70.37,524,Epsom Schools to Remuera,7961
+54651-20180921103729_v70.37,546,Ellerslie To Selwyn College,7944
+51451-20180921103729_v70.37,514,Remuera To Auckland Grammar Via Lillington Rd,7943
+51452-20180921103729_v70.37,514,Auckland Grammar To Remuera Via Lillington Rd,7942
+17027-20180921103729_v70.37,170,Titirangi South to New Lynn,7925
+17028-20180921103729_v70.37,170,New Lynn to Titirangi South,7912
+00258-20180921103729_v70.37,002,Royal Oak Intermediate To Mangere Bridge,7901
+88301-20180921103729_v70.37,883,Schnapper Rock To Constellation Station,7890
+00154-20180921103729_v70.37,001,Kedgley Intermediate To Puhinui,7874
+09253-20180921103729_v70.37,092,Piemelon Bay Rd To Waiheke High School,7843
+52551-20180921103729_v70.37,525,Herne Bay To Epsom Girls Grammar School,7828
+01863-20180921103729_v70.37,018,Wairau Valley To Westlake Schools,7802
+84501-20180921103729_v70.37,845,Milford To Takapuna Via North Shore Hospital,7777
+14302-20180921103729_v70.37,143,Henderson to Ranui via Sturges Rd,7771
+13106-20180921103729_v70.37,131,Henderson to Te Atatu Peninsula,7726
+02507-20180921103729_v70.37,25B,Mt Roskill To City Centre Via Dominion Rd,7725
+37101-20180921103729_v70.37,371,Takanini Station To Papakura Interchange,7725
+02554-20180921103729_v70.37,025,Papatoetoe Intermediate To Papatoetoe Town Hall,7721
+43351-20180921103729_v70.37,433,Redcastle Dr To Somerville Intermediate And Howick College,7695
+84502-20180921103729_v70.37,845,Takapuna To Milford Via North Shore Hospital,7693
+02757-20180921103729_v70.37,027,Milford To East Coast Bays Schools,7687
+42552-20180921103729_v70.37,425,Bucklands Beach Intermediate And Macleans College To Botany,7633
+00768-20180921103729_v70.37,007,Orewa College To Brightside Rd,7622
+54951-20180921103729_v70.37,549,Stonefields To St Thomas Primary,7620
+98404-20180921103729_v70.37,984,Hibiscus Coast Station To Orewa Via Maygrove,7618
+00767-20180921103729_v70.37,007,Brightside Rd To Orewa College,7616
+37202-20180921103729_v70.37,372,Papakura Shops To Keri Hill Loop,7601
+54952-20180921103729_v70.37,549,St Thomas Primary To Stonefields,7566
+02859-20180921103729_v70.37,028,Sunnynook To East Coast Bays Schools,7560
+43652-20180921103729_v70.37,436,Somerville Intermediate To Flat Bush,7549
+19509-20180921103729_v70.37,195,New Lynn To Blockhouse Bay Via Green Bay,7548
+19510-20180921103729_v70.37,195,Blockhouse Bay To New Lynn Via Green Bay,7542
+39403-20180921103729_v70.37,394,Wesley College/Paerata To Pukekohe Interchange,7537
+41052-20180921103729_v70.37,410,Baradene To Panmure Via Marua Rd,7479
+05361-20180921103729_v70.37,053,Campbells Bay To Westlake Schools,7472
+79702-20180921103729_v70.37,CTY,Wynyard Quarter to Karangahape Rd via Queen St,7470
+79704-20180921103729_v70.37,CTY,Wynyard Quarter to Karangahape Rd via Queen St (S),7470
+03503-20180921103729_v70.37,35,Ormiston To Botany Via Chapel Rd,7458
+10502-20180921103729_v70.37,105,Britomart To Westmere Via Richmond Rd,7433
+10501-20180921103729_v70.37,105,Westmere To Britomart Via Richmond Rd,7416
+85603-20180921103729_v70.37,856,Mairangi Bay To Smales Farm Station Via Beach Rd And Milford,7395
+05364-20180921103729_v70.37,053,Westlake Boys To Campbells Bay,7340
+07257-20180921103729_v70.37,072,Titirangi to Avondale College,7331
+08160-20180921103729_v70.37,081,Northcote College To Hillcrest,7320
+06062-20180921103729_v70.37,060,Albany Junior High To Meadowood,7295
+39218-20180921103729_v70.37,392,Pukekohe Northwest Loop,7264
+07258-20180921103729_v70.37,072,Avondale College to Titirangi,7201
+03260-20180921103729_v70.37,032,Northcote Intermediate And St Marys Primary To Hillcrest,7140
+85604-20180921103729_v70.37,856,Smales Farm Station To Mairangi Bay Via Milford And Beach Rd,7061
+14301-20180921103729_v70.37,143,Ranui to Henderson via Sturges Rd,6980
+51552-20180921103729_v70.37,515,Auckland Grammar To Remuera Via Portland Rd,6978
+51551-20180921103729_v70.37,515,Remuera To Auckland Grammar Via Portland Rd,6970
+71401-20180921103729_v70.37,714,Bucklands Beach to Half Moon Bay,6966
+50052-20180921103729_v70.37,500,St Marys College To Pt Chevalier Beach,6928
+79926-20180921103729_v70.37,INN,Inner Link Clockwise Newmarkt To Victoria Park,6922
+98111-20180921103729_v70.37,981,Orewa To Hibiscus Coast Station,6919
+54752-20180921103729_v70.37,547,Selwyn College To Panmure Via Stonefields,6891
+71402-20180921103729_v70.37,714,Half Moon Bay To Bucklands Beach,6864
+50552-20180921103729_v70.37,505,Western Springs To Ponsonby,6857
+41551-20180921103729_v70.37,415,Pakuranga To Sacred Heart College,6836
+37302-20180921103729_v70.37,373,Papakura Shops To Red Hill,6821
+54751-20180921103729_v70.37,547,Panmure To Selwyn College Via Stonefields,6806
+08854-20180921103729_v70.37,088,Waiheke High School To Rocky Bay,6806
+00864-20180921103729_v70.37,008,Blockhouse Bay Intermediate to New Lynn,6790
+74702-20180921103729_v70.37,747,Glen Innes To Panmure via Stonefields,6788
+54152-20180921103729_v70.37,541,Remuera Primary To Ellerslie Shops,6774
+00855-20180921103729_v70.37,008,New Lynn To Blockhouse Bay Intermediate,6769
+40051-20180921103729_v70.37,400,"Panmure To One Tree Hill College, Ellerslie School And St Ma",6760
+92801-20180921103729_v70.37,928,Northcote Point To Smales Farm Stn Via North Shore Hospital,6703
+87803-20180921103729_v70.37,878,Northcross To Constellation Station Via East Coast Rd,6694
+07958-20180921103729_v70.37,079,Birkenhead Schools To Chatswood,6662
+74701-20180921103729_v70.37,747,Panmure To Glen Innes Via Stonefields,6653
+06752-20180921103729_v70.37,067,One Tree Hill College To Otahuhu Town Centre,6645
+00668-20180921103729_v70.37,006,Green Bay High School To Glen Eden,6628
+41552-20180921103729_v70.37,415,Sacred Heart College To Pakuranga,6628
+87804-20180921103729_v70.37,878,Constellation Station To Northcross Via East Coast Rd,6620
+02651-20180921103729_v70.37,026,Papatoetoe Town Hall To Papatoetoe Intermediate,6559
+43352-20180921103729_v70.37,433,Somerville Intermediate And Howick College to Redcastle Dr,6506
+00663-20180921103729_v70.37,006,Glen Eden To Green Bay High School,6491
+39104-20180921103729_v70.37,391,Pukekohe Northeast Loop,6464
+54352-20180921103729_v70.37,543,Remuera Intermediate To Kohimarama via St Johns Rd,6426
+07056-20180921103729_v70.37,070,Long Bay College To Browns Bay Shops,6418
+03152-20180921103729_v70.37,031,McAuley High To Otara Town Centre,6403
+02652-20180921103729_v70.37,028,Papatoetoe Intermediate To Puhinui,6393
+92802-20180921103729_v70.37,928,Smales Farm Stn To Northcote Point Via North Shore Hospital,6368
+98112-20180921103729_v70.37,981,Hibiscus Coast Station To Orewa,6345
+43252-20180921103729_v70.37,432,Howick College To Dannemora,6329
+00274-20180921103729_v70.37,002,Birkenhead College And Birkdale Intermediate To Chivalry Rd,6294
+37301-20180921103729_v70.37,373,Red Hill To Papakura Shops,6287
+18603-20180921103729_v70.37,186,South Lynn Loop,6264
+01656-20180921103729_v70.37,016,Albany Junior High School to Greenhithe,6255
+43453-20180921103729_v70.37,434,Dannemora To Somerville Intermediate And Howick College,6197
+88302-20180921103729_v70.37,883,Constellation Station To Schnapper Rock,6147
+01657-20180921103729_v70.37,016,Greenhithe to Albany Junior High School,6143
+08452-20180921103729_v70.37,084,Belmont Intermediate To Devonport,6136
+53152-20180921103729_v70.37,531,Onehunga High To Church St Onehunga,6036
+03153-20180921103729_v70.37,031,Otara Town Centre To De La Salle College,6029
+79823-20180921103729_v70.37,INN,Inner Link Anticlockwise Newmarket To Victoria Park,6022
+44354-20180921103729_v70.37,443,Sancta Maria To Manukau Bus Station,6006
+07752-20180921103729_v70.37,077,Glenfield Schools To Windy Ridge,5961
+51151-20180921103729_v70.37,511,Lynfield To Waikowhai Intermediate,5955
+29503-20180921103729_v70.37,295,Ellerslie Station To Royal Oak,5884
+51152-20180921103729_v70.37,511,Waikowhai Intermediate To Lynfield,5839
+09352-20180921103729_v70.37,093,Waiheke High School to Palm Beach,5759
+50551-20180921103729_v70.37,505,Ponsonby To Motions Rd Opp Pasadena School,5747
+00166-20180921103729_v70.37,001,Birkenhead College To Beach Haven,5732
+01572-20180921103729_v70.37,015,Northcote College To Wairau Rd,5729
+08152-20180921103729_v70.37,081,Belmont Intermediate To Stanley Bay,5719
+00558-20180921103729_v70.37,005,Green Bay High School To Kaurilands,5675
+86105-20180921103729_v70.37,861,Massey University To Constellation Station Via Bush Rd,5651
+86501-20180921103729_v70.37,865,Browns Bay To Albany Station Via Oaktree Ave,5649
+86502-20180921103729_v70.37,865,Albany Station To Browns Bay Via Oaktree Ave,5615
+37602-20180921103729_v70.37,376,Papakura Shops To Drury,5575
+07058-20180921103729_v70.37,070,Upper Harbour Primary To Oakway Dr,5566
+54451-20180921103729_v70.37,544,Meadowbank To Selwyn College,5561
+10601-20180921103729_v70.37,106,Freemans Bay Loop,5540
+54452-20180921103729_v70.37,544,Selwyn College To Meadowbank Shopping Centre,5539
+08352-20180921103729_v70.37,083,Takapuna Grammar To Devonport Via Cheltenham,5520
+86106-20180921103729_v70.37,861,Constellation Station To Massey University Via Bush Rd,5514
+88901-20180921103729_v70.37,889,Albany Station To Constellation Station Via Hugh Green Dr,5501
+37601-20180921103729_v70.37,376,Drury To Papakura Shops,5466
+53052-20180921103729_v70.37,530,Royal Oak Intermediate to Onehunga,5465
+37701-20180921103729_v70.37,377,Pahurehure To Papakura Interchange,5454
+80601-20180921103729_v70.37,806,Devonport Wharf To Stanley Pt Loop,5431
+00557-20180921103729_v70.37,005,Kaurilands To Green Bay High School,5407
+54552-20180921103729_v70.37,545,Selwyn College To Upland Rd Shops,5335
+54551-20180921103729_v70.37,545,Upland Rd Shops To Selwyn College,5296
+08254-20180921103729_v70.37,082,Takapuna Grammar To Stanley Bay,5247
+51951-20180921103729_v70.37,519,Ellerslie to Baradine,5234
+08251-20180921103729_v70.37,082,Stanley Bay To Belmont Schools,5231
+08157-20180921103729_v70.37,081,Stanley Bay To Belmont Intermediate And Takapuna Grammar,5231
+02362-20180921103729_v70.37,023,Birkdale Intermediate To Beach Haven,5218
+08054-20180921103729_v70.37,080,Takapuna Grammar To Devonport,5202
+37702-20180921103729_v70.37,377,Papakura Interchange To Pahurehure,5195
+40052-20180921103729_v70.37,400,One Tree Hill College To Panmure,5195
+16101-20180921103729_v70.37,161,Brains Park to New Lynn,5186
+88902-20180921103729_v70.37,889,Constellation Station To Albany Station Via Hugh Green Dr,5186
+08351-20180921103729_v70.37,083,Devonport To Belmont Schools Via Cheltenham,5185
+43452-20180921103729_v70.37,434,Somerville Intermediate To Kilkenny Drive,5167
+42052-20180921103729_v70.37,420,Farm Cove Intermediate To Pakuranga,5126
+05256-20180921103729_v70.37,052,Westlake Schools To Sunnynook,5044
+06260-20180921103729_v70.37,062,Rangitoto College To Browns Bay Shops Via Beach Rd,5040
+07361-20180921103729_v70.37,073,Woodlands Park to Glen Eden Intermediate,5025
+07362-20180921103729_v70.37,073,Glen Eden Intermediate to Woodlands Park,4951
+29504-20180921103729_v70.37,295,Royal Oak To Ellerslie Station,4816
+00466-20180921103729_v70.37,004,Birkenhead College To Highbury,4786
+84201-20180921103729_v70.37,842,Crown Hill To Smales Farm Station Via East Coast Rd,4738
+06360-20180921103729_v70.37,063,Northcross Intermediate To Torbay,4678
+42051-20180921103729_v70.37,420,Pakuranga To Farm Cove Intermediate,4601
+02966-20180921103729_v70.37,029,Northcote Intermediate And St Marys Primary To Maritime Tce,4582
+02864-20180921103729_v70.37,028,Rangitoto College To Sunnynook,4575
+43552-20180921103729_v70.37,435,Somerville Intermediate To Dannemora,4558
+72115-20180921103729_v70.37,OUT,Outer Link Anticlockwise Newmarket To City Centre,4495
+02854-20180921103729_v70.37,028,Papatoetoe Intermediate To Wiri Depot Via Puhinui,4449
+43551-20180921103729_v70.37,435,Dannemora To Somerville Intermediate,4448
+84202-20180921103729_v70.37,842,Smales Farm Station To Crown Hill Via East Coast Rd,4441
+01570-20180921103729_v70.37,015,Long Bay Primary To Torbay,4318
+80701-20180921103729_v70.37,807,Devonport Wharf To Cheltenham Loop,4216
+01574-20180921103729_v70.37,015,Westlake Girls To Glenfield Mall,4193
+16102-20180921103729_v70.37,161,New Lynn to Brains Park,4179
+91011-20180921103729_v70.37,BIRK,Birkenhead To Auckland Via Northcote Point,4082
+91012-20180921103729_v70.37,BIRK,Auckland To Birkenhead Via Northcote Point,4082
+05956-20180921103729_v70.37,059,Rangitoto College To Browns Bay Shops,3988
+91013-20180921103729_v70.37,BIRK,Birkenhead To Auckland,3963
+91014-20180921103729_v70.37,BIRK,Auckland To Birkenhead,3963
+98703-20180921103729_v70.37,987,Arkles Bay Loop,3804
+02572-20180921103729_v70.37,025,Birkdale Intermediate To Highbury,3731
+73114-20180921103729_v70.37,OUT,Outer Link Clockwise Herne Bay To City Centre,3722
+79928-20180921103729_v70.37,INN,Inner Link Clockwise K Rd To Victoria Park,3651
+89001-20180921103729_v70.37,890,Albany Station To Corinthian Dr Loop,3519
+01266-20180921103729_v70.37,012,Avondale_College to New Lynn,3517
+50151-20180921103729_v70.37,501,Britomart To St Marys College,3331
+92011-20180921103729_v70.37,DEV,Devonport To Auckland,3110
+92012-20180921103729_v70.37,DEV,Auckland To Devonport,3110
+50152-20180921103729_v70.37,501,St Marys College To Britomart,2614
+90012-20180921103729_v70.37,BAYS,Auckland To Bayswater,2364
+90011-20180921103729_v70.37,BAYS,Bayswater To Auckland,2359
+54052-20180921103729_v70.37,540,Sacred Heart To Glen Innes,2298
+06257-20180921103729_v70.37,062,Takapuna To Takapuna Grammar,2269
+99311-20180921103729_v70.37,SBAY,Stanley Bay To Auckland,2176
+99312-20180921103729_v70.37,SBAY,Auckland To Stanley Bay,2176
+81352-20180921103729_v70.37,813,Takapuna Grammar To Takapuna,2145
+91704-20180921103729_v70.37,917,Highbury to Birkenhead Wharf,2051
+79827-20180921103729_v70.37,INN,Inner Link Anticlockwise Customs St To Victoria Park,1589
+79930-20180921103729_v70.37,INN,Inner Link Clockwise Ponsonby To Victoria Park,990
