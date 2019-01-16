@@ -1,6 +1,6 @@
 layout: page
 title: Me
-date: 2018-01-14 2:00:00
+date: 2019-01-16 1:00:00
 tags:
 ---
 
@@ -13,11 +13,11 @@ tags:
 
 Hey, I'm Jono. I'm from New Zealand and currently working as a Graduate Developer at [Xero](https://xero.com). In my spare time, I make things (mostly software, sometimes video and other things), run & bike, and spend too much money (mostly on traveling <span class="emoji">🚀</span>).
 
-In my spare time, I like to distract myself with side projects. I helped build [Gradiator](https://launchpad.net/gradiator) (a CSS gradients app), [Nitro](https://github.com/nitrotasks/nitro) (a task management app) and [Lightread](https://github.com/stayradiated/LightRead), which [won the first Ubuntu App Showdown](http://www.omgubuntu.co.uk/2012/08/ubuntu-app-showdown-winners-announced). I also made [Stormcloud](https://github.com/consindo/stormcloud), a weather app that was [the best selling app in the Ubuntu Store ever](http://www.omgubuntu.co.uk/tag/stormcloud). Unfortunately software is hard to maintain, so after losing interest, all the apps are pretty much dead. On the positive side, they're all open sour ce which means you can download, modify and almost anything you like with the code.
+In my spare time, I like to distract myself with side projects. I helped build [Gradiator](https://launchpad.net/gradiator) (a CSS gradients app), [Nitro](https://github.com/nitrotasks/nitro) (a task management app) and [Lightread](https://github.com/stayradiated/LightRead), which [won the first Ubuntu App Showdown](http://www.omgubuntu.co.uk/2012/08/ubuntu-app-showdown-winners-announced). I also made [Stormcloud](https://github.com/consindo/stormcloud), a weather app that was [the best selling app in the Ubuntu Store ever](http://www.omgubuntu.co.uk/tag/stormcloud). Unfortunately software is hard to maintain, so after losing interest, all the apps are no longer supported. On the positive side, they're all open source which means you can download, modify, and do almost anything you like with the code.
 
-*But Jono, that was 2012-2013! What have you been doing since?* In 2014, I realized that building open source apps for the rest of your life isn't particularly profitable, so I put some effort into school, tried to get a few scholarships, and took a trip overseas. In 2015, I started University, finally started working on a new app, and then took three months for another trip around the world.
+*But Jono, that was 2012-2013! What have you been doing since?* In 2014, I realized that building open source apps isn't sustainable without a business plan, so I put some effort into school, tried to get a few scholarships, and took a trip overseas. In 2015, I moved to Auckland, started University, started working on a new app, and then took three months for another trip around the world.
 
-In 2017 I worked as an Intern at [Sandfield](https://www.sandfield.co.nz/) and finished my final year of University. I built [Waka](https://waka.app), a progressive web app for getting around Auckland & Wellington. Currently I'm trying to bring Nitro back from the dead. [Sign up to get early access](http://nitrotasks.com).
+In 2017, I worked as an Intern at [Sandfield](https://www.sandfield.co.nz/) and graduated from University. I also built [Waka](https://waka.app), a progressive web app for getting around Auckland & Wellington. [I'm currently working at Xero](/work), and trying to go live with Nitro 3. [Sign up to get early access](http://nitrotasks.com).
 
 ## Get in touch
 I like talking to people! [Email me](mailto:jono@jonocooper.com) if you want to chat, work together, or just hang out.

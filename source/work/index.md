@@ -1,17 +1,18 @@
 layout: page
 title: Portfolio
-date: 2018-01-14 2:00:00
+date: 2019-01-16 2:00:00
 tags:
 ---
 
 # Portfolio
-I'm currently a graduate developer at [Xero](https://www.xero.com) in Wellington, New Zealand. I work in the Financial Services team, where we build [Bank Feeds](www.scoop.co.nz/stories/BU1809/S00133/xero-launches-open-banking-api-for-accounting.htm
+## Xero
+I'm currently a Software Engineer at [Xero](https://www.xero.com) in Wellington, New Zealand. I'm part of the platform team, working on building a world class deployment and production environment for all of Xero.
+
+Previously, I was a Graduate Product Owner and Full Stack Developer in the Financial Services team. The team build [Bank Feeds](www.scoop.co.nz/stories/BU1809/S00133/xero-launches-open-banking-api-for-accounting.htm
 ) and [Payments](https://www.nab.com.au/about-us/innovation/partnerships/xero
-). I'm a full stack developer, and work with React, .NET (C#), Terraform, Docker, and AWS.
+), and primarily work with React, .NET (C#), Terraform, Docker, and AWS.
 
 At the end of 2017, I finished studying Applied Mathematics & Computer Science at the [University of Auckland](https://www.auckland.ac.nz).
-
-I'm currently looking for new opportunities. Please have a look at my [résumé](https://db.tt/SmgPtfZNBv) and [get in touch](mailto:jono@jonocooper.com).
 
 ## Sandfield
 I was employed as an Intern at [Sandfield](https://www.sandfield.co.nz) in Auckland, New Zealand from November 2016 - September 2017. I worked with the [Crossfire EDI](http://crossfireedi.com/) team where we built a web app for customers to manage their orders, products, and EDI implementations. I worked with the full stack, developing with ES6, React, ASP.NET, and Microsoft SQL Server. 
@@ -25,7 +26,7 @@ For many years I have loved building open-source apps as an opportunity to learn
 [Waka](https://waka.app) is a progressive web app for getting around Auckland & Wellington. It uses GTFS and real-time data to provide an easy way to check lines and schedules on the go.
 
 ### Nitro
-[Nitro](http://nitrotasks.com) is a cross platform task management app built with web technologies. I'm working on a new version and you can [sign up for early access](http://nitrotasks.com).
+[Nitro](https://nitrotasks.com) is the beautiful way to get things done. It's currently in private beta, and you can [sign up for early access](http://nitrotasks.com).
 
 ### Transfer
 [Transfer](https://dymajo.com) is the best FTP + SFTP app for Windows. We're currently working on getting a version ready for the Windows Store.
