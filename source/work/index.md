@@ -6,9 +6,9 @@ tags:
 
 # Portfolio
 ## Xero
-I'm currently a Software Engineer at [Xero](https://www.xero.com) in Wellington, New Zealand. I'm part of the platform team, working on building a world class deployment and production environment for all of Xero.
+I'm currently a Software Engineer at [Xero](https://www.xero.com) in Wellington, New Zealand. I'm part of the platform team, where I'm responsible for designing and delivering a large-scale Kubernetes deployment, as well as improving and supporting a large Windows deployment, for all of Xero.
 
-Previously, I was a Graduate Product Owner and Full Stack Developer in the Financial Services team. The team build [Bank Feeds](www.scoop.co.nz/stories/BU1809/S00133/xero-launches-open-banking-api-for-accounting.htm
+Previously, I was a Graduate Product Owner and Full Stack Developer in the Financial Services team. The team build [Bank Feeds](https://www.xero.com/features-and-tools/accounting-software/bank-connections/
 ) and [Payments](https://www.nab.com.au/about-us/innovation/partnerships/xero
 ), and primarily work with React, .NET (C#), Terraform, Docker, and AWS.
 
