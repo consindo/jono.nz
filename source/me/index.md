@@ -2,6 +2,7 @@ layout: page
 title: Me
 date: 2019-01-16 1:00:00
 tags:
+
 ---
 
 <div class="mainimg">
@@ -11,15 +12,42 @@ tags:
 
 # About Me
 
-Hey, I'm Jono. I'm from New Zealand and currently working as a Graduate Developer at [Xero](https://xero.com). In my spare time, I make things (mostly software, sometimes video and other things), run & bike, and spend too much money (mostly on traveling <span class="emoji">🚀</span>).
+Hey, I'm Jono.
 
-In my spare time, I like to distract myself with side projects. I helped build [Gradiator](https://launchpad.net/gradiator) (a CSS gradients app), [Nitro](https://github.com/nitrotasks/nitro) (a task management app) and [Lightread](https://github.com/stayradiated/LightRead), which [won the first Ubuntu App Showdown](http://www.omgubuntu.co.uk/2012/08/ubuntu-app-showdown-winners-announced). I also made [Stormcloud](https://github.com/consindo/stormcloud), a weather app that was [the best selling app in the Ubuntu Store ever](http://www.omgubuntu.co.uk/tag/stormcloud). Unfortunately software is hard to maintain, so after losing interest, all the apps are no longer supported. On the positive side, they're all open source which means you can download, modify, and do almost anything you like with the code.
+## Xero
 
-*But Jono, that was 2012-2013! What have you been doing since?* In 2014, I realized that building open source apps isn't sustainable without a business plan, so I put some effort into school, tried to get a few scholarships, and took a trip overseas. In 2015, I moved to Auckland, started University, started working on a new app, and then took three months for another trip around the world.
+I'm currently a Product Owner at [Xero](https://www.xero.com) in Wellington, New Zealand. At the moment I'm part of the [bank feeds](https://www.xero.com/features-and-tools/accounting-software/bank-connections/) team, making sure that transactions from thousands of financial institutes get into Xero every single day.
 
-In 2017, I worked as an Intern at [Sandfield](https://www.sandfield.co.nz/) and graduated from University. I also built [Waka](https://waka.app), a progressive web app for getting around Auckland & Wellington. [I'm currently working at Xero](/work), and trying to go live with Nitro 3. [Sign up to get early access](http://nitrotasks.com).
+Previously, I was a Software Engineerer on our the platform team, where I was responsible for designing and delivering a large-scale Kubernetes deployment, as well as improving and supporting a large Windows deployment, for all of Xero.
+
+Before that, I was a Graduate Developer - still at Xero!
+
+## Sandfield
+
+I was employed as an Intern at [Sandfield](https://www.sandfield.co.nz) in Auckland, New Zealand from November 2016 - September 2017. I worked with the [Crossfire EDI](http://crossfireedi.com/) team where we built a web app for customers to manage their orders, products, and EDI implementations.
+
+Through the creation of this app, we saw a significant reduction in support time and costs for the Crossfire EDI product.
+
+## Side Projects
+
+### Waka
+
+[Waka](https://waka.app) is a progressive web app for getting around Auckland, Wellington, and Christchurch. It uses GTFS and real-time data to provide an easy way to check lines and schedules on the go.
+
+### Other Projects
+
+Unfortunately, I've had to cancel a few side projects.
+
+[Nitro](https://github.com/nitrotasks/nitro) was a beautiful way to get things done, across lots of devices.
+
+[Transfer](https://dymajo.com/transfer) was a great FTP + SFTP app for Windows.
+
+I also helped build [Gradiator](https://launchpad.net/gradiator) (a CSS gradients app), [Lightread](https://github.com/stayradiated/LightRead) - which [won the first Ubuntu App Showdown](http://www.omgubuntu.co.uk/2012/08/ubuntu-app-showdown-winners-announced), and [Stormcloud](https://github.com/consindo/stormcloud) - a weather app that was [the best selling app in the Ubuntu Store ever](http://www.omgubuntu.co.uk/tag/stormcloud).
+
+These projects have not been maintained, but the source code is available to download and modify.
 
 ## Get in touch
+
 I like talking to people! [Email me](mailto:jono@jonocooper.com) if you want to chat, work together, or just hang out.
 
 You can also check out my [blog](/archives), [Twitter](https://twitter.com/consindo), and [GitHub](https://github.com/consindo).

@@ -2,10 +2,12 @@ layout: page
 title: projects
 date: 2016-06-30 14:53:36
 tags:
+
 ---
 
-This page has moved. [View my work.](/work).
-<meta http-equiv="refresh" content="0; url=/work">
+This page has moved. [View my work.](/me).
+
+<meta http-equiv="refresh" content="0; url=/me">
 <style>
 .article-entry {
   max-width: 650px;
