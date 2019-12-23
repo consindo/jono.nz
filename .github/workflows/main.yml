@@ -13,9 +13,10 @@ jobs:
       run: git clone https://github.com/consindo/consindo.github.io.git .deploy-git
     - name: restore packages      
       run: npm ci 
-    - uses: fusion-engineering/setup-git-credentials@v2
+    - name: Install SSH Key
+      uses: shimataro/ssh-key-action@v1.4.0
       with:
-        credentials: ${{secrets.GIT_CREDENTIALS}}
+        private-key: ${{secrets.GIT_CREDENTIALS}}
     - name: git config
       run: |
         git config --global user.email "actions@github.com"
