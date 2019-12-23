@@ -14,11 +14,13 @@ jobs:
         run: npm ci
       - name: build
         run: npm run generate
-      - name: deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        env:
-          GITHUB_REPOSITORY: consindo/consindo.github.io
+      - name: commit changes
+        run: |
+          cd .deploy_git
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Add changes" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
-          ACCESS_TOKEN: ${{ secrets.GIT_CREDENTIALS }}
-          BRANCH: pages # The branch the action should deploy to.
-          FOLDER: .deploy_git # The folder the action should deploy.
+          github_token: ${{ secrets.GIT_CREDENTIALS }}
