@@ -4,20 +4,21 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    - name: clone deployment repo
-      run: git clone https://github.com/consindo/consindo.github.io.git .deploy_git
-    - name: restore packages      
-      run: npm ci 
-    - name: build
-      run: npm run generate
-    - name: deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        ACCESS_TOKEN: ${{ secrets.GIT_CREDENTIALS }}
-        BRANCH: master # The branch the action should deploy to.
-        FOLDER: .deploy_git # The folder the action should deploy.
+      - uses: actions/checkout@v1
+      - name: clone deployment repo
+        run: git clone https://github.com/consindo/consindo.github.io.git .deploy_git
+      - name: restore packages
+        run: npm ci
+      - name: build
+        run: npm run generate
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        env:
+          GITHUB_REPOSITORY: consindo/consindo.github.io
+        with:
+          ACCESS_TOKEN: ${{ secrets.GIT_CREDENTIALS }}
+          BRANCH: pages # The branch the action should deploy to.
+          FOLDER: .deploy_git # The folder the action should deploy.
