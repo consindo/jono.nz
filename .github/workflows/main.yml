@@ -1,0 +1,17 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: clone deployment repo
+      run: git clone https://github.com/consindo/consindo.github.io.git .deploy-git
+    - name: restore packages      
+      run: npm ci 
+    - name: render & push
+      run: npm run deploy
