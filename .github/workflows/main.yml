@@ -10,18 +10,14 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: clone deployment repo
-      run: git clone https://github.com/consindo/consindo.github.io.git .deploy-git
+      run: git clone https://github.com/consindo/consindo.github.io.git .deploy_git
     - name: restore packages      
       run: npm ci 
-    - name: Install SSH Key
-      uses: shimataro/ssh-key-action@v1.4.0
-      with:
-        private-key: ${{secrets.GIT_CREDENTIALS}}
-    - name: git config
-      run: |
-        git config --global user.email "actions@github.com"
-        git config --global user.name "GitHub Actions"
-    - name: render & push
-      env:
-        GITHUB_ACTOR: consindo
+    - name: build
       run: npm run deploy
+    - name: deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.GIT_CREDENTIALS }}
+        BRANCH: master # The branch the action should deploy to.
+        FOLDER: .deploy_git # The folder the action should deploy.
