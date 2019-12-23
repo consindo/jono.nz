@@ -2,16 +2,21 @@ $blue = #0084ff;
 
 .home {
 	background-color: $blue;
-	background-image: url(images/home.jpg);
+	background-image: url(images/home_2019.jpg);
 	background-position: 50% 50%;
 	height: 100%;
 	background-size: cover;
 	color: #fff;
 	text-align: center;
+
+  @media 
+  (-webkit-min-device-pixel-ratio: 1.5), 
+  (min-resolution: 144dpi){ 
+    background-image: url(images/home_2019_large.jpg);
+  }
 	
 	@media (max-width: 700px) {
-		background-image: url(images/home_small.jpg);
-		background-size: cover;
+		background-image: url(images/home_2019_small.jpg);
 	}
 
 	h2 {
