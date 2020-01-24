@@ -18,3 +18,5 @@ I think it went really well, and received a lot of great feedback afterwards! A 
 <lite-youtube videoid="k3CLW8siogE"></lite-youtube>
 
 <https://www.youtube.com/watch?v=k3CLW8siogE>
+
+The talk has also been adapted into a post, for the Humans of Xero Blog. <https://medium.com/humans-of-xero/enabling-world-class-engineering-with-kubernetes-5ff514924ec8>
