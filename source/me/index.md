@@ -12,7 +12,7 @@ tags:
 
 # About Me
 
-Hey, I'm Jono.
+Hey, I'm Jono. Welcome to my website!
 
 ## Xero
 
