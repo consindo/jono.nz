@@ -1,4 +1,4 @@
-$header-size = 60px;
+$header-size = 48px;
 $header-size-small = 48px;
 
 @keyframes show {
@@ -11,10 +11,10 @@ $header-size-small = 48px;
 }
 
 nav.sidebar {
-	// background: darken(#2f3d4c, 30%);
+	background-color: darken(#2f3d4c, 60%);
 	width: 100%;
 	height: $header-size;
-	//transition: 500ms ease background;
+	transition: 500ms ease background-color;
 	transform-origin: left center;
 	color: lighten(#8793a0, 10%);
 	position: fixed;
@@ -22,7 +22,6 @@ nav.sidebar {
 	padding: 0 25px;
 	display: flex;
 	box-sizing: border-box;
-	background: #000;
 	
 	h1 {
 		margin: 0;
@@ -30,12 +29,11 @@ nav.sidebar {
 	}
 	
 	h1 a {
-		text-transform: uppercase;
 		letter-spacing: 0;
 		display: block;
-		font-size: 18px;
+		font-size: 17px;
 		text-decoration: none;
-		font-weight: bold;
+		font-weight: 600;
 		line-height: $header-size;
 		color: #fff;
 
@@ -63,9 +61,8 @@ nav.sidebar {
 		color: #fff;
 		padding: 0 10px;
 		line-height: $header-size;
-		font-size: 13px;
-		text-transform: uppercase;
-		font-weight: bold;
+		font-size: 14px;
+		font-weight: 600;
 
 		&:hover {
 			opacity: 0.65;
@@ -86,9 +83,8 @@ nav.sidebar {
 		background-size: 11px 11px;
 		background-repeat: no-repeat;
 		background-position: 12px 52%;
-		font-weight: bold;
+		font-weight: 600;
 		font-size: 13px;
-		text-transform: uppercase;
 		padding-left: 30px;
 		padding-right: 14px;
 		margin-right: -14px;
@@ -97,7 +93,7 @@ nav.sidebar {
 		color: #fff;
 	}
 	
-	@media(max-width: 500px) {
+	@media(max-width: 290px) {
 		
 		#expand {
 			display: inline-block;

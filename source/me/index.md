@@ -84,7 +84,7 @@ You can also check out my [blog](/archives), [Twitter](https://twitter.com/consi
   left: 50%;
   font-size: 0;
   right: 0;
-  top: 60px;
+  top: 48px;
   padding-left: 75px;
   padding-top: 50px;
 }
