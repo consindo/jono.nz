@@ -6,6 +6,12 @@ tags:
   - payments
 ---
 
+<style>
+  .article-type-post .article-entry img {
+    max-width: 240px;
+  }
+</style>
+
 There's a large number of debit & credit card options in NZ, so it can be a little daunting when picking one out. That said, there isn't nearly as much competition as the USA or Australia, so it's actually possible to decide the definitive best cards.
 
 A huge amount of research went into the post—we hope it saves you some time and money.
@@ -44,9 +50,11 @@ The [Westpac Airpoints Debit Mastercard](https://www.westpac.co.nz/bank-accounts
 
 That said, if you're a student, this card is free. You probably can't get a credit card either, so just get this. 
 
- ### Westpac Airpoints Debit Mastercard
+### Westpac Airpoints Debit Mastercard
 
- [westpac.co.nz/bank-accounts/debit-cards/airpoints](https://www.westpac.co.nz/bank-accounts/debit-cards/airpoints/)
+[westpac.co.nz/bank-accounts/debit-cards/airpoints](https://www.westpac.co.nz/bank-accounts/debit-cards/airpoints/)
+
+![Westpac Airpoints Debit Mastercard](/images/credit-cards/westpac-airpoints-debit.png)
 
 - **Rewards:** 1 Airpoints Dollar for every $250 spent.
 - **Card Fee:** $15 <small>p.a.</small> (break even after $3,750 spend)
@@ -68,6 +76,8 @@ Another option is the [Air NZ OneSmart](https://www.airnzonesmart.co.nz/). It re
 
 [transferwise.com](https://transferwise.com/invite/i/jonathanc1490)
 
+![TransferWise Debit Mastercard](/images/credit-cards/transferwise-mastercard.png)
+
 - **Rewards:** None
 - **Card Fee:** $0 <small>p.a.</small>
 - **Additional Features:** Free ATM withdrawals up to NZ$350/month, Google Pay.
@@ -88,6 +98,8 @@ I would get the ASB Visa Light for the occasional large purchase, and also pick 
 
 [asb.co.nz/credit-cards/visa-light](https://www.asb.co.nz/credit-cards/visa-light.html)
 
+![ASB Visa Light](/images/credit-cards/asb-visa-light.png)
+
 - **Rewards:** None
 - **Card Fee:** $0 <small>p.a.</small>
 - **Additional Features:** 0<small>% p.a.</small> on $1000+ purchases for 6 months (this is technically a floating rate, but hasn't changed in the last three years), 0<small>% p.a.</small> Balance Transfer for 6 months, Apple Pay & Google Pay.
@@ -97,10 +109,11 @@ I would get the ASB Visa Light for the occasional large purchase, and also pick 
 
 [sbsbank.co.nz/credit-card](https://www.sbsbank.co.nz/credit-card)
 
+![SBS Visa Credit Card](/images/credit-cards/sbs-visa.png)
+
 - **Rewards:** $1 cashback for every $150 spent (paid quarterly)
 - **Card Fee:** $0 <small>p.a.</small>
 - **Additional Features:** None
-
 
 ## The best credit card for groceries
 *American Express Platinum Edge*
@@ -118,6 +131,8 @@ American Express also offer a [free airpoints card](https://www.americanexpress.
 ### American Express Platinum Edge
 
 [americanexpress.com/nz/credit-cards/platinum-edge-credit-card](https://www.americanexpress.com/nz/credit-cards/platinum-edge-credit-card/)
+
+![American Express Platinum Edge](/images/credit-cards/amex-platinum-edge.png)
 
 - **Rewards:** 1 airpoints dollar for every $50 spent on groceries, $75 spent on petrol, and $150 on other purchases.
 - **Card Fee:** $149 <small>p.a.</small> (break even after $7,450 spend on groceries)
@@ -137,6 +152,8 @@ The other cashback card to consider is the [SBS Visa Credit Card](https://www.sb
 
 [bnz.co.nz/personal-banking/credit-cards/bnz-advantage](https://www.bnz.co.nz/personal-banking/credit-cards/bnz-advantage)
 
+![BNZ Advantage Visa Platinum](/images/credit-cards/bnz-advantage-platinum.png)
+
 - **Rewards:** $1 cashback for every $90 spent (paid monthly)
 - **Card Fee:** $90 <small>p.a.</small> (break even after $8,100 spend)
 - **Additional Features:** International travel insurance (90 days), purchase protection, price protection, Apple Pay & Google Pay.
@@ -154,6 +171,8 @@ Choose whether you want this airpoints or cashback, and then use this card for m
 ### Westpac Airpoints Platinum Mastercard
 
 [westpac.co.nz/credit-cards/airpoints/airpoints-platinum-mastercard](https://www.westpac.co.nz/credit-cards/airpoints/airpoints-platinum-mastercard/)
+
+![Westpac Airpoints Platinum Mastercard](/images/credit-cards/westpac-airpoints-platinum.png)
 
 - **Rewards:** 1 airpoints dollar for every $75 spent. 1 Status Point for every $225 spent.
 - **Card Fee:** $150 p.a. (break even after $11,250 spend)
