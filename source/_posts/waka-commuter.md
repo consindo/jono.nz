@@ -37,7 +37,7 @@ As the dataset doesn't change (except when there's a new Census!), I wrote some 
 
 ![Waka Commuter psuedo-API](/images/waka-commuter-api.png)
 
-I ended up using [Netlify](https://netlify.com) to deploy it, mostly because I can't use GitHub pages with more than one custom domain (already using it for this site). I'm impressed though—you just point it to your GitHub repo, it builds everything really quickly, and then kinda just works—SSL etc is all sorted. I'll definitely be using more it in the future.
+I ended up using [Netlify](https://netlify.com) to deploy it, mostly because I can't use GitHub pages with more than one custom domain (already using it for this site). I'm impressed though—you just point it to your GitHub repo, it builds everything really quickly, and then kinda just works—SSL etc is all sorted. I'll definitely be using it more in the future.
 
 ### Maps
 
@@ -45,15 +45,15 @@ I ended up using [Netlify](https://netlify.com) to deploy it, mostly because I c
 
 It has a pretty nice styling system, that's almost like writing a stylesheet for geojson. You define what you want it to look like when the data meets certain conditions, and it more or less just works.
 
-The only other thing to note is that I optimized the [SA2 boundries](https://datafinder.stats.govt.nz/layer/98970-statistical-area-2-2019-generalised/), as they are all loaded when the user loads the app. I ran the dataset through [mapshaper.org](https://mapshaper.org/), and made it simplify the geometry somewhat. I also ripped out the uncessary metadata, and as a result, cut the filesize from 21MB to 945KB gzipped.
+The only other thing to note is that I optimized the [SA2 boundries](https://datafinder.stats.govt.nz/layer/98970-statistical-area-2-2019-generalised/), as they are all loaded when the user loads the app. I ran the dataset through [mapshaper.org](https://mapshaper.org/), and it simplified the geometry somewhat. I also ripped out the unnecessary metadata, cut the filesize from 21MB to 945KB gzipped as a result.
 
 ### Visualizations
 
-I spent a few hours experimenting with other libraries, but at the end of the day, the only viable option was [D3.js](https://d3js.org/). I really struggled through this, spending a lot more time on building the simple bubble & bar chart than I should have. As a result, they charts are much less interactive than I would like—you can hover & click on them, but not much more.
+I spent a few hours experimenting with other libraries, but at the end of the day, the only viable option was [D3.js](https://d3js.org/). I really struggled through this, spending a lot more time on building the simple bubble & bar chart than I should have. As a result, the charts are much less interactive than I would like—you can hover & click on them, but not much more.
 
 I wrapped all my mess up in some Web Components (via lit-element), which really simplified things. I bound plenty of event handlers on the map as well as other buttons in the UI, and then just had to update attributes on the components to get everything to update nicely. In a way, it kind of works like a jQuery app from 10 years ago.
 
-That's kinda it! Not much to it—more time was spent on the thinking & design, than the coding itself. That's the way it should be though—start with your customer outcomes, and the tech just becomes a means to build a solution for them.
+That's kinda it! Not much to it—more time was spent on the thinking & design than the coding itself. That's the way it should be though—start with your customer outcomes, and the tech just becomes a means to create a solution.
 
 ## Feedback
 
