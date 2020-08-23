@@ -1,13 +1,13 @@
 layout: page
 title: Me
-date: 2019-01-16 1:00:00
+date: 2020-08-23 1:00:00
 tags:
 
 ---
 
 <div class="mainimg">
-![A photo of Jono](/me/me.jpg)
-<span>Monolithos, Greece - Feb 2016</span>
+  <img alt="A photo of Jono" src="/me/me.jpg">
+  <span>Monolithos, Greece - Feb 2016</span>
 </div>
 
 # About Me
@@ -16,7 +16,7 @@ Hey, I'm Jono. Welcome to my website!
 
 ## Xero
 
-I'm currently a Product Owner at [Xero](https://www.xero.com) in Wellington, New Zealand. At the moment I'm part of the [bank feeds](https://www.xero.com/features-and-tools/accounting-software/bank-connections/) team, making sure that transactions from thousands of financial institutes get into Xero every single day.
+I'm currently a Product Owner at [Xero](https://www.xero.com) in Tāmaki Makaurau, New Zealand. I'm part of the [bank feeds](https://www.xero.com/features-and-tools/accounting-software/bank-connections/) team, making sure that transactions from thousands of financial institutes get into Xero every single day.
 
 Previously, I was a Software Engineerer on our the platform team, where I was responsible for designing and delivering a large-scale Kubernetes deployment, as well as improving and supporting a large Windows deployment, for all of Xero.
 

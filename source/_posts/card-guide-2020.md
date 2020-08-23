@@ -6,12 +6,6 @@ tags:
   - payments
 ---
 
-<style>
-  .article-type-post .article-entry img {
-    max-width: 240px;
-  }
-</style>
-
 There's a large number of debit & credit card options in NZ, so it can be a little daunting when picking one out. That said, there isn't nearly as much competition as the USA or Australia, so it's actually possible to decide the definitive best cards.
 
 A huge amount of research went into the post—we hope it saves you some time and money.
@@ -215,3 +209,9 @@ I have no idea why you would get this.
 Phew. We got there. I hope you found this helpful! A huge amount of research went into this post—thanks to [@multithreddy](https://twitter.com/multithreddy/) again for helping me out.
 
 If you have any questions or comments at all (about any NZ card honestly), tweet us [@consindo](https://twitter.com/consindo/) & [@multithreddy](https://twitter.com/multithreddy/).
+
+<style>
+  .article-type-post .article-entry img {
+    max-width: 240px;
+  }
+</style>
