@@ -70,7 +70,7 @@ I don't own a car, but I've been using [Cityhop](https://www.cityhop.co.nz/) whe
 
 ### Genesis **Electricity**
 
-I currently have this through [Genesis](https://www.genesisenergy.co.nz/), because they offered a great sign up deal. It changes every month, but it's usually ends up to be **less than $80/month**.
+I currently have this through [Genesis](https://www.genesisenergy.co.nz/), because they offered a great sign up deal. It changes every month, but it usually ends up to be **less than $80/month**.
 
 ### Water
 
