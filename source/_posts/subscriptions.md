@@ -44,13 +44,13 @@ I do most of my investing through [Sharesies](https://sharesies.nz/r/CRDHC6), wh
 
 ### YNAB
 
-I use [YNAB](https://www.youneedabudget.com/) to keep my budget under control, and I find it saves me hundreds of dollars every month. I wish it had bank feeds in NZ, but bank feeds are difficult, even in the UK & EU with open Banking. YNAB costs **$7 USD/month**, but it's worth every cent.
+I use [YNAB](https://www.youneedabudget.com/) to keep my budget under control, and I find it saves me hundreds of dollars every month. I wish it had bank feeds in NZ, but bank feeds are difficult, even in the UK & EU with Open Banking. YNAB costs **$7 USD/month**, but it's worth every cent.
 
 ## Offline
 
 ### 2degrees Phone + Internet
 
-I get both through [2degrees](https://www.2degrees.nz/), which tends to have the best international peering. At home, I get 1Gbps and a static IP for **$110/month**. I also have their **$27/month mobile plan** which gives a measly 2.5GB of data. 
+I get both through [2degrees](https://www.2degrees.nz/), which tends to have the best international peering. At home, I get 1Gbps and a static IP for **$110/month**. I also have their **$27/month mobile plan** which gives a measly 2.5GB of data.
 
 ### Auckland Transport
 
@@ -82,7 +82,7 @@ This is a bit of a deal. [Auckland](https://www.aucklandcouncil.govt.nz/) has th
 
 ### Mortgage + Body Corporate + Insurance
 
-It's by far my largest expense each month **(~$2000)**, but it's better than renting, and *way better* than flatting.
+It's by far my largest expense each month **(~$2000)**, but it's better than renting, and _way better_ than flatting.
 
 ---
 
