@@ -8,6 +8,8 @@ tags:
 
 Every city is different, and those differences are reflected in our maps. I find it really interesting that our the differences in landscape and urban form manifest themselves in these maps, and it's cool to be able to directly compare two cities side by side.
 
+![Auckland & Sydney Side by Side](/images/samescale.png)
+
 However, I've never been particularly happy with the tools that exist to do this. So I made one.
 
 **[scale.waka.app](https://scale.waka.app)**
@@ -30,7 +32,7 @@ The hardest part was syncing the zooms. Because of web mercator projection, the 
 
 > zoom2 = log<sub>2</sub>( |cos(lat2)| / |cos(lat1)| / 2<sup>zoom1</sup> )
 
-Other than that, it was straightforward!
+Other than that, it was pretty straightforward! The code is open source—you can go take a look over at <https://github.com/consindo/samescale>.
 
 ## Is it finished?
 
