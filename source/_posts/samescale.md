@@ -28,7 +28,7 @@ You can also search for a location, to save you having to scroll around, and it 
 
 Not really! I did most of it in a morning. It was basically a matter of creating two [Mapbox](https://mapbox.com) maps, and syncing the events between them.
 
-The hardest part was syncing the zooms. Because of web mercator projection, the same zoom level at different latitiudes doesn't necessarily mean things will be the same scale. I spent (admittedly too much) time on coming up with an equation to translate the zoom levels between the two maps. If you're curious, here's the equation:
+The hardest part was syncing the zooms. Because of Web Mercator projection, the same zoom level at different latitudes doesn't necessarily mean things will be the same scale. I spent (admittedly too much) time on coming up with an equation to translate the zoom levels between the two maps. If you're curious, here's the equation:
 
 > zoom2 = log<sub>2</sub>( |cos(lat2)| / |cos(lat1)| / 2<sup>zoom1</sup> )
 
