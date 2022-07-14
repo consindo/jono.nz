@@ -5,9 +5,9 @@ tags:
 
 ---
 
-This page has moved. [View my work.](/me).
+This page has moved. [Home.](/).
 
-<meta http-equiv="refresh" content="0; url=/me">
+<meta http-equiv="refresh" content="0; url=/">
 <style>
 .article-entry {
   max-width: 650px;
