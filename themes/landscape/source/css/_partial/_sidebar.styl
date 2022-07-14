@@ -1,140 +1,56 @@
 $header-size = 48px;
 $header-size-small = 48px;
-
-@keyframes show {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
+$header-font-size = 14px;
 
 nav.sidebar {
-	background-color: darken(#2f3d4c, 60%);
+	background-color: #fff;
 	width: 100%;
 	height: $header-size;
 	transition: 500ms ease background-color;
 	transform-origin: left center;
-	color: lighten(#8793a0, 10%);
+	color: #000;
 	position: fixed;
 	z-index: 10;
-	padding: 0 25px;
+	padding: 0 1.5rem;
 	display: flex;
 	box-sizing: border-box;
 	
-	h1 {
+	h2 {
 		margin: 0;
-		flex: 1;
 	}
 	
-	h1 a {
+	a {
+		color: inherit;
+
+		&:hover {
+			opacity: 0.65;
+		}
+	}
+	
+	h2 a {
 		letter-spacing: 0;
 		display: block;
-		font-size: 17px;
+		font-size: $header-font-size + 1px;
 		text-decoration: none;
 		font-weight: 600;
 		line-height: $header-size;
-		color: #fff;
-
-		&:hover {
-			color: #fff;
-			opacity: 0.65;
-		}
 	}
 	ul {
 		list-style-type: none;
 		padding: 0;
 		margin: 0;
+		flex: 1;
+		text-align: right;
 	}
 	li {
 		display: inline-block;
-		
-		&:last-child a {
-			padding: 0 0 0 10px;
-		}
 	}
 
 	li a {
 		text-decoration: none;
 		display: block;
-		color: #fff;
-		padding: 0 10px;
 		line-height: $header-size;
-		font-size: 14px;
+		font-size: $header-font-size;
 		font-weight: 600;
-
-		&:hover {
-			opacity: 0.65;
-		}
-
-		img {
-			padding: 0;
-			margin-right: 6px;
-			vertical-align: top;
-			margin-top: ($header-size / 2) - 6px;
-		}
-	}
-	
-	#expand {
-		display: none;
-		background-color: transparent;
-		background-image: url('images/icons/menu.png');
-		background-size: 11px 11px;
-		background-repeat: no-repeat;
-		background-position: 12px 52%;
-		font-weight: 600;
-		font-size: 13px;
-		padding-left: 30px;
-		padding-right: 14px;
-		margin-right: -14px;
-		border: 0;
-		outline: 0;
-		color: #fff;
-	}
-	
-	@media(max-width: 290px) {
-		
-		#expand {
-			display: inline-block;
-		}
-		height: $header-size-small;
-		
-		h1 a {
-			line-height: $header-size-small;
-		}
-		ul {
-			position: absolute;
-			display: none;
-			top: $header-size-small;
-			left: 0;
-			right: 0;
-			background: #222;
-
-			&.visible {
-				display: block;
-				animation: show 300ms ease 1;
-
-				&+ #expand {
-					background-color: #222;
-				}
-			}
-		}
-		li {
-			display: block;
-			padding: 0 0.67em;
-			
-			&:hover {
-				background: #000;
-			}
-
-			a {
-				line-height: $header-size-small;
-				
-				img {
-					margin-top: ($header-size-small /2) - 6px;
-				}
-			}
-		}
 	}
 }

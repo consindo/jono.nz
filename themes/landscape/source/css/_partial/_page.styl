@@ -1,7 +1,9 @@
 $ideal-width = 1600px;
+$sans = 'Barlow', 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+$serif = "EB Garamond", "Georgia", serif;
+
 html, body {
-	height: 100%;
-	font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+	font-family: $sans;
 	padding: 0;
 	margin: 0;
 }
@@ -27,48 +29,8 @@ html, body {
 	font-family: "Emoji";
 }
 
-.article-type-page .article-header {
-	text-align: center;
-	background: url('images/projects.jpg') 50% 100% no-repeat;
-	background-size: cover;
-	height: 250px;
-	padding-top: 300px;
-		
-	h1 {
-		font-size: 6em;
-		letter-spacing: -3px;
-		margin: 25px 0 0;
-		display: inline-block;
-		padding: 0 1px;
-		line-height: 1.75;
-		// background: #000;
-		color: #fff;
-	}
-	
-	@media(max-width: 1000px) {
-		padding-top: 200px;
-		height: 150px;
-		h1 {
-			font-size: 4em;
-			letter-spacing: -2px;
-		}
-	}
-	@media(max-width: 700px) {
-		background: url('images/projects_small.jpg') 50% 100% no-repeat;
-		background-size: cover;
-	}
-	@media(max-width: 500px) {
-		padding-top: 100px;
-		height: 100px;
-		h1 {
-			letter-spacing: -1px;
-			font-size: 3em;
-		}
-	}
-}
-
 .article-entry {
-	padding-top: 60px;
+	padding-top: 1rem;
 	
 	@media(max-width: 500px) {
 	  padding-top: 48px;
@@ -86,8 +48,7 @@ p {
 
 $footer-height = 32px;
 .article-meta {
-	float: right;
-	margin: 0;
+	margin: 0 0 1rem;
 	p  {
 		margin: 0;
 		line-height: $footer-height;
@@ -105,7 +66,7 @@ footer {
 	color: #999;
 	font-size: 11px;
 	line-height: $footer-height;
-	padding: 0 10px 15px;
+	padding: 0 1.5rem 1rem;
 	font-weight: bold;
 	
 	.wrapper {
