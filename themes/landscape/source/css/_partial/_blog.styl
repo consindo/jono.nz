@@ -1,7 +1,5 @@
 .banner.blog {
-	border-top: 48px solid #000;
-	text-align: center;
-	padding: 60px 0;
+	padding: 5rem 1.5rem 1rem;
 	
 	h1 {
 		font-size: 3em;
@@ -12,30 +10,21 @@
 		margin: 0 auto;
 	}
 	
-	@media (max-width: 500px) {
-		border-top: 40px solid #000;
-		padding: 40px 0;
-		h1 {
-			letter-spacing: -3px;
-			font-size: 4em;
-		}
+	p {
+		font-family: $serif;
+		font-size: 1.25rem;
 	}
 }
 
 .archives-wrap {
-	padding: 0 25px;
-}
-
-.archives {
-	text-align: center;
+	padding: 0 1.5rem;
 }
 
 .archive-year-wrap {
-	text-align: center;
-	margin-bottom: 1.5em;
+	margin: 3rem 0 1rem;
 	
 	a {
-		color: #999;
+		color: #000;
 		font-weight: bold;
 		font-size: 1.3em;
 		text-decoration: none;
@@ -44,24 +33,23 @@
 
 .archive-article-inner {
 	time {
-		font-size: 0.9em;
+		font-size: 1rem;
 		color: #888;
+		font-family: $serif;
 	}
 	h1 {
-		max-width: 600px;
-		margin: 0 auto 1.5em;
+		margin: 0 auto 1.5rem;
 		line-height: 1.33;
 	}
 	h1 a {
 		
 		color: #000;
-		font-size: 1.2em;
+		font-size: 1.75rem;
 		text-decoration: none;
 		transition: 150ms ease all;
 
 		&:hover {
-			background: #000;
-			color: #fff;
+			opacity: 0.65;
 		}
 		
 		@media (max-width: 500px) {

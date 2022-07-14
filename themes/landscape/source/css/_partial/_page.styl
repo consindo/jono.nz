@@ -8,10 +8,6 @@ html, body {
 	margin: 0;
 }
 
-#main {
-	// margin-left: 150px;
-}
-
 @font-face {
   font-family: emoji;
 
@@ -46,54 +42,56 @@ p {
 	margin: 0 0 1.5em;
 }
 
-$footer-height = 32px;
 .article-meta {
 	margin: 0 0 1rem;
-	p  {
-		margin: 0;
-		line-height: $footer-height;
-	}
-	@media (max-width: 500px) {
-		float: none;
-		padding-bottom: 15px;
-		p {
-			line-height: 24px;
-		}
-	}
 }
 footer {
-	height: $footer-height;
-	color: #999;
-	font-size: 11px;
-	line-height: $footer-height;
-	padding: 0 1.5rem 1rem;
+	padding: 1.25rem 0;
+	margin: 4rem 1.5rem 0.75rem;
 	font-weight: bold;
+	border-top: 1px dotted #888;
 	
-	.wrapper {
-		max-width: $ideal-width - 30;
-		margin: 0 auto;
-		padding: 0 30px;
+	.email {
+		font-size: 1.5rem;
 	}
-	.copyright {
-		display: inline-block;
-		text-transform: uppercase;
-		
+	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 1rem 0;
+		display: flex;
+		font-size: 1rem;
 	}
+	
+	@media (min-width: 600px) {
+		.email {
+			font-size: 1.75rem;
+		}
+		ul {
+			font-size: 1.25rem;
+		}
+	}
+
+	li {
+		padding-right: 1rem;
+	}
+	
+
 	a {
 		color: inherit;
 		text-decoration: none;
 		&:hover {
-			text-decoration: underline;
+			opacity: 0.65;
 		}
 	}
 	
-	@media (max-width: 500px) {
-		padding: 0;
-		line-height: 24px;
+	.copyright {
+		flex: 1;
+		text-align: right;
+		display: none;
 		
-		.wrapper {
-			padding: 0 25px;
+		@media (min-width: 350px) {
+			display: block;
 		}
 	}
-	
 }
