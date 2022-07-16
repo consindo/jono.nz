@@ -1,5 +1,7 @@
 .banner.blog {
 	padding: 5rem 1.5rem 1rem;
+	max-width: $max-width;
+	margin: 0 auto;
 	
 	h1 {
 		font-size: 3em;
@@ -18,6 +20,29 @@
 
 .archives-wrap {
 	padding: 0 1.5rem;
+	max-width: $max-width;
+	margin: 0 auto;
+}
+
+#page-nav {
+	padding: 1.5rem;
+	max-width: $max-width;
+	margin: 0 auto;
+	font-size: 1.25rem;
+	
+	a {
+		color: inherit;
+		text-decoration: none;
+		border-bottom: 1px dotted #000;
+	}
+	
+	.page-number {
+		margin-right: 0.5rem;
+		display: none;
+	}
+	.extend, .current {
+		font-weight: bold;
+	}
 }
 
 .archive-year-wrap {
