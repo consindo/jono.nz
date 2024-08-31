@@ -13,11 +13,8 @@
   --color-gray-60: #525252; 
   --color-gray-90: #171717;
 
-  /* yeaaah wide gamut */
-  --accent-color: #005d58;
-  --accent-color: lch(30 78 189);
-  --accent-color-hover: #00857d;
-  --accent-color-hover: lch(45 78 189);
+  --accent-color: #006660;
+  --accent-color-hover: #007e78;
 
   --background-color: #fffbf0;
   --border: 1px dotted rgba(0, 0, 0, 0.2);
@@ -34,6 +31,14 @@
   --footer-margin: 2rem;
   --wide-width: 1800px;
   --prose-width: 800px;
+}
+
+/* yeaaah wide gamut */
+@media (color-gamut: p3) {
+  :root {
+    --accent-color: oklch(45% 0.105 189);
+    --accent-color-hover: oklch(53% 0.105 189);
+  }
 }
 
 /* dark mode coming soon  */
@@ -364,6 +369,7 @@ h2 + .header-anchor {
 
 img {
   max-width: 100%;
+  height: auto;
   border: var(--border);
   margin: 0 auto;
   display: block;

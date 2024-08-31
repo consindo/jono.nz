@@ -7,7 +7,7 @@ tags:
 
 Every city is different, and those differences are reflected in our maps. I find it really interesting that our the differences in landscape and urban form manifest themselves in these maps, and it's cool to be able to directly compare two cities side by side.
 
-![Auckland & Sydney Side by Side](/images/samescale.png)
+{% image "../../public/images/samescale.png", "Auckland & Sydney Side by Side" %}
 
 However, I've never been particularly happy with the tools that exist to do this. So I made one.
 

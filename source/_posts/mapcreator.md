@@ -28,7 +28,7 @@ Things get more and more complicated the moment you introduce 3, 4, 5+ lines. Mo
 
 As the application essentially runs a [Breadth-first search](https://en.wikipedia.org/wiki/Breadth-first_search) and outputs a SVG, I decided against using a framework like React, Vue, or Angular for now. Web components were the perfect lightweight solution I needed.
 
-![Storybook with all the different test cases](/images/mapcreator/storybook.png)
+{% image "../../public/images/mapcreator/storybook.png", "Storybook with all the different test cases" %}
 
 By regression testing any small tweak to my code, I was able to come up with a general solution for any angle, any number of lines, and any change in stacking. As a bonus, I was able to delete lots of code once I arrived at my pair of equations!
 

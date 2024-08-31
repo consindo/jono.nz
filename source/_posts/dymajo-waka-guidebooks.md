@@ -10,7 +10,7 @@ There's a lot more to a transport network than maps and timetables. Each city ha
 
 That's why we're introducing local guidebooks in Waka. These are local guides to help you understand your city's transport and get around more effectively. They're designed to be super handy if you've never used the network before, but you might still learn a thing or two if you're a long-time user! They're also a quick & easy reference to things like zones & fares. Additionally, these guides are open source and _editable by anyone!_
 
-![Waka Guidebooks](/images/waka-guides.jpg)
+{% image "../../public/images/waka-guides.jpg", "Waka Guidebooks" %}
 
 _Te Whanganui-a-Tara, Wellington_ is our first city with a guidebook. We've currently just got the basics in there - some fare information, and how to get to the airport. We would love to [get your feedback](https://waka.app/feedback) to see what you think and decide whether we should roll out these guides to more cities!
 

@@ -19,7 +19,7 @@ A year elapsed between purchasing the unit off the plans and moving in. The buil
 
 I'm really happy with the place! It's just really nice living in a new apartment and having modern amenities such as air conditioning, insulation, and double glazing (man, I wish this was more common in NZ). The neighborhood is also pretty good—while it's not in the CBD, it's only a five minute walk to the train+bus interchange and other shops. As a result, the apartment doesn't come with car parking (although it does come with bike parking & lockers), which ends up reducing the total cost of the place.
 
-![Fisher & Paykel Kitchen](/images/house.jpg)
+{% image "../../public/images/house.jpg", "The Kiwibuild apartment" %}
 
 The apartment itself is pretty spacious for a one bedroom (54m<sup>2</sup>) and is reasonably well designed. There's large windows which get lots of light and it has a sun room, which is way more practical than a balcony. If I had to nitpick, the kitchen has some weird design (the microwave space isn't big enough for a microwave) and the shower pressure could be better (this is actually to save water—[Auckland is in a drought](https://aucklandwatersupply.co.nz/)).
 
@@ -33,7 +33,7 @@ I ended up going with [Westpac](https://westpac.co.nz), but I think they're all 
 
 ## Fisher & Paykel Appliances
 
-![Fisher & Paykel Kitchen](/images/fisher-paykel.jpg)
+{% image "../../public/images/fisher-paykel.jpg", "Fisher & Paykel Kitchen" %}
 
 The apartment came with the usual (oven, rangehood, stove, dishdrawer), and I got a matching [fridge](https://www.fisherpaykel.com/nz/kitchen/fridges-freezers/fridges/activesmartfridge-635mm-bottom-freezer-403l-5.RF402BRGX6.html) & [washing machine](https://www.fisherpaykel.com/nz/laundry/washing-machines/front-loaders/fabricsmart-8-0kg.WH8060F1.html). They seem to do what they're supposed to, look nice, and weren't expensive. Unfortunately, the apartment didn't allow any customization, but I'll probably upgrade to a Fisher & Paykel induction stove in the future.
 
@@ -41,7 +41,7 @@ The apartment came with the usual (oven, rangehood, stove, dishdrawer), and I go
 
 We don't have IKEA in NZ yet, but this sofa was too good to pass up. It unfolds into a sofa bed, but in a unique way—the seat slides out, and the back folds down. As a result, it's much more comfortable than most sofa beds. There's also plenty of storage in the base. 
 
-![IKEA FRIHETEN](/images/ikea-friheten.jpg)
+{% image "../../public/images/ikea-friheten.jpg", "IKEA FRIHETEN" %}
 
 The only downside is that it weighs 115kg! I purchased it from [Urban Sales](https://www.urbansales.co.nz/ikea-friheten-three-seat-sofa-bed-skiftebo-dark-grey), and it arrived in about six weeks (even with the lockdown).
 
@@ -53,7 +53,7 @@ It also didn't come in a box—it just came rolled up in the back seat of some d
 
 ## Target Furniture
 
-![Target Furniture Showroom](/images/target-furniture.jpg)
+{% image "../../public/images/target-furniture.jpg", "Target Furniture Showroom" %}
 
 I bought a [table](https://www.targetfurniture.co.nz/veno-1500-extension-table) & [chairs](https://www.targetfurniture.co.nz/dining/furniture/chairs/liva-dining-chair-dark-grey) from Target, and I'll definitely be going back to get more furniture. They have nice things, are reasonably cheap, and their showroom contains most of what they sell online. I went to their store in Botany and was able to pick up the table the same day, but had to wait a week for the chairs to arrive from Wellington.
 
@@ -73,15 +73,17 @@ That said, it's almost the same price as an Xbox. If you don't already have a ga
 
 The speeds ain't bad, but I'm still looking forward to [Hyperfibre](https://hyperfibre.chorus.co.nz/).
 
-<img class="speedtest" alt="2ms ping, 915.49mbps down, 392.66mbps up" src="https://www.speedtest.net/result/9602841682.png" />
+<div class="speedtest">
+  {% image "../../public/images/speedtest-9602841682.png", "2ms ping, 915.49mbps down, 392.66mbps up" %}
+</div>
 
 <style>
-  img.speedtest {
-    width: 350px !important;
-    height: 200px !important;
+  .speedtest {
+    max-width: 350px;
+  }
+  .speedtest img {
+    border: 0;
   }
 </style>
-
----
 
 Hope you enjoyed this little review of things! I'm still in the process of getting new things, so I might review those in a future post.

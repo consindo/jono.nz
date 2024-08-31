@@ -16,11 +16,11 @@ I recently built a data visualization for a [NZ Census data competition](https:/
 
 My overall goal with the app was to make the [commuter view data](https://datafinder.stats.govt.nz/data/category/census/2018/commuter-view/) as accessible as possible, so I started by creating a visualization familiar to many people: an election map. Elections can be quite binary, so I found that this visual representation translates well to arrivals & departures for a geographical area. While colours are pretty, I also wanted make this tool useful to real people, so I added some additional insights to complement the main map.
 
-![Waka Commuter Map View](/images/waka-commuter-map.png)
+{% image "../../public/images/waka-commuter-map.png", "Waka Commuter Map View" %}
 
 Upon selecting a region, you're presented with a text summary and a more abstract bubble view of arrivals & departures. This visualization still aims to be roughly spacial, but ignores land area and uses commuter volumes instead. A chart showing the overall travel modes is also included as this can provide additional context to people's travel patterns. Due to data suppression, I was not able to use the commuter view dataset, and used the [aggregated census data instead](http://nzdotstat.stats.govt.nz/WBOS/Index.aspx?DataSetCode=TABLECODE8296).
 
-![Waka Commuter Insights](/images/waka-commuter-insights.png)
+{% image "../../public/images/waka-commuter-insights.png", "Waka Commuter Insights" %}
 
 I included options to filter by arrivals/departures & work/education. Patterns can be quite different, so it's fun to toggle the options and see the visualizations update in real-time! As the SA2 boundaries are small, you can also Ctrl+Click to multi-select and view insights for larger areas (e.g an entire city centre).
 
@@ -36,7 +36,7 @@ Databases are great, but they can be expensive to run. It's also just something 
 
 As the dataset doesn't change (except when there's a new Census!), I wrote some scripts to process all the data and output a JSON file for each area unit. You end up with a lot of files (2,474), but it becomes a psuedo-API.
 
-![Waka Commuter psuedo-API](/images/waka-commuter-api.png)
+{% image "../../public/images/waka-commuter-api.png", "Waka Commuter psuedo-API" %}
 
 I ended up using [Netlify](https://netlify.com) to deploy it, mostly because I can't use GitHub pages with more than one custom domain (already using it for this site). I'm impressed though—you just point it to your GitHub repo, it builds everything really quickly, and then kinda just works—SSL etc is all sorted. I'll definitely be using it more in the future.
 
