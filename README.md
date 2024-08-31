@@ -1,9 +1,8 @@
 # jono.nz
 
-This is my website, it uses Hexo as a static site generator.
+This is my website, it uses 11ty as a static site generator.
 
 ## Build & Deploy
 
-- `npm run server` - Run a server locally
-- `npm run generate` - Generate the contents
-- `npm run deploy` - Uses the git deployer to deploy
+- `npm run dev` - Run a server locally
+- `npm run build` - Generate the contents

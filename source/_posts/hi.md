@@ -1,4 +1,4 @@
-layout: post
+---
 title: This is my awesome website
 date: 2016-07-17 16:54:21
 tags:

@@ -1,26 +1,19 @@
 {
   "name": "jono-nz",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "hexo": "hexo",
-    "server": "hexo server -p 8080",
-    "generate": "hexo generate",
-    "deploy": "hexo generate && hexo deploy"
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve"
   },
-  "hexo": {
-    "version": "6.2.0"
-  },
-  "dependencies": {
-    "hexo": "^6.2.0",
-    "hexo-deployer-git": "^3.0.0",
-    "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-category": "^1.0.0",
-    "hexo-generator-index": "^2.0.0",
-    "hexo-generator-tag": "^1.0.0",
-    "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^5.0.0",
-    "hexo-renderer-stylus": "^2.0.0",
-    "hexo-server": "^3.0.0"
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0-beta.1",
+    "@11ty/eleventy-img": "^3.1.1",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-bundle": "^1.0.4",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "luxon": "^3.3.0",
+    "markdown-it-anchor": "^8.6.7"
   }
 }

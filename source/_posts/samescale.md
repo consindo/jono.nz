@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Same Scale
 date: 2021-09-04 18:00:00
 tags:

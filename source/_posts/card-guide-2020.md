@@ -1,5 +1,4 @@
 ---
-layout: post
 title: The best NZ debit & credit cards of 2020
 date: 2020-06-21 10:30:00
 tags:
@@ -211,7 +210,9 @@ Phew. We got there. I hope you found this helpful! A huge amount of research wen
 If you have any questions or comments at all (about any NZ card honestly), tweet us [@consindo](https://twitter.com/consindo/) & [@multithreddy](https://twitter.com/multithreddy/).
 
 <style>
-  .article-type-post .article-entry img {
+  .post img {
     max-width: 240px;
+    border: 0;
+    margin: 0;
   }
 </style>

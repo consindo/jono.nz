@@ -1,4 +1,4 @@
-layout: post
+---
 title: "Kubernetes Forum Sydney"
 date: 2019-12-16 20:07:00
 tags:

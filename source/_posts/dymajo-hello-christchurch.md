@@ -1,7 +1,6 @@
 ---
-layout: post
 title: 'Waka Christchurch'
-date: '2019-09-17 09:00:00 +1200'
+date: 2019-09-17 09:00:00
 tags:
 - dymajo
 - waka

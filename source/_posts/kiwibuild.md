@@ -1,5 +1,4 @@
 ---
-layout: post
 title: I bought some things
 date: 2020-06-15 8:00:00
 tags:

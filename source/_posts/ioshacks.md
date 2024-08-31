@@ -1,4 +1,4 @@
-layout: post
+---
 title: Mobile Safari Hacks
 date: 2016-12-30 8:30:00
 tags:

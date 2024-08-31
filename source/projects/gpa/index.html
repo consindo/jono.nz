@@ -1,23 +1,26 @@
-layout: page
+---
+layout: layouts/base.njk
 title: GPA Calculator
 date: 2016-10-31 12:00:00
-tags:
 ---
+
 <style>
   .gpa-wrapper {
-    background: #ecf0f1;
-    padding: 2rem 0;
+    padding: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
   }
   .gpatitle {
-    font-weight: 900;
+    font-weight: 800;
     color: #888;
-    text-shadow: 0 -1px 0 #eee;
     text-transform: uppercase;
     text-align: center;
     margin-top: 50px;
+    font-family: var(--font-family-sans-serif);
   }
   .gpacalc h2 {
     margin: 10px 0;
+    font-family: var(--font-family-sans-serif);
   }
   .gpacalc h2 span {
     font-weight: normal;
@@ -25,7 +28,6 @@ tags:
   .gpacalc  {
     box-shadow: 0 1px 2px rgba(0,0,0,0.2);
     background: #fff;
-    max-width: 600px;
     padding: 20px;
     box-sizing: border-box;
     width: 100%;
@@ -83,7 +85,6 @@ tags:
   }
   #instructions {
     width: 100%;
-    max-width: 600px;
     margin: 10px auto 50px;
     font-size: 14px;
     color: #333;
@@ -111,6 +112,7 @@ tags:
 <p><strong>Unweighted Grades:</strong> If your number is less than one, it'll be an unweighted grade (you can also use the division). You can then use the weighting box to add a weight.</p>
 <p><strong>Weighted Grades:</strong> If your number is greater than one, it's a weighted grade - just put what it's out of in the weighting box.</p>
 </div>
+<p>Looking for a more advanced calculator? Try <a href="https://apps.apple.com/us/app/percent-grade-calculator/id1672967259">Percent</a> on the App Store.</p>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
 <script>

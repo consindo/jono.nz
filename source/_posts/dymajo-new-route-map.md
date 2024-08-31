@@ -1,7 +1,6 @@
 ---
-layout: post
 title: 'New Route Maps in Waka'
-date: '2019-09-04 12:00:00 +1200'
+date: 2019-09-04 12:00:00
 tags:
 - dymajo
 - waka

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How does Waka work? - Part 1
 date: 2017-10-08 19:56:43
 tags:

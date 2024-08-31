@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "Leave Feedback in Waka"
-date: "2020-01-08 12:00:00 +1200"
+date: 2020-01-08 12:00:00
 tags:
 - dymajo
 - waka

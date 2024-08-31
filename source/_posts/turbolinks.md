@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Turbolinks
 date: 2018-04-02 10:28:17
 tags:

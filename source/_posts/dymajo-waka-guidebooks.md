@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "Waka Local Guidebooks"
-date: 2020-02-02 12:00:00 +1200
+date: 2020-02-02 12:00:00
 tags:
 - dymajo
 - waka

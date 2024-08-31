@@ -1,4 +1,4 @@
-layout: post
+---
 title: XPS 13 vs Surface
 date: 2016-08-31 22:00:00
 tags:

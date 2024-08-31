@@ -9,14 +9,14 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: clone deployment repo
-        run: git clone https://github.com/consindo/consindo.github.io.git .deploy_git
+        run: git clone https://github.com/consindo/consindo.github.io.git _site
       - name: restore packages
         run: npm ci
       - name: build
-        run: npm run generate
+        run: npm run build
       - name: commit changes
         run: |
-          cd .deploy_git
+          cd _site
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
@@ -25,6 +25,6 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GIT_CREDENTIALS }}
-          directory: .deploy_git
+          directory: _site
           repository: consindo/consindo.github.io
 

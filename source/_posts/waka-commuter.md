@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Waka Commuter
 date: 2020-08-23 11:45:00
 tags:
@@ -9,7 +8,9 @@ tags:
 
 I recently built a data visualization for a [NZ Census data competition](https://www.stats.govt.nz/news/winner-announced-for-2018-census-commuter-data-visualisation-competition), and ended up winning! I figured I would go through some of the thinking behind it, as well as how I built it.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Congrats <a href="https://twitter.com/consindo?ref_src=twsrc%5Etfw">@consindo</a>! Using Census data, Jono has developed a very cool way of showing where people all over NZ (usually) travel to and from for work and study. <a href="https://t.co/oAamoSmVjB">https://t.co/oAamoSmVjB</a> <a href="https://t.co/ieIv9LbW4h">https://t.co/ieIv9LbW4h</a></p>&mdash; James Shaw (@jamespeshaw) <a href="https://twitter.com/jamespeshaw/status/1294100223547990017?ref_src=twsrc%5Etfw">August 14, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<jc-center>
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Congrats <a href="https://twitter.com/consindo?ref_src=twsrc%5Etfw">@consindo</a>! Using Census data, Jono has developed a very cool way of showing where people all over NZ (usually) travel to and from for work and study. <a href="https://t.co/oAamoSmVjB">https://t.co/oAamoSmVjB</a> <a href="https://t.co/ieIv9LbW4h">https://t.co/ieIv9LbW4h</a></p>&mdash; James Shaw (@jamespeshaw) <a href="https://twitter.com/jamespeshaw/status/1294100223547990017?ref_src=twsrc%5Etfw">August 14, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</jc-center>
 
 ## The idea
 

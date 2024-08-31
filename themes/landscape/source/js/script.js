@@ -1,1 +1,0 @@
-// no js! you will need to enable this in head.ejs
