@@ -35,6 +35,7 @@ export default function (eleventyConfig) {
 		let metadata = await eleventyImage(input, {
 			widths: widths || ["auto"],
 			formats,
+			urlPath: "/images/",
 			outputDir: path.join(eleventyConfig.dir.output, "images"), // Advanced usage note: `eleventyConfig.dir` works here because we’re using addPlugin.
 		})
 
