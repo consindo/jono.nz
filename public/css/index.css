@@ -102,6 +102,9 @@ p {
   line-height: 1.5;
   margin: 1em 0 1.5em;
 }
+ul + p {
+  margin-top: 1.5em;
+}
 
 li {
   line-height: 1.5;
@@ -138,6 +141,7 @@ jc-container {
 }
 jc-container[width="prose"] {
   max-width: var(--prose-width);
+  text-wrap: pretty;
 }
 
 @media (min-width: 600px) {
@@ -185,7 +189,7 @@ pre:not([class*="language-"]) {
   word-break: normal;
 }
 code {
-  word-break: break-all;
+  word-break: break-word;
 }
 
 /* Header */
@@ -203,6 +207,7 @@ header nav {
   padding-top: 1px;
   border-bottom: var(--border);
 }
+
 a.home-link {
   font-size: 0.8em;
   font-weight: 600;
@@ -348,6 +353,10 @@ footer li a[href]:not(:hover), footer li a[href]:not(:hover):visited {
   text-decoration-thickness: 1px;
 }
 
+.footnotes {
+  font-size: 90%;
+}
+
 /* Direct Links / Markdown Headers */
 .header-anchor {
   font-style: normal;
@@ -422,9 +431,13 @@ strong {
   font-weight: 600;
 }
 
-code {
-  font-size: 80%;
+pre[class*="language-"] {
+  margin: 1.5rem 0;
 }
+code, pre[class*="language-"] {
+  font-size: 85%;
+}
+
 code strong {
   font-weight: inherit;
   color: var(--accent-color);
@@ -461,4 +474,19 @@ a.button:hover, a.button[href]:hover, a.button[href]:visited:hover {
 }
 .projects-list p {
   margin: 0.25em 0;
+}
+
+@media print {
+  html, body {
+    background: #fff;
+  }
+  header, footer {
+    display: none;
+  }
+  main {
+    padding-top: 0;
+  }
+  jc-container {
+    padding: 0;
+  }
 }

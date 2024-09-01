@@ -1,5 +1,6 @@
 import { DateTime } from "luxon"
 import markdownItAnchor from "markdown-it-anchor"
+import markdownItFootnote from "markdown-it-footnote"
 
 import pluginRss from "@11ty/eleventy-plugin-rss"
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight"
@@ -81,6 +82,9 @@ export default function (eleventyConfig) {
 
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
+		mdLib.set({
+			typographer: true
+		})
 		mdLib.use(markdownItAnchor, {
 			permalink: markdownItAnchor.permalink.ariaHidden({
 				placement: "after",
@@ -91,6 +95,7 @@ export default function (eleventyConfig) {
 			level: [1, 2, 3, 4],
 			slugify: eleventyConfig.getFilter("slugify")
 		})
+		mdLib.use(markdownItFootnote)
 	})
 
 	eleventyConfig.addShortcode("currentBuildDate", () => {
