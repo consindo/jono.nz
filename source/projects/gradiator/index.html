@@ -1,0 +1,217 @@
+---
+layout: layouts/base.njk
+title: Gradiator
+description: Make CSS gradients with ease
+date: 2023-09-17 12:00:00
+---
+
+<!--
+Copyright (C) 2011 Caffeinated Code <http://caffeinatedco.de>
+Copyright (C) 2011 Jono Cooper
+Copyright (C) 2011 George Czabania
+This program is free software: you can redistribute it and/or modify it 
+under the terms of the GNU General Public License version 3, as published 
+by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful, but 
+WITHOUT ANY WARRANTY; without even the implied warranties of 
+MERCHANTABILITY, SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR 
+PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along 
+with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<link rel="stylesheet" href="gradiator.css">
+<h1 class="logo">
+	<picture>
+		<source srcset="img/logo.avif" type="image/avif">
+		<img alt="Gradiator" src="img/logo.png" />
+	</picture>
+</h1>
+<div id="gradiator">
+	<div class="modal" id="code"></div>
+	<div class="modal" id="saveGradient">
+		<h2>Save Gradient</h2>
+		<hr>
+		<div class="saveGradient">
+			<div class="saveGradientPreview"></div>
+		</div>
+		<input type="text" placeholder="Name?">
+		<a href="#" class="save button">Save</a><a href="#" class="close button">Cancel</a>
+	</div>
+	<div class="modal" id="settings">
+			<div class="settingsTitle">Color Format:</div>
+			<form class="settingsForm">
+				<select id="colorFormat">
+					<option value="hex">HEX</option>
+					<option value="rgb">RGB</option>
+					<option value="hsl">HSL</option>
+				</select>
+			</form>
+		<br class=clear>
+			<div class="settingsTitle">Browser Support:</div>
+			<form id="prefix" class="settingsForm">
+				<input type="checkbox" data-name="scss" id="prefixScss" class="prefix"><label for="prefixScss">SASS (Compass)</label><br><br>
+				<input type="checkbox" data-name="webkit" id="prefixWebkit" class="prefix"><label for="prefixWebkit">Webkit (Chrome, Safari)</label><br>
+				<input type="checkbox" data-name="moz" id="prefixMoz" class="prefix"><label for="prefixMoz">Mozilla Firefox</label><br>
+				<input type="checkbox" data-name="o" id="prefixO" class="prefix"><label for="prefixO">Opera</label><br>
+				<input type="checkbox" data-name="ms" id="prefixIE10" class="prefix"><label for="prefixIE10">Internet Explorer 10</label><br>
+				<input type="checkbox" data-name="w3" id="prefixW3" class="prefix"><label for="prefixW3">W3 Standard</label><br>
+				<input type="checkbox" data-name="legacywebkit" id="prefixLegacywebkit" class="prefix"><label for="prefixLegacywebkit">Legacy Webkit</label><br>
+				<input type="checkbox" data-name="filter" id="prefixOldIE" class="prefix"><label for="prefixOldIE">Internet Explorer 6-9</label><br>
+				<input type="checkbox" data-name="svg" id="prefixSVG" class="prefix"><label for="prefixSVG">SVG</label><br>
+			</form>
+		<br class=clear>
+			<div class="settingsTitle">Fallback:</div>
+			<form id="fallback" class="settingsForm">
+				<input type="checkbox" data-name="solid" id="fallbackSolid" class="fallback"><label for="fallbackSolid">Solid Color</label><br>
+				<select id="fallbackType">
+					<option value="first">First color</option>
+					<option value="last">Last color</option>
+					<option value="average">Average color</option>
+				</select>
+			</form>
+		<br class=clear><hr>
+		<a href="#" id="settingsHelpBTN" onclick="os.send('help', '')" class="huge button">Help</a>
+		<a href="#" class="huge button close">Back</a>
+	</div>
+
+	<div class="modal" id="copy">
+		<h2>CSS copied to clipboard</h2>
+	</div>
+
+	<div class="tooltip" id="manualDirection">
+		<h1>Specify Angle</h1>
+		<input id="angle" type="number" min="0" max="360">
+	</div>
+
+	<div class="modal" id="manage">
+		<h2>Manage Gradients</h2>
+		<a href="#" id="storedGradientView" class="thumbnails"></a>
+		<hr>
+		<div id="storedGradientBox"></div>
+		<hr>
+		<a href="#" id="manageLoadBTN" class="big button">load</a>
+		<a href="#" id="manageRemoveBTN" class="big button">remove</a>
+		<a href="#" class="big button close">back</a>
+	</div>
+
+	<div class="modal" id="donate">
+		<div id="donatetext"></div>
+		<div style="margin: 1rem 0 0;">
+		<!-- <a href="#" id="donatesend" onclick="os.send('web', 'http://gradient.inatorapp.com')" class="huge button">Donate</a> -->
+		<a href="#" class="huge button close">Close</a>
+		</div>
+	</div>
+
+	<div id="overlay"></div>
+	<div id="wrapper">
+			<section id="gradientEditor">
+				<div id="preview"></div>
+				<div id="previewBG"></div>
+				<section id="slider"></section>
+			</section>
+			<section id="gradientDetails"><div id="alpha">
+				alpha
+				<input type="number" class="number" maxlength="3" max="100" min="0">
+				</div><div id="color">
+				color
+				<pre><span class="number"></span></pre>
+				</div><div id="position">
+				position
+				<input type="number" class="number" maxlength="3" max="100" min="0">
+				</div><input id="alphaCFG" type="range" min="0" max="100" step="1"><input id="positionCFG" type="range" min="0" max="100" step="1"><div id="colorCFG">
+				<nav><ul><li class="selected" id="hexBTN">HEX</li>
+				<li id="rgbBTN">RGB</li>
+				<li id="hslBTN">HSL</li>
+				</ul></nav><div id="inputColor">
+				<input type="text" id="hexInput" maxlength="7"><div id="rgbInput">
+				<label>R:</label><input type="number" max="255" min="0" class="0">
+				<label>G:</label><input type="number" max="255" min="0" class="1">
+				<label>B:</label><input type="number" max="255" min="0" class="2">
+				</div><div id="hslInput">
+				<input type="number" max="359" min="0" class="0"><label style="font-size: 17px">&deg;</label>
+				<input type="number" max="100" min="0" class="1"><label>%</label>
+				<input type="number" max="100" min="0" class="2"><label>%</label>
+				</div></div><div id="picker"><label><input type="color">
+				pick<br>color</label></div></div><div id="delete">
+				remove<br>
+				stop
+				</div>
+			</section>
+		<section id="leftcol">
+			<section id="config">
+				<section class="switch">
+					<p class="label">linear</p>
+					<a href="#" id="configSwitch" class="linear">
+						<div class="bullet"></div>
+					</a>
+					<p class="label">radial</p>
+				</section>
+				<div id="configLinear">
+					<section id="direction">
+						<div class="d135"></div>
+						<div class="d90"></div>
+						<div class="d45"></div>
+						<div class="d180"></div>
+						<div class="manual"></div>
+						<div class="d0"></div>
+						<div class="d225"></div>
+						<div class="d270"></div>
+						<div class="d315"></div>
+					</section>
+				</div>
+				<div id="configRadial" style="display:none">
+					<div id="radialXY">
+						<label for="posX">X:</label>
+						<input id="posX" name="posX" type="number" value="50" min="0" max="100">
+						<label for="posX">Y:</label>
+						<input id="posY" name="posY" type="number" value="50" min="0" max="100"><br><br>
+					</div>
+
+					<div class="toggle" id="shape">
+						<div id="circle" class="button highlight">
+							Circle
+						</div><div id="ellipse" class="button">
+							Ellipse
+						</div>
+						<div class="menu">
+						</div>
+					</div>
+					<div class="dropdown" id="size">
+						<div class="button">
+							Size
+						</div>
+						<div class="menu">
+							<ul>
+								<li class="closest-side">Closest Side</li>
+								<li class="closest-corner">Closest Corner</li>
+								<li class="farthest-side">Farthest Side</li>
+								<li class="farthest-corner">Farthest Corner</li>
+								<li class="contain">Contain</li>
+								<li class="cover">Cover</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div id="btnWrap">
+					<a href="#" id="saveBTN" class="button">save</a><a href="#" id="loadBTN" class="button">load</a>
+					<a href="#" id="settingsBTN" class="button">settings</a><a href="#" id="donateBTN" class="button">about</a>
+				</div>
+			</section>
+		</section><section id="rightcol">
+			<div id="gradientResultWrap">
+				<div id="final">
+				</div>
+				<div id="finalBG"></div>
+			</div>
+			<a href="#" id="copyBTN" class="button">get code</a>
+		</section>
+	</div>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/jquery.effects.core.js"></script>
+<script src="js/jquery.effects.slide.js"></script>
+<script src="js/pystorage.js"></script>
+<script src="js/mousewheel.js"></script>
+<script src="js/scripts.js"></script>
+</div>

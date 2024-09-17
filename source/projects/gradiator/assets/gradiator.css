@@ -1,0 +1,1187 @@
+/*
+
+Copyright (C) 2011 Caffeinated Code <http://caffeinatedco.de>
+Copyright (C) 2011 Jono Cooper
+Copyright (C) 2011 George Czabania
+This program is free software: you can redistribute it and/or modify it 
+under the terms of the GNU General Public License version 3, as published 
+by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful, but 
+WITHOUT ANY WARRANTY; without even the implied warranties of 
+MERCHANTABILITY, SATISFACTORY QUALITY, or FITNESS FOR A PARTICULAR 
+PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along 
+with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+*/
+
+.clear {
+  clear: both;
+}
+
+*::selection:not(input) {
+  background: transparent !important;
+}
+
+input {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*******************************************************************
+      BODY 
+********************************************************************/
+
+#gradiator {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+#gradiator * {
+  box-sizing: content-box;
+}
+#gradiator ul,
+#gradiator li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+#gradiator p {
+  margin: 0;
+}
+#gradiator h1,
+#gradiator h2,
+#gradiator h3,
+#gradiator h4,
+#gradiator h5 {
+  font-family: inherit;
+  color: inherit;
+  margin: 0;
+}
+.logo img {
+  max-width: 420px;
+  width: 100%;
+  border-width: 0;
+  padding: 2rem 1rem 0;
+}
+
+:root {
+  --background-color: #343538;
+  --color-gray-60: #eee;
+}
+
+footer {
+  --color-gray-60: #eee;
+}
+
+#wrapper {
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  position: relative;
+  padding: 20px;
+}
+
+/*******************************************************************
+      GRADIENT EDITOR
+********************************************************************/
+
+#preview {
+  height: 40px;
+  margin: 5px;
+  position: relative;
+  z-index: 2;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+}
+#preview::after {
+  position: absolute;
+  z-index: 1;
+  width: 360px;
+  height: 50px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: -5px;
+  margin-left: -5px;
+  box-shadow: inset 0 0 10px #000;
+  -webkit-box-shadow: inset 0 0 10px #000;
+  content: "";
+}
+#previewBG {
+  background: url(img/grid.png);
+  height: 40px;
+  position: relative;
+  top: -45px;
+  margin: 0 5px -35px;
+}
+
+#slider {
+  height: 8px;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 8px black;
+  -webkit-box-shadow: inset 0 0 8px black;
+  width: 350px;
+  position: relative;
+  left: 5px;
+  top: 12px;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.stop {
+  width: 16px;
+  height: 16px;
+  border-radius: 0 12px 12px 12px;
+  -webkit-transform: rotate(45deg);
+  /* Makes it look 10x better in Safari */
+  -webkit-background-clip: padding-box;
+  border: 2px solid black;
+  position: absolute;
+  top: -6px;
+  cursor: default;
+  font:
+    12px helvetica,
+    sans-serif;
+  color: red;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  margin-left: -8px;
+  -webkit-transition:
+    height 0.1s,
+    width 0.1s,
+    top 0.1s,
+    margin-left 0.1s;
+}
+.stop.current {
+  border-color: white;
+  width: 20px;
+  height: 20px;
+  top: -8px;
+  margin-left: -10px;
+}
+.stop:hover {
+  width: 20px;
+  top: -8px;
+  height: 20px;
+  margin-left: -10px;
+}
+
+/*******************************************************************
+      GRADIENT DETAILS 
+********************************************************************/
+
+#gradientDetails {
+  color: #ddd;
+  font-size: 12px;
+  box-shadow:
+    inset 0 0 10px rgba(0, 0, 0, 0.8),
+    inset 0 -1px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow:
+    inset 0 0 10px rgba(0, 0, 0, 0.8),
+    inset 0 -1px 5px rgba(0, 0, 0, 0.5);
+  margin: 10px 0 20px;
+  border-bottom-left-radius: 10px;
+  height: 63px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  background: rgba(22, 22, 22, 0.3);
+}
+#gradientDetails div {
+  display: inline-block;
+  padding: 10px 5px;
+  text-align: center;
+  vertical-align: top;
+  height: 43px;
+  cursor: pointer;
+  -webkit-transition: 150ms background-color ease;
+}
+#gradientDetails div:hover,
+#gradientDetails div .selected {
+  background-color: rgba(0, 0, 0, 0.18);
+}
+#gradientDetails #alpha {
+  width: 79px;
+  border-right: 1px solid #1e1e20;
+  border-bottom-left-radius: 10px;
+}
+#gradientDetails #color {
+  width: 80px;
+  border-right: 1px solid #1e1e20;
+}
+#gradientDetails #position {
+  outline: 1px solid #1e1e20;
+  width: 79px;
+}
+#gradientDetails #delete {
+  border-left: 1px solid #1e1e20;
+  width: 79px;
+  border-bottom-right-radius: 10px;
+  float: right;
+  line-height: 16px;
+  color: #fff;
+  font-size: 13px;
+  padding: 13px 5px 7px;
+}
+#gradientDetails #alphaCFG,
+#gradientDetails #positionCFG,
+#gradientDetails #colorCFG {
+  display: none;
+}
+
+#gradientDetails #colorCFG {
+  padding: 0;
+  float: left;
+}
+
+#gradientDetails #colorCFG:hover {
+  background: transparent;
+}
+
+#colorCFG nav {
+  height: 63px;
+  border-right: 1px solid #1e1e20;
+  display: inline-block;
+}
+
+#colorCFG nav ul li {
+  line-height: 16px;
+  padding: 2px 6px;
+  text-align: center;
+  color: #bbb;
+  -webkit-transition: 100ms all linear;
+  border-bottom: 1px solid #1e1e20;
+}
+#colorCFG nav ul li:hover,
+#colorCFG nav ul li.selected {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+#colorCFG nav ul li:last-child {
+  border-bottom: 0;
+}
+
+#colorCFG #inputColor {
+  width: 164px;
+  cursor: default;
+}
+
+#colorCFG #inputColor:hover,
+#colorCFG #inputColor #rgbInput:hover,
+#colorCFG #inputColor #hslInput:hover {
+  background: transparent;
+}
+
+#colorCFG #inputColor input {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+  border: 0;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 18px;
+  border-radius: 3px;
+}
+
+#colorCFG #hexInput {
+  width: 120px;
+}
+
+#colorCFG #rgbInput,
+#colorCFG #hslInput {
+  width: 160px;
+  display: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#colorCFG #rgbInput input,
+#colorCFG #hslInput input {
+  width: 25px;
+  margin: 7px 1px;
+  font-size: 13px;
+  -moz-appearance: textfield;
+}
+
+#colorCFG #inputColor input:focus,
+#gradientDetails input:focus {
+  background: #f0f0f0;
+  color: #333;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#colorCFG #picker {
+  float: right;
+  padding: 0;
+  line-height: 16px;
+  width: 55px;
+  height: 63px;
+  border-left: 1px solid #1e1e20;
+}
+#colorCFG #picker label {
+  display: block;
+  padding: 14px 0;
+}
+
+#colorCFG input[type="color"] {
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+#gradientDetails input[type="range"] {
+  -webkit-appearance: none !important;
+  margin: 27px 20px;
+  height: 8px;
+  border-radius: 5px;
+  -webkit-background-clip: content-box;
+  cursor: default;
+
+  width: 140px;
+}
+#gradientDetails input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  width: 19px;
+  height: 19px;
+  border-radius: 5px;
+  border: 1px solid #111;
+  box-shadow:
+    0 0 10px #222,
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow:
+    0 0 10px #222,
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-background-clip: padding-box;
+  background: -webkit-linear-gradient(top, #555 0%, #333 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#555),
+    to(#333)
+  );
+}
+
+#gradientDetails #alphaCFG {
+  background: -webkit-linear-gradient(left, #ffffff 0%, #ff0000 100%);
+  border: 1px solid #1e1e20;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.7);
+  width: 138px;
+}
+
+#gradientDetails #positionCFG {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 8px #000;
+  -webkit-box-shadow: inset 0 0 8px #000;
+}
+
+.number {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  display: block;
+  margin: 5px 18px;
+  font-size: 18px;
+  /*line-height: 18px;*/
+  text-rendering: optimizelegibility;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 32px;
+  font-weight: bold;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  background: transparent;
+  border: 0;
+  height: 18px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#gradientDetails #color span.number {
+  font-size: 12px;
+  text-rendering: optimizelegibility;
+  text-transform: uppercase;
+  margin-left: 0;
+  width: 100%;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.disabled textarea:focus,
+.disabled input:focus {
+  background: transparent;
+  box-shadow: 0 0 0px #000;
+  -webkit-box-shadow: 0 0 0px #000;
+  cursor: default;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.2);
+  cursor: text;
+}
+
+#gradientDetails .disabled {
+  opacity: 0.3;
+}
+#gradientDetails .disabled:hover {
+  background: transparent;
+}
+#gradientDetails #color .number {
+  font-size: 10px;
+}
+
+/*******************************************************************
+      LEFT AND RIGHT COLUMNS 
+********************************************************************/
+
+#rightcol,
+#leftcol {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#leftcol {
+  width: 190px;
+  position: relative;
+}
+
+#rightcol {
+  width: 170px;
+}
+
+/*******************************************************************
+      GRADIENT SETTINGS
+********************************************************************/
+
+#configLinear,
+#configRadial {
+  height: 110px;
+  margin-top: 15px;
+  width: 160px;
+}
+
+#config label {
+  color: #fff;
+  font-size: 13px;
+}
+
+/*******************************************************************
+      LINEAR RADIAL SWITCH
+********************************************************************/
+
+#config section.switch {
+  height: 30px;
+}
+
+#config .switch .label {
+  color: #eee;
+  font-size: 11px;
+  text-transform: capitalize;
+  position: absolute;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  top: 5px;
+  font-weight: bold;
+  text-rendering: optimizelegibility;
+}
+
+#config .switch .label:first-child {
+  left: 20px;
+}
+#config .switch .label:last-child {
+  left: 115px;
+}
+
+#configSwitch {
+  background: rgba(0, 0, 0, 0.2);
+  width: 50px;
+  height: 22px;
+  display: block;
+  margin-left: 60px;
+  border-radius: 4px;
+  box-shadow:
+    inset 0 0 10px rgba(0, 0, 0, 0.8),
+    inset 0 0 2px rgba(0, 0, 0, 0.5);
+}
+#configSwitch .bullet {
+  background: -webkit-linear-gradient(
+    top,
+    rgba(153, 153, 153, 0.6),
+    rgba(85, 85, 85, 0.6)
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(1, rgba(85, 85, 85, 0.6)),
+    color-stop(0, rgba(153, 153, 153, 0.6))
+  );
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  width: 20px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    inset 0 0 1px rgba(255, 255, 255, 0.25),
+    0 1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    inset 0 0 1px rgba(255, 255, 255, 0.25),
+    0 1px 0 rgba(0, 0, 0, 0.15);
+  height: 20px;
+  border-radius: 3px;
+  -webkit-transition:
+    margin 0.3s,
+    box-shadow 0.3s;
+}
+#configSwitch.linear .bullet {
+  box-shadow: 2px 0 1px rgba(0, 0, 0, 0.2);
+  left: 0;
+}
+#configSwitch.radial .bullet {
+  box-shadow: -2px 0 1px rgba(0, 0, 0, 0.2);
+  margin-left: 28px;
+}
+
+/*******************************************************************
+      LINEAR GRADIENT SETTINGS
+********************************************************************/
+
+#direction {
+  margin: 0 0 0 27px;
+  width: 106px;
+  overflow: hidden;
+}
+#direction div {
+  cursor: pointer;
+  width: 35px;
+  height: 34px;
+  float: left;
+}
+#direction .manual {
+  background: url("img/circle.png") no-repeat;
+}
+.d0 {
+  background: url("img/buttons.png") 0 0;
+}
+.d45 {
+  background: url("img/buttons.png") 35px 0;
+}
+.d90 {
+  background: url("img/buttons.png") -35px 0;
+}
+.d135 {
+  background: url("img/buttons.png") 70px 0;
+}
+.d180 {
+  background: url("img/buttons.png") 0 34px;
+}
+.d225 {
+  background: url("img/buttons.png") 70px 34px;
+}
+.d270 {
+  background: url("img/buttons.png") -35px 34px;
+}
+.d315 {
+  background: url("img/buttons.png") 35px 34px;
+}
+#direction .current {
+  background-image: url("img/buttons_hover.png");
+}
+
+/*******************************************************************
+      RADIAL GRADIENT SETTINGS
+********************************************************************/
+
+#configRadial label {
+  text-align: right;
+  font-size: 12px;
+  float: left;
+  line-height: 26px;
+  padding: 0 5px;
+}
+
+#configRadial input {
+  text-align: left;
+  font-size: 13px;
+  float: left;
+}
+#radialXY {
+  margin: 0 15px;
+}
+.toggle .button {
+  text-transform: none;
+  width: 58px;
+  font-size: 13px;
+  margin: 5px 0 0;
+}
+.toggle .button:first-child {
+  margin-right: 7px;
+}
+.dropdown .button {
+  text-transform: none;
+  margin: 5px 0 0;
+  font-size: 13px;
+  cursor: default;
+  text-align: left;
+  display: block;
+}
+.dropdown .button::after {
+  content: "\25BC";
+  float: right;
+  font-size: 10px;
+}
+.dropdown .button.clicked {
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgba(85, 85, 85, 0.7),
+    rgba(51, 51, 51, 0.7)
+  );
+  -webkit-box-shadow:
+    inset 0 1px 0 rgba(85, 85, 85, 0.15),
+    inset 0 0 1px rgba(255, 255, 255, 0.25),
+    0 1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow:
+    inset 0 1px 0 rgba(85, 85, 85, 0.15),
+    inset 0 0 1px rgba(255, 255, 255, 0.25),
+    0 1px 0 rgba(0, 0, 0, 0.15);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.dropdown .button.clicked::after {
+  content: "\25b2";
+}
+.dropdown .menu {
+  position: relative;
+  display: none;
+  z-index: 5;
+  font-size: 13px;
+  color: #fff;
+  text-shadow: 0 1px 0 #111;
+  line-height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: 0px solid transparent;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.dropdown .menu ul li {
+  padding: 0 8px;
+  cursor: default;
+  background: -webkit-linear-gradient(top, #444, #3d3d3d);
+}
+.dropdown .menu ul li:hover {
+  background: -webkit-linear-gradient(top, #666, #6d6d6d);
+  text-shadow: 0 1px 0 #333;
+}
+.dropdown .menu ul li:last-child {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#configRadial input[type="number"] {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.15);
+  -webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.15);
+  border: 0;
+  width: 25px;
+  color: #fff;
+  margin-right: 5px;
+  padding: 3px 5px;
+  text-align: center;
+  border-radius: 3px;
+}
+#configRadial input[type="number"]:focus {
+  background: #f0f0f0;
+  color: #333;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#configRadial input[type="checkbox"] {
+  margin-top: 0px;
+}
+
+/*******************************************************************
+      FINAL GRADIENT 
+********************************************************************/
+
+#gradientResultWrap {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow:
+    inset 0 0 10px rgba(0, 0, 0, 0.5),
+    inset 0 1px 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow:
+    inset 0 0 10px rgba(0, 0, 0, 0.5),
+    inset 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+#gradientResultWrap #final {
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+  -webkit-background-clip: padding-box;
+  position: relative;
+  z-index: 6;
+  -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+#gradientResultWrap #finalBG {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url(img/grid.png);
+  top: -100%;
+  margin: 0 0 -100%;
+}
+
+#config img {
+  margin: 0 auto;
+  display: block;
+}
+
+/*******************************************************************
+      BUTTONS
+********************************************************************/
+
+#gradiator .button {
+  padding: 0 8px;
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(85, 85, 85, 0.7),
+    rgba(51, 51, 51, 0.7)
+  );
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(1, rgba(85, 85, 85, 0.7)),
+    color-stop(0, rgba(51, 51, 51, 0.7))
+  );
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  line-height: 24px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    inset 0 0 1px rgba(255, 255, 255, 0.25),
+    0 1px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  -webkit-box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    inset 0 0 1px rgba(255, 255, 255, 0.25),
+    0 1px 0 rgba(0, 0, 0, 0.15);
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 #111;
+}
+
+#gradiator .button.huge {
+  display: inline-block;
+  width: 118px;
+  font-size: 13px;
+  line-height: 32px;
+}
+
+#gradiator .button.big {
+  display: inline-block;
+  width: 90px;
+  font-size: 13px;
+  line-height: 32px;
+}
+
+#gradiator .button.highlight {
+  background: -webkit-linear-gradient(
+    top,
+    rgba(153, 153, 153, 0.6),
+    rgba(85, 85, 85, 0.6)
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(1, rgba(85, 85, 85, 0.6)),
+    color-stop(0, rgba(153, 153, 153, 0.6))
+  );
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+#gradiator .button:active {
+  background: -webkit-linear-gradient(
+    top,
+    rgba(60, 60, 60, 0.7),
+    rgba(30, 30, 30, 0.7)
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(1, rgba(30, 30, 30, 0.7)),
+    color-stop(0, rgba(60, 60, 60, 0.7))
+  );
+}
+
+/*******************************************************************
+      BUTTON WRAP
+********************************************************************/
+
+#btnWrap {
+  width: 160px;
+  margin-top: 30px;
+}
+#btnWrap a {
+  width: 58px;
+}
+#btnWrap a {
+  margin-bottom: 9px;
+}
+
+#settingsBTN,
+#saveBTN {
+  margin-right: 7px;
+}
+
+#settingsBTN,
+#donateBTN {
+  margin-bottom: 0 !important;
+}
+
+#gradiator #copyBTN {
+  margin: 15px auto 0;
+  display: block;
+  font-size: 14px;
+  line-height: 32px;
+  width: 100px;
+}
+
+/*******************************************************************
+      MODAL DIALOGS & TOOLTIPS
+********************************************************************/
+
+.modal,
+.tooltip {
+  font-size: 11px;
+  text-align: center;
+  line-height: 1.35;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: -webkit-linear-gradient(top, rgb(32, 32, 32), rgb(16, 16, 16));
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(1, rgb(32, 32, 32)),
+    color-stop(0, rgb(16, 16, 16))
+  );
+  color: #fff;
+  border-radius: 5px;
+  padding: 25px;
+  width: 350px;
+  z-index: 8;
+  display: none;
+}
+.modal hr,
+.tooltip hr {
+  height: 1px;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin: 5px 0 20px;
+}
+.modal h1,
+.tooltip h1 {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.modal h2,
+.tooltip h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.modal p,
+.tooltip p {
+  padding-bottom: 10px;
+}
+.modal a,
+.tooltip a {
+  font-size: 11px;
+}
+
+#overlay {
+  position: absolute;
+  z-index: 7;
+  backdrop-filter: blur(5px);
+  width: 400px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: none;
+}
+
+#overlay.transparent {
+  background-color: transparent;
+}
+
+/*******************************************************************
+      MODAL DIALOGS -> SETTINGS
+********************************************************************/
+
+#settings span a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.settingsTitle {
+  text-align: right;
+  font-size: 13px;
+  float: left;
+  clear: left;
+  width: 170px;
+}
+
+.settingsForm {
+  text-align: left;
+  font-size: 13px;
+  margin: 0 0 15px 10px;
+  float: left;
+  width: 170px;
+}
+
+#settings input[disabled] ~ label {
+  color: #777;
+}
+
+#settings select {
+  min-width: 120px;
+}
+
+/*******************************************************************
+      MODAL DIALOGS -> DONATE
+********************************************************************/
+
+#donate {
+  font-size: 13px;
+  text-align: left;
+}
+
+#donatetext {
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+/*******************************************************************
+      MODAL DIALOGS -> GRADIENT MANAGER
+********************************************************************/
+
+#manage.modal {
+  height: 100%;
+}
+
+#storedGradientBox {
+  width: 100%;
+  height: 305px;
+  overflow: auto;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+#storedGradientView {
+  margin-top: -24px;
+  float: right;
+  display: block;
+  height: 23px;
+  width: 52px;
+  background: url("img/view.png");
+}
+#storedGradientView.details {
+  background-position: 0 23px;
+}
+#storedGradientView.thumbnails {
+  background-position: 0 0;
+}
+.storedGradient,
+.saveGradient {
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.6);
+  height: 40px;
+  float: left;
+  cursor: pointer;
+}
+.storedGradient.thumbnails,
+.saveGradient {
+  width: 145px;
+  padding: 8px;
+  margin: 0 5px 5px 0;
+}
+.storedGradient.details {
+  padding: 4px;
+  margin: 0 2px 2px 0;
+}
+.storedGradient.details h5,
+.storedGradient.details p {
+  display: none;
+}
+.storedGradient.details .storedGradientPreview {
+  margin: 0;
+}
+.storedGradient:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+.storedGradient.selected {
+  background: rgba(50, 50, 50, 0.6);
+}
+.storedGradientPreview,
+.saveGradientPreview {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  float: left;
+  margin-right: 5px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+#gradiator .storedGradient h5 {
+  font-size: 11px;
+  font-weight: bold;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.storedGradient .length,
+.storedGradient .date {
+  text-align: left;
+  color: #aaa;
+  padding: 0;
+}
+#saveGradient input {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+  border: 0;
+  color: #fff;
+  padding: 5px;
+  padding: 3px 5px 5px;
+  margin: 15px 5px 15px 0;
+  width: 210px;
+  text-align: left;
+  border-radius: 3px;
+}
+#saveGradient input:focus {
+  background: #f0f0f0;
+  color: #333;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+#saveGradient .save {
+  margin-right: 5px;
+}
+.saveGradient,
+.saveGradientPreview {
+  width: 330px;
+  height: 60px;
+  cursor: default;
+}
+
+/*******************************************************************
+      MODAL DIALOGS -> MANUAL GRADIENT DIRECTION
+********************************************************************/
+
+#manualDirection {
+  top: 244px;
+  padding: 10px 25px;
+  width: 120px;
+  border-radius: 5px;
+  left: 19px;
+}
+
+#manualDirection input {
+  border: 0;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.2);
+  line-height: 16px;
+  font-size: 14px;
+  border-radius: 3px;
+  text-align: center;
+  width: 70px;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+}
+#manualDirection input:focus {
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  outline: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#manualDirection h1 {
+  font-size: 14px;
+  margin: 0;
+  padding-bottom: 7px;
+}
+
+/*******************************************************************
+      CUSTOM SCROLLBARS
+********************************************************************/
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 8px black;
+  -webkit-box-shadow: inset 0 0 8px black;
+  border-radius: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(85, 85, 85, 0.7),
+    rgba(51, 51, 51, 0.7)
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    inset 0 0 1px rgba(255, 255, 255, 0.25),
+    0 1px 0 rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: -webkit-linear-gradient(
+    top,
+    rgba(60, 60, 60, 0.7),
+    rgba(30, 30, 30, 0.7)
+  );
+}

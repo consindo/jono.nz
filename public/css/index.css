@@ -73,6 +73,7 @@ body {
 }
 html {
   overflow-y: scroll;
+  scrollbar-color: var(--accent-color) var(--background-color);
 }
 
 @media (min-width: 780px) {
@@ -198,6 +199,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   position: fixed;
+  z-index: 10;
   width: 100%;
   background-color: var(--background-color);
 }
@@ -221,7 +223,7 @@ a.home-link:link:not(:hover) {
   text-decoration: none;
 }
 a.home-link[href], a.home-link[href]:visited {
-  color: var(--background-color);
+  color: #fffbf0;
 }
 .nav-item a[href], .nav-item a[href]:visited {
   color: var(--color-gray-60);
