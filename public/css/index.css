@@ -201,7 +201,7 @@ header {
   position: fixed;
   z-index: 10;
   width: 100%;
-  background-color: inherit;
+  background-color: var(--background-color);
 }
 header nav {
   flex: 1;
