@@ -107,8 +107,13 @@ ul + p {
   margin-top: 1.5em;
 }
 
+ul {
+  padding-left: 1em;
+}
+
 li {
   line-height: 1.5;
+  margin-bottom: 0.5em;
 }
 
 a[href] {
@@ -155,6 +160,20 @@ jc-center {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+jc-image-flex a, jc-image-flex img { 
+  margin-bottom: 1rem;
+}
+@media (min-width: 400px) {
+  jc-image-flex p {
+    display: flex;
+    gap: 0.5rem;
+  }
+  jc-image-flex a, jc-image-flex img {
+    flex: 1;
+    margin-bottom: 0;
+  }
 }
 
 table {
