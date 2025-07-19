@@ -36,7 +36,7 @@ We were surprised by Seoul. It was a lot more relaxed than we were expecting, so
 ### Restaurants/Cafes
 
 - **Cheongsudang Bakery**: This is the most aesthetic cafe we’ve ever been to. The food and drinks were pretty good too.
-- **MilToast Ikseon:** This had really nice steamed bread and french toast. It was a bit of a long wait, so we also recommend the french toast at **Standard Bread** which has several locations in Seoul and one in Busan.
+- **MilToast Ikseon:** This had really beautiful & tasty steamed bread and french toast. It was a bit of a long wait, so we also recommend the french toast at **Standard Bread** which has several locations in Seoul and one in Busan.
 - **BBQ YUL:** We went for Korean barbecue several times, but this one was definitely our favourite. They were very thoughtful with how the meat should be paired with the different condiments & side dishes, and the service was amazing.
 
 <jc-image-flex>
@@ -48,7 +48,7 @@ We were surprised by Seoul. It was a lot more relaxed than we were expecting, so
 
 ## Sokcho + Seoraksan National Park
 
-We stayed in Sokcho to visit Seoraksan National Park, but also found the city to be really nice too. There’s a nice lake in the centre which you can walk around, and there’s also a good tourist fish market to visit.
+We stayed in Sokcho to visit Seoraksan National Park, but also found the city to be really nice too. There’s a lake in the centre which you can walk around, and there’s also a good tourist fish market to visit.
 
 <a href="/images/korea/DSC02780.jpg"><img loading="lazy" alt="Sokcho Lake" src="/images/korea/DSC02780-small.jpg"></a>
 
@@ -86,7 +86,7 @@ Gyeongju is the historical capital of the Silla Kingdom, and definitely worth a 
 
 <a href="/images/korea/DSC03164.jpg"><img loading="lazy" alt="Burial Mound in Gyeongju" src="/images/korea/DSC03164-small.jpg"></a>
 
-Near the tombs is **Hwangnidan-gil**, which is nice with all the cafes and shops in restored hanok houses. The **Woljeonggyo Bridge** nearby is also really nice, especially at night.
+Near the tombs is **Hwangnidan-gil**, which is nice with all the cafes and shops in restored hanok houses. The **Woljeonggyo Bridge** nearby is also really pretty, especially at night.
 
 We also visited **Bulguksa**, but wouldn't consider it essential as it's a little bit out of the way - there's plenty of other good temples in Korea.
 
@@ -96,7 +96,7 @@ We stayed a couple of nights in Gyeongju, but you could definitely do it as a da
 
 ## Busan
 
-The last stop on our trip was Busan, which is a city that really feels like two cities. It's both a busy port city, and a place that people go for vacation. It's definitely worth a visit, and nice to do both the city and vacation parts. We probably did a few more 
+The last stop on our trip was Busan, which is a city that really feels like two cities. It's both a busy port city, and a place that people go for vacation. It's definitely worth a visit, and good to do both the city and vacation parts. We probably did a few more touristy things here than the other places we visited.
 
 <a href="/images/korea/DSC03005.jpg"><img loading="lazy" alt="Busan Skyline" src="/images/korea/DSC03005-small.jpg"></a>
 
@@ -116,7 +116,7 @@ The last stop on our trip was Busan, which is a city that really feels like two 
 ### Things to do
 
 - **Spa Land**: These are hot pools similar to a Japanese Onsen, but with a range of extras. Once you've bathed (with optional scrub down), you can rejoin your partner and go to one of many different saunas, enjoy a foot bath outside, have a massage (from a chair or person), have a meal, or just lie on the ground. Highly recommend, especially for the price: around $25 NZD for 4 hours.
-- **Busan Air Cruise**: Definitely a touristy gondola ride, but it does have nice views of the city and beach. There's also a good seafood place at the bottom of the hill at the terminus. It can be little confronting: the vendors will shout at you a bit and the seafood may still be moving.
+- **Busan Air Cruise**: Definitely a touristy gondola ride, but it does have good views of the city and beach. There's also a good seafood place at the bottom of the hill at the terminus. It can be little confronting: the vendors will shout at you a bit and the seafood may still be moving.
 
 <a href="/images/korea/DSC03041.jpg"><img loading="lazy" alt="View from Busan Gondola" src="/images/korea/DSC03041-small.jpg"></a>
 
