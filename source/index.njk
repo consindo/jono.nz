@@ -5,19 +5,19 @@ numberOfLatestPostsToShow: 3
 
 <h1 class="hero"><strong>Jono Cooper</strong> is a product engineer based in Tāmaki Makaurau. He has a passion for delivering best-in-class products, from vision to execution.</h1>
 
-<h2>Projects</h2>
+<h2 id="projects">Projects</h2>
 
 <p>Currently building <a href="https://turbomaps.io">Turbomaps</a>, a tool to create &amp; share beautiful maps.</p>
 
 <p><a class="button" href="/projects">Previous Projects &rarr;</a></p>
 
-<h2>Posts</h2>
+<h2 id="posts">Posts</h2>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% include "postslist.njk" %}
 
 <p><a class="button" href="/archives/">Archive &rarr;</a></p>
 
-<h2>Contact</h2>
+<h2 id="contact">Contact</h2>
 
 <code><strong>‹</strong> jono at jono dot nz <strong>›</strong></code>

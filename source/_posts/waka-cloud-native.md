@@ -12,7 +12,7 @@ Recently, Waka has a had a bit of a rewrite to make it much easier to get starte
 
 Old Waka was a little bit of a monolith. Everything was bundled together into the [dymajo/waka](https://github.com/dymajo/waka) repository. The barrier to entry was high - you had to get everything going if you wanted to develop it.
 
-Everything also used a crazy, multi-process architecture {{"source/_posts/transit-part1.md" | inputPathToUrl}}. It provided a way to split cities processes from each other. This was helpful when the software was less stable - an import of a new Auckland timetable could crash Wellington. **I would not recommend this**. It's way more sensible to use a proper application orchestration technology, such as Amazon ECS or Kubernetes.
+Everything also used a crazy, [multi-process architecture]({{"source/_posts/transit-part1.md" | inputPathToUrl}}). It provided a way to split cities processes from each other. This was helpful when the software was less stable - an import of a new Auckland timetable could crash Wellington. **I would not recommend this**. It's way more sensible to use a proper application orchestration technology, such as Amazon ECS or Kubernetes.
 
 ## New Waka
 
