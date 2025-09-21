@@ -13,10 +13,13 @@
   --color-gray-60: #525252; 
   --color-gray-90: #171717;
 
-  --accent-color: #006660;
-  --accent-color-hover: #007e78;
+  --light-accent-color: oklch(45% 0.105 189);
+  --light-accent-color-hover: oklch(53% 0.105 189);
+  --accent-color: var(--light-accent-color);
+  --accent-color-hover: var(--light-accent-color-hover);
 
-  --background-color: #fffbf0;
+  --light-background-color: #fffbf0;
+  --background-color: var(--light-background-color);
   --border: 1px dotted rgba(0, 0, 0, 0.2);
 
   --text-color: var(--color-gray-90);
@@ -33,28 +36,26 @@
   --prose-width: 800px;
 }
 
-/* yeaaah wide gamut */
-@media (color-gamut: p3) {
+/* dark mode coming soon  */
+@media (prefers-color-scheme: dark) {
   :root {
-    --accent-color: oklch(45% 0.105 189);
-    --accent-color-hover: oklch(53% 0.105 189);
+    --color-gray-20: #737373;
+    --color-gray-40: #a3a3a3;
+    --color-gray-50: #d4d4d4;
+    --color-gray-60: #e5e5e5;
+    --color-gray-90: #fafafa;
+
+    --background-color: #15202b;
+    --border: 1px dotted rgba(255, 255, 255, 0.2);
   }
 }
 
-/* dark mode coming soon  */
-/*@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) and (color-gamut: p3) {
   :root {
-    --color-gray-20: #e0e0e0;
-    --color-gray-50: #C0C0C0;
-    --color-gray-90: #dad8d8;
-
-    --text-color-link: #1493fb;
-    --text-color-link-active: #6969f7;
-    --text-color-link-visited: #a6a6f8;
-
-    --background-color: #15202b;
+    --accent-color: oklch(70% 0.105 189);
+    --accent-color-hover: oklch(80% 0.105 189);
   }
-}*/
+}
 
 
 /* Global stylesheet */
@@ -232,7 +233,7 @@ header nav {
 a.home-link {
   font-size: 0.8em;
   font-weight: 600;
-  background: var(--accent-color);
+  background: var(--light-accent-color);
   line-height: var(--header-height);
   width: var(--header-height);
   text-align: center;
@@ -242,7 +243,7 @@ a.home-link:link:not(:hover) {
   text-decoration: none;
 }
 a.home-link[href], a.home-link[href]:visited {
-  color: #fffbf0;
+  color: var(--light-background-color);
 }
 .nav-item a[href], .nav-item a[href]:visited {
   color: var(--color-gray-60);
@@ -470,18 +471,19 @@ p:has(.button) {
   margin: 1.5em 0;
 }
 
-a.button, a.button[href], a.button[href]:visited {
-  background: var(--accent-color);
-  color: var(--background-color);
+a.button, a.button[href], a.button[href]:visited, button.button {
+  background: var(--light-accent-color);
+  color: var(--light-background-color);
   text-decoration: none;
   padding: 8px 12px;
   font-family: var(--font-family-monospace);
   font-size: 80%;
   display: inline-block;
+  border: 0;
 }
 
-a.button:hover, a.button[href]:hover, a.button[href]:visited:hover {
-  background: var(--accent-color-hover);
+a.button:hover, a.button[href]:hover, a.button[href]:visited:hover, button.button:hover {
+  background: var(--light-accent-color-hover);
 }
 
 .projects-list dt {
