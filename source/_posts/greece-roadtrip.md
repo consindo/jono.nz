@@ -25,7 +25,7 @@ Both the Acropolis and Acropolis Museum are must visits when going to Athens. Th
 
 <a href="/images/greece/DSC07203.jpg"><img loading="lazy" alt="Inside the Acropolis Museum" src="/images/greece/DSC07203-small.jpg"></a>
 
-The Acropolis Museum is also one of the best museums I've been to. The galleries are really interesting and well explained, and the entire building sits over an archeological site that you can walk around on catwalks. It's a shame that many of the artifacts from the Acropolis are in the British Museum in London, because controversy aside, the displays in Athens are much better.
+The Acropolis Museum is one of the best museums I've been to. The galleries are really interesting and well explained, and the entire building sits over an archeological site that you can walk around on catwalks. It's a shame that many of the artifacts from the Acropolis are in the British Museum in London, because controversy aside, the displays in Athens are much better.
 
 ## Food
 - **LUKUMAΔΕΣ:** The best place we found for Loukoumades. They have a number of different branches in Athens. 
@@ -112,7 +112,7 @@ The Delphi town centre seems to mostly be hotels and staying the night here was 
 <a href="/images/greece/DSC07526.jpg"><img loading="lazy" alt="View from Delphi" src="/images/greece/DSC07536-small.jpg"></a>
 
 # Chalcis & Artemida
-After Delphi, it was a relatively short drive to Chalcis. This is technically on the Greek island of Euboea, but it's connected to the mainland by a very short bridge (it's maybe 30 metres long). We were getting to the end of our time in Greece at this point, so just we spent two nights relaxing here.
+After Delphi, it was a relatively short drive to Chalcis. This is technically on the Greek island of Euboea, but it's connected to the mainland by a very short bridge (it's maybe 30 metres long). We were getting to the end of our time in Greece at this point, so we just spent two nights relaxing here.
 
 We then finished off our time in Greece in Artemida. It's very close to the Athens airport, but also has a large beach. Unfortunately, the weather wasn't great while we were there so we didn't get a chance to swim.
 
