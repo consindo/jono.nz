@@ -32,7 +32,7 @@ Wise (or Revolut etc) is one of the services that I'm surprised not everyone kno
 While you can manually exchange currencies, I just load the money in NZD and let it automatically convert when you spend it. Once signing up, it's also worth ordering a physical card so you can withdraw cash from ATMs. The card is free if you use an [invite link](https://wise.com/invite/dic/jonathanc1490).
 
 ### Hanly & DuChinese
-Instead of doomscrolling, learning a language can be a great way to pass the time. I really like [Hanly](https://www.hanlyapp.com/) for learning Chinese characters & words, as it teaches them by component (rather than just learning the most frequently used characters) and has good explanations/mnuemonics to help you learn them. It's also free - no account, subscription, or internet connection required.
+Instead of doomscrolling, learning a language can be a great way to pass the time. I really like [Hanly](https://www.hanlyapp.com/) for learning Chinese characters & words, as it teaches them by component (rather than just learning the most frequently used characters) and has good explanations/mnemonics to help you learn them. It's also free - no account, subscription, or internet connection required.
 
 I've also found [DuChinese](https://duchinese.net/) to be really helpful. Reading is a form of spaced repetition, and being able to listen while following along with the characters is very helpful. There is a free tier, but getting access to all the content is behind a fairly expensive subscription.
 
