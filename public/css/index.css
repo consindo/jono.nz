@@ -158,6 +158,10 @@ jc-center {
   justify-content: center;
 }
 
+jc-gallery p {
+  margin: 0.5rem 0;
+}
+
 jc-image-flex a, jc-image-flex img { 
   margin-bottom: 1rem;
 }
@@ -396,7 +400,6 @@ h2 + .header-anchor {
 img {
   max-width: 100%;
   height: auto;
-  border: var(--border);
   margin: 0 auto;
   display: block;
 }
