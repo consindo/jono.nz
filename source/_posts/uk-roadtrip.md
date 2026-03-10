@@ -7,7 +7,7 @@ tags:
 
 [After visiting Greece]({{"source/_posts/greece-roadtrip.md" | inputPathToUrl}}), we also went for a roadtrip in the UK. We visited in Autumn, which was really nice with all the different colours. Definitely a bit colder than other places in Europe, but still a great time to visit.
 
-<a href="/images/uk/DSC08645.jpg"><img loading="lazy" alt="Person walking dogs in Lake District" src="/images/uk/DSC08645-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08645.jpg"><img loading="lazy" alt="Person walking dogs in Lake District" src="https://assets.jono.nz/images/uk/DSC08645-small.jpg" /></a>
 
 ## Edinburgh
 
@@ -15,11 +15,11 @@ Edinburgh is the most visited city in the UK after London, and it's easy to see 
 
 <jc-gallery>
 
-<a href="/images/uk/DSC08188.jpg"><img loading="lazy" alt="Edinburgh skyline" src="/images/uk/DSC08188-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08188.jpg"><img loading="lazy" alt="Edinburgh skyline" src="https://assets.jono.nz/images/uk/DSC08188-small.jpg" /></a>
 
-<a href="/images/uk/DSC08208.jpg"><img loading="lazy" alt="Pub in Edinburgh" src="/images/uk/DSC08208-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08208.jpg"><img loading="lazy" alt="Pub in Edinburgh" src="https://assets.jono.nz/images/uk/DSC08208-small.jpg" /></a>
 
-<a href="/images/uk/DSC08223.jpg"><img loading="lazy" alt="Edinburgh old town" src="/images/uk/DSC08223-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08223.jpg"><img loading="lazy" alt="Edinburgh old town" src="https://assets.jono.nz/images/uk/DSC08223-small.jpg" /></a>
 
 </jc-gallery>
 
@@ -37,36 +37,36 @@ We didn't make it to the Quiraing as we ran out of time, but I've heard it's wor
 
 <jc-gallery>
 
-<a href="/images/uk/DSC08638.jpg"><img loading="lazy" alt="Highland Coo" src="/images/uk/DSC08638-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08638.jpg"><img loading="lazy" alt="Highland Coo" src="https://assets.jono.nz/images/uk/DSC08638-small.jpg" /></a>
 
 <jc-image-flex>
 
-<a href="/images/uk/DSC08529.jpg"><img loading="lazy" alt="European robin" src="/images/uk/DSC08529-small.jpg" /></a>
-<a href="/images/uk/DSC08564.jpg"><img loading="lazy" alt="Scottish highlands loch" src="/images/uk/DSC08564-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08529.jpg"><img loading="lazy" alt="European robin" src="https://assets.jono.nz/images/uk/DSC08529-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08564.jpg"><img loading="lazy" alt="Scottish highlands loch" src="https://assets.jono.nz/images/uk/DSC08564-small.jpg" /></a>
 
 </jc-image-flex>
 
-<a href="/images/uk/DSC08376.jpg"><img loading="lazy" alt="Eilean Donan" src="/images/uk/DSC08376-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08376.jpg"><img loading="lazy" alt="Eilean Donan" src="https://assets.jono.nz/images/uk/DSC08376-small.jpg" /></a>
 
 <jc-image-flex>
 
-<a href="/images/uk/DSC08418.jpg"><img loading="lazy" alt="Fairy pools walk" src="/images/uk/DSC08418-small.jpg" /></a>
-<a href="/images/uk/DSC08551.jpg"><img loading="lazy" alt="Bridge and mountain in Scottish highlands" src="/images/uk/DSC08551-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08418.jpg"><img loading="lazy" alt="Fairy pools walk" src="https://assets.jono.nz/images/uk/DSC08418-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08551.jpg"><img loading="lazy" alt="Bridge and mountain in Scottish highlands" src="https://assets.jono.nz/images/uk/DSC08551-small.jpg" /></a>
 
 </jc-image-flex>
 
-<a href="/images/uk/DSC08428.jpg"><img loading="lazy" alt="Fairy pools walk" src="/images/uk/DSC08428-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08428.jpg"><img loading="lazy" alt="Fairy pools walk" src="https://assets.jono.nz/images/uk/DSC08428-small.jpg" /></a>
 
-<a href="/images/uk/DSC08452.jpg"><img loading="lazy" alt="Glencoe lookout" src="/images/uk/DSC08452-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08452.jpg"><img loading="lazy" alt="Glencoe lookout" src="https://assets.jono.nz/images/uk/DSC08452-small.jpg" /></a>
 
 <jc-image-flex>
 
-<a href="/images/uk/DSC08584.jpg"><img loading="lazy" alt="Glasgow bridge and cememtery" src="/images/uk/DSC08584-small.jpg" /></a>
-<a href="/images/uk/DSC08591.jpg"><img loading="lazy" alt="View over Glasgow from cememtery" src="/images/uk/DSC08591-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08584.jpg"><img loading="lazy" alt="Glasgow bridge and cememtery" src="https://assets.jono.nz/images/uk/DSC08584-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08591.jpg"><img loading="lazy" alt="View over Glasgow from cememtery" src="https://assets.jono.nz/images/uk/DSC08591-small.jpg" /></a>
 
 </jc-image-flex>
 
-<a href="/images/uk/DSC08599.jpg"><img loading="lazy" alt="Glasgow central station" src="/images/uk/DSC08599-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08599.jpg"><img loading="lazy" alt="Glasgow central station" src="https://assets.jono.nz/images/uk/DSC08599-small.jpg" /></a>
 
 </jc-gallery>
 
@@ -78,27 +78,27 @@ York was also neat to visit. It's a very well preserved medieval city, and you c
 
 <jc-gallery>
 
-<a href="/images/uk/DSC08667.jpg"><img loading="lazy" alt="Boats in Lake District" src="/images/uk/DSC08667-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08667.jpg"><img loading="lazy" alt="Boats in Lake District" src="https://assets.jono.nz/images/uk/DSC08667-small.jpg" /></a>
 
-<a href="/images/uk/DSC08659.jpg"><img loading="lazy" alt="Pier in Lake District" src="/images/uk/DSC08659-small.jpg" /></a>
-
-<jc-image-flex>
-
-<a href="/images/uk/DSC08735.jpg"><img loading="lazy" alt="Pub in Ambleside" src="/images/uk/DSC08735-small.jpg" /></a>
-<a href="/images/uk/DSC08695.jpg"><img loading="lazy" alt="Car driving over pass in Lake District" src="/images/uk/DSC08695-small.jpg" /></a>
-
-</jc-image-flex>
-
-<a href="/images/uk/DSC08722.jpg"><img loading="lazy" alt="Paddleboards and sailing in Lake District" src="/images/uk/DSC08722-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08659.jpg"><img loading="lazy" alt="Pier in Lake District" src="https://assets.jono.nz/images/uk/DSC08659-small.jpg" /></a>
 
 <jc-image-flex>
 
-<a href="/images/uk/DSC08784.jpg"><img loading="lazy" alt="People enjoy coffee in York" src="/images/uk/DSC08784-small.jpg" /></a>
-<a href="/images/uk/DSC08736.jpg"><img loading="lazy" alt="Old telephone booth in York" src="/images/uk/DSC08736-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08735.jpg"><img loading="lazy" alt="Pub in Ambleside" src="https://assets.jono.nz/images/uk/DSC08735-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08695.jpg"><img loading="lazy" alt="Car driving over pass in Lake District" src="https://assets.jono.nz/images/uk/DSC08695-small.jpg" /></a>
 
 </jc-image-flex>
 
-<a href="/images/uk/DSC08775.jpg"><img loading="lazy" alt="York medieval walls" src="/images/uk/DSC08775-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08722.jpg"><img loading="lazy" alt="Paddleboards and sailing in Lake District" src="https://assets.jono.nz/images/uk/DSC08722-small.jpg" /></a>
+
+<jc-image-flex>
+
+<a href="https://assets.jono.nz/images/uk/DSC08784.jpg"><img loading="lazy" alt="People enjoy coffee in York" src="https://assets.jono.nz/images/uk/DSC08784-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08736.jpg"><img loading="lazy" alt="Old telephone booth in York" src="https://assets.jono.nz/images/uk/DSC08736-small.jpg" /></a>
+
+</jc-image-flex>
+
+<a href="https://assets.jono.nz/images/uk/DSC08775.jpg"><img loading="lazy" alt="York medieval walls" src="https://assets.jono.nz/images/uk/DSC08775-small.jpg" /></a>
 
 </jc-gallery>
 
@@ -108,25 +108,25 @@ We also spent some time in the north west and south coasts of Wales. Lots of cas
 
 <jc-gallery>
 
-<a href="/images/uk/DSC08884.jpg"><img loading="lazy" alt="Wales green landscape" src="/images/uk/DSC08884-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08884.jpg"><img loading="lazy" alt="Wales green landscape" src="https://assets.jono.nz/images/uk/DSC08884-small.jpg" /></a>
 
 <jc-image-flex>
 
-<a href="/images/uk/DSC08817.jpg"><img loading="lazy" alt="Caernarfon Castle" src="/images/uk/DSC08817-small.jpg" /></a>
-<a href="/images/uk/DSC08823.jpg"><img loading="lazy" alt="Caernarfon from Castle" src="/images/uk/DSC08823-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08817.jpg"><img loading="lazy" alt="Caernarfon Castle" src="https://assets.jono.nz/images/uk/DSC08817-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08823.jpg"><img loading="lazy" alt="Caernarfon from Castle" src="https://assets.jono.nz/images/uk/DSC08823-small.jpg" /></a>
 
 </jc-image-flex>
 
-<a href="/images/uk/DSC08842.jpg"><img loading="lazy" alt="Car driving over mountain pass in Wales" src="/images/uk/DSC08842-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08842.jpg"><img loading="lazy" alt="Car driving over mountain pass in Wales" src="https://assets.jono.nz/images/uk/DSC08842-small.jpg" /></a>
 
 <jc-image-flex>
 
-<a href="/images/uk/DSC08866.jpg"><img loading="lazy" alt="Bridge leading to Conwy Castle" src="/images/uk/DSC08866-small.jpg" /></a>
-<a href="/images/uk/DSC08879.jpg"><img loading="lazy" alt="Car passing through Conwy Castle" src="/images/uk/DSC08879-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08866.jpg"><img loading="lazy" alt="Bridge leading to Conwy Castle" src="https://assets.jono.nz/images/uk/DSC08866-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08879.jpg"><img loading="lazy" alt="Car passing through Conwy Castle" src="https://assets.jono.nz/images/uk/DSC08879-small.jpg" /></a>
 
 </jc-image-flex>
 
-<a href="/images/uk/DSC08860.jpg"><img loading="lazy" alt="View of river from Conwy Castle" src="/images/uk/DSC08860-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08860.jpg"><img loading="lazy" alt="View of river from Conwy Castle" src="https://assets.jono.nz/images/uk/DSC08860-small.jpg" /></a>
 
 </jc-gallery>
 
@@ -136,16 +136,16 @@ Bristol seemed fine. It seems like it would be a nice enough place to live, but 
 
 <jc-gallery>
 
-<a href="/images/uk/DSC08952.jpg"><img loading="lazy" alt="Bristol marina" src="/images/uk/DSC08952-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08952.jpg"><img loading="lazy" alt="Bristol marina" src="https://assets.jono.nz/images/uk/DSC08952-small.jpg" /></a>
 
 <jc-image-flex>
 
-<a href="/images/uk/DSC08957.jpg"><img loading="lazy" alt="Bristol street art" src="/images/uk/DSC08957-small.jpg" /></a>
-<a href="/images/uk/DSC08960.jpg"><img loading="lazy" alt="Roman Baths" src="/images/uk/DSC08960-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08957.jpg"><img loading="lazy" alt="Bristol street art" src="https://assets.jono.nz/images/uk/DSC08957-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08960.jpg"><img loading="lazy" alt="Roman Baths" src="https://assets.jono.nz/images/uk/DSC08960-small.jpg" /></a>
 
 </jc-image-flex>
 
-<a href="/images/uk/DSC08968.jpg"><img loading="lazy" alt="Bath streetscape" src="/images/uk/DSC08968-small.jpg"/></a>
+<a href="https://assets.jono.nz/images/uk/DSC08968.jpg"><img loading="lazy" alt="Bath streetscape" src="https://assets.jono.nz/images/uk/DSC08968-small.jpg"/></a>
 
 </jc-gallery>
 
@@ -159,21 +159,21 @@ If you have more than a few days in London, I would definitely do a day trip to 
 
 <jc-image-flex>
 
-<a href="/images/uk/DSC08986.jpg"><img loading="lazy" alt="Oxford University" src="/images/uk/DSC08986-small.jpg" /></a>
-<a href="/images/uk/DSC08978.jpg"><img loading="lazy" alt="Church in Oxford" src="/images/uk/DSC08978-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08986.jpg"><img loading="lazy" alt="Oxford University" src="https://assets.jono.nz/images/uk/DSC08986-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08978.jpg"><img loading="lazy" alt="Church in Oxford" src="https://assets.jono.nz/images/uk/DSC08978-small.jpg" /></a>
 
 </jc-image-flex>
 
-<a href="/images/uk/DSC08996.jpg"><img loading="lazy" alt="Oxford grounds" src="/images/uk/DSC08996-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC08996.jpg"><img loading="lazy" alt="Oxford grounds" src="https://assets.jono.nz/images/uk/DSC08996-small.jpg" /></a>
 
 <jc-image-flex>
 
-<a href="/images/uk/DSC09003.jpg"><img loading="lazy" alt="Oxford University Museum" src="/images/uk/DSC09003-small.jpg" /></a>
-<a href="/images/uk/DSC09006.jpg"><img loading="lazy" alt="Oxford University Museum" src="/images/uk/DSC09006-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC09003.jpg"><img loading="lazy" alt="Oxford University Museum" src="https://assets.jono.nz/images/uk/DSC09003-small.jpg" /></a>
+<a href="https://assets.jono.nz/images/uk/DSC09006.jpg"><img loading="lazy" alt="Oxford University Museum" src="https://assets.jono.nz/images/uk/DSC09006-small.jpg" /></a>
 
 </jc-image-flex>
 
-<a href="/images/uk/DSC08989.jpg"><img loading="lazy" alt="Oxford streetscape" src="/images/uk/DSC08989-small.jpg"/></a>
+<a href="https://assets.jono.nz/images/uk/DSC08989.jpg"><img loading="lazy" alt="Oxford streetscape" src="https://assets.jono.nz/images/uk/DSC08989-small.jpg"/></a>
 
 </jc-gallery>
 
@@ -184,36 +184,36 @@ However, the new Elizabeth Line is great. They should really build another new o
 
 <jc-gallery>
 
-<a href="/images/uk/DSC09008.jpg"><img loading="lazy" alt="London streetscape" src="/images/uk/DSC09008-small.jpg"/></a>
+<a href="https://assets.jono.nz/images/uk/DSC09008.jpg"><img loading="lazy" alt="London streetscape" src="https://assets.jono.nz/images/uk/DSC09008-small.jpg"/></a>
 
 <jc-image-flex>
 
-<a href="/images/uk/DSC09131.jpg"><img loading="lazy" alt="Back alley near London Chinatown" src="/images/uk/DSC09131-small.jpg"/></a>
-<a href="/images/uk/DSC09059.jpg"><img loading="lazy" alt="View of Barbican" src="/images/uk/DSC09059-small.jpg"/></a>
+<a href="https://assets.jono.nz/images/uk/DSC09131.jpg"><img loading="lazy" alt="Back alley near London Chinatown" src="https://assets.jono.nz/images/uk/DSC09131-small.jpg"/></a>
+<a href="https://assets.jono.nz/images/uk/DSC09059.jpg"><img loading="lazy" alt="View of Barbican" src="https://assets.jono.nz/images/uk/DSC09059-small.jpg"/></a>
 
 </jc-image-flex>
 
-<a href="/images/uk/DSC09061.jpg"><img loading="lazy" alt="People walking in Barbican" src="/images/uk/DSC09061-small.jpg"/></a>
+<a href="https://assets.jono.nz/images/uk/DSC09061.jpg"><img loading="lazy" alt="People walking in Barbican" src="https://assets.jono.nz/images/uk/DSC09061-small.jpg"/></a>
 
 <jc-image-flex>
 
-<a href="/images/uk/DSC09066.jpg"><img loading="lazy" alt="St Paul's Cathedral" src="/images/uk/DSC09066-small.jpg"/></a>
-<a href="/images/uk/DSC09076.jpg"><img loading="lazy" alt="Covent Garden Market" src="/images/uk/DSC09076-small.jpg"/></a>
+<a href="https://assets.jono.nz/images/uk/DSC09066.jpg"><img loading="lazy" alt="St Paul's Cathedral" src="https://assets.jono.nz/images/uk/DSC09066-small.jpg"/></a>
+<a href="https://assets.jono.nz/images/uk/DSC09076.jpg"><img loading="lazy" alt="Covent Garden Market" src="https://assets.jono.nz/images/uk/DSC09076-small.jpg"/></a>
 
 </jc-image-flex>
 
-<a href="/images/uk/DSC09083.jpg"><img loading="lazy" alt="View from Trafalgar Square" src="/images/uk/DSC09083-small.jpg"/></a>
+<a href="https://assets.jono.nz/images/uk/DSC09083.jpg"><img loading="lazy" alt="View from Trafalgar Square" src="https://assets.jono.nz/images/uk/DSC09083-small.jpg"/></a>
 
-<a href="/images/uk/DSC09146.jpg"><img loading="lazy" alt="Kings Cross Station" src="/images/uk/DSC09146-small.jpg"/></a>
+<a href="https://assets.jono.nz/images/uk/DSC09146.jpg"><img loading="lazy" alt="Kings Cross Station" src="https://assets.jono.nz/images/uk/DSC09146-small.jpg"/></a>
 
 <jc-image-flex>
 
-<a href="/images/uk/DSC09201.jpg"><img loading="lazy" alt="Lime Bikes in the City of London" src="/images/uk/DSC09201-small.jpg"/></a>
-<a href="/images/uk/DSC09164.jpg"><img loading="lazy" alt="London streetscape" src="/images/uk/DSC09164-small.jpg"/></a>
+<a href="https://assets.jono.nz/images/uk/DSC09201.jpg"><img loading="lazy" alt="Lime Bikes in the City of London" src="https://assets.jono.nz/images/uk/DSC09201-small.jpg"/></a>
+<a href="https://assets.jono.nz/images/uk/DSC09164.jpg"><img loading="lazy" alt="London streetscape" src="https://assets.jono.nz/images/uk/DSC09164-small.jpg"/></a>
 
 </jc-image-flex>
 
-<a href="/images/uk/DSC09248.jpg"><img loading="lazy" alt="Docklands Light Railway" src="/images/uk/DSC09248-small.jpg"/></a>
+<a href="https://assets.jono.nz/images/uk/DSC09248.jpg"><img loading="lazy" alt="Docklands Light Railway" src="https://assets.jono.nz/images/uk/DSC09248-small.jpg"/></a>
 
 </jc-gallery>
 
@@ -224,7 +224,7 @@ We only ending up taking one train in the UK: the Southern from London to Gatwic
 
 So yeah, I would recommend hiring a car. It's easy enough to drive in UK, and other people are generally considerate drivers. Only real things to worry about are some of the narrow lanes, road markings that haven't been repainted in forever, and their enormous signalised roundabouts.
 
-<a href="/images/uk/DSC08157.jpg"><img loading="lazy" alt="View of Edinburgh" src="/images/uk/DSC08157-small.jpg"/></a>
+<a href="https://assets.jono.nz/images/uk/DSC08157.jpg"><img loading="lazy" alt="View of Edinburgh" src="https://assets.jono.nz/images/uk/DSC08157-small.jpg"/></a>
 
 ## etc
 

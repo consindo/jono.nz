@@ -7,7 +7,7 @@ tags:
 
 We recently visited South Korea for the first time, and had a really good time. A lot of people have been asking us for some photos & recommendations, so here we go.
 
-<a href="/images/korea/DSC03146.jpg"><img loading="lazy" alt="Hanok Cafe in Gyeongju" src="/images/korea/DSC03146-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC03146.jpg"><img loading="lazy" alt="Hanok Cafe in Gyeongju" src="https://assets.jono.nz/images/korea/DSC03146-small.jpg"></a>
 
 ## Seoul
 
@@ -15,8 +15,8 @@ We were surprised by Seoul. It was a lot more relaxed than we were expecting, so
 
 <jc-image-flex>
 
-<a href="/images/korea/DSC02401.jpg"><img loading="lazy" alt="Seoul street" src="/images/korea/DSC02401-small.jpg"></a>
-<a href="/images/korea/DSC02442.jpg"><img loading="lazy" alt="Seoul cafe" src="/images/korea/DSC02442-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC02401.jpg"><img loading="lazy" alt="Seoul street" src="https://assets.jono.nz/images/korea/DSC02401-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC02442.jpg"><img loading="lazy" alt="Seoul cafe" src="https://assets.jono.nz/images/korea/DSC02442-small.jpg"></a>
 
 </jc-image-flex>
 
@@ -28,8 +28,8 @@ We were surprised by Seoul. It was a lot more relaxed than we were expecting, so
 
 <jc-image-flex>
 
-<a href="/images/korea/DSC02536.jpg"><img loading="lazy" alt="Cheonggyecheon stream" src="/images/korea/DSC02536-small.jpg"></a>
-<a href="/images/korea/DSC02590.jpg"><img loading="lazy" alt="Nele Island" src="/images/korea/DSC02590-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC02536.jpg"><img loading="lazy" alt="Cheonggyecheon stream" src="https://assets.jono.nz/images/korea/DSC02536-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC02590.jpg"><img loading="lazy" alt="Nele Island" src="https://assets.jono.nz/images/korea/DSC02590-small.jpg"></a>
 
 </jc-image-flex>
 
@@ -41,8 +41,8 @@ We were surprised by Seoul. It was a lot more relaxed than we were expecting, so
 
 <jc-image-flex>
 
-<a href="/images/korea/DSC02626.jpg"><img loading="lazy" alt="Cheongsudang Bakery" src="/images/korea/DSC02626-small.jpg"></a>
-<a href="/images/korea/DSC02530.jpg"><img loading="lazy" alt="Market in Seoul" src="/images/korea/DSC02530-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC02626.jpg"><img loading="lazy" alt="Cheongsudang Bakery" src="https://assets.jono.nz/images/korea/DSC02626-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC02530.jpg"><img loading="lazy" alt="Market in Seoul" src="https://assets.jono.nz/images/korea/DSC02530-small.jpg"></a>
 
 </jc-image-flex>
 
@@ -50,7 +50,7 @@ We were surprised by Seoul. It was a lot more relaxed than we were expecting, so
 
 We stayed in Sokcho to visit Seoraksan National Park, but also found the city to be really nice too. There’s a lake in the centre which you can walk around, and there’s also a good tourist fish market to visit.
 
-<a href="/images/korea/DSC02780.jpg"><img loading="lazy" alt="Sokcho Lake" src="/images/korea/DSC02780-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC02780.jpg"><img loading="lazy" alt="Sokcho Lake" src="https://assets.jono.nz/images/korea/DSC02780-small.jpg"></a>
 
 Getting to Seoraksan on the local bus is frequent & direct, and is well worth the visit. There are a variety of different hikes for different skill levels (cable car is also an option). We walked up to Biseondae Rock, which was a surprisingly easy walk and mostly paved the whole way.
 
@@ -58,8 +58,8 @@ At the end of the path, we walked up to Geumganggul cave which was the most dece
 
 <jc-image-flex>
 
-<a href="/images/korea/DSC02748.jpg"><img loading="lazy" alt="Geumganggul cave stairs" src="/images/korea/DSC02748-small.jpg"></a>
-<a href="/images/korea/DSC02742.jpg"><img loading="lazy" alt="View from Geumganggul cave" src="/images/korea/DSC02742-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC02748.jpg"><img loading="lazy" alt="Geumganggul cave stairs" src="https://assets.jono.nz/images/korea/DSC02748-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC02742.jpg"><img loading="lazy" alt="View from Geumganggul cave" src="https://assets.jono.nz/images/korea/DSC02742-small.jpg"></a>
 
 </jc-image-flex>
 
@@ -71,7 +71,7 @@ We found Jeju to be very average. The nature is fine, but not particularly impre
 
 It actually feels quite a lot like suburban USA—the buildings just keep sparsely sprawling over quite a large island that you will need to drive around. Jeju really seems aimed towards people living in Seoul that want to escape the city for a bit, but it’s not somewhere we would recommend going.
 
-<a href="/images/korea/DSC02984.jpg"><img loading="lazy" alt="Sunset from Seongsan Ilchulbong" src="/images/korea/DSC02984-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC02984.jpg"><img loading="lazy" alt="Sunset from Seongsan Ilchulbong" src="https://assets.jono.nz/images/korea/DSC02984-small.jpg"></a>
 
 ### Things to do
 
@@ -84,13 +84,13 @@ If you do decide to go to Jeju, there are a few things we recommend.
 
 Gyeongju is the historical capital of the Silla Kingdom, and definitely worth a visit. The ancient burial mounds are found across the city, and a few have also been excavated. There are also replicas of Silla architecture around the city.
 
-<a href="/images/korea/DSC03164.jpg"><img loading="lazy" alt="Burial Mound in Gyeongju" src="/images/korea/DSC03164-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC03164.jpg"><img loading="lazy" alt="Burial Mound in Gyeongju" src="https://assets.jono.nz/images/korea/DSC03164-small.jpg"></a>
 
 Near the tombs is **Hwangnidan-gil**, which is nice with all the cafes and shops in restored hanok houses. The **Woljeonggyo Bridge** nearby is also really pretty, especially at night.
 
 We also visited **Bulguksa**, but wouldn't consider it essential as it's a little bit out of the way - there's plenty of other good temples in Korea.
 
-<a href="/images/korea/DSC03193.jpg"><img loading="lazy" alt="Woljeonggyo Bridge at Night" src="/images/korea/DSC03193-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC03193.jpg"><img loading="lazy" alt="Woljeonggyo Bridge at Night" src="https://assets.jono.nz/images/korea/DSC03193-small.jpg"></a>
 
 We stayed a couple of nights in Gyeongju, but you could definitely do it as a day trip from Busan if you're staying near the high speed rail station.
 
@@ -98,7 +98,7 @@ We stayed a couple of nights in Gyeongju, but you could definitely do it as a da
 
 The last stop on our trip was Busan, which is a city that really feels like two cities. It's both a busy port city, and a place that people go for vacation. It's definitely worth a visit, and good to do both the city and vacation parts. We probably did a few more touristy things here than the other places we visited.
 
-<a href="/images/korea/DSC03005.jpg"><img loading="lazy" alt="Busan Skyline" src="/images/korea/DSC03005-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC03005.jpg"><img loading="lazy" alt="Busan Skyline" src="https://assets.jono.nz/images/korea/DSC03005-small.jpg"></a>
 
 ### Neighbourhoods
 
@@ -108,8 +108,8 @@ The last stop on our trip was Busan, which is a city that really feels like two 
 
 <jc-image-flex>
 
-<a href="/images/korea/DSC03064.jpg"><img loading="lazy" alt="Gamcheon Culture Village" src="/images/korea/DSC03064-small.jpg"></a>
-<a href="/images/korea/DSC03080.jpg"><img loading="lazy" alt="Busan Tower" src="/images/korea/DSC03080-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC03064.jpg"><img loading="lazy" alt="Gamcheon Culture Village" src="https://assets.jono.nz/images/korea/DSC03064-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC03080.jpg"><img loading="lazy" alt="Busan Tower" src="https://assets.jono.nz/images/korea/DSC03080-small.jpg"></a>
 
 </jc-image-flex>
 
@@ -118,7 +118,7 @@ The last stop on our trip was Busan, which is a city that really feels like two 
 - **Spa Land**: These are hot pools similar to a Japanese Onsen, but with a range of extras. Once you've bathed (with optional scrub down), you can rejoin your partner and go to one of many different saunas, enjoy a foot bath outside, have a massage (from a chair or person), have a meal, or just lie on the ground. Highly recommend, especially for the price: around $25 NZD for 4 hours.
 - **Busan Air Cruise**: Definitely a touristy gondola ride, but it does have good views of the city and beach. There's also a good seafood place at the bottom of the hill at the terminus. It can be little confronting: the vendors will shout at you a bit and the seafood may still be moving.
 
-<a href="/images/korea/DSC03041.jpg"><img loading="lazy" alt="View from Busan Gondola" src="/images/korea/DSC03041-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC03041.jpg"><img loading="lazy" alt="View from Busan Gondola" src="https://assets.jono.nz/images/korea/DSC03041-small.jpg"></a>
 
 ## Food to try
 
@@ -129,11 +129,11 @@ We found that the Korean food you get in Auckland is pretty authentic, but there
 - **Gopchang:** This is beef/pork intestine either grilled on a BBQ, or found in a hot pot. We also had it with a **Nakji** stir-fry. It's surprisingly good but more expensive than normal cuts of meat.
 - **Hanjeongsik:** This is a meal where you get a large number of small different dishes. It's definitely an experience, and good way to try a lot of different things.
 
-<a href="/images/korea/DSC02609.jpg"><img loading="lazy" alt="Jokbal" src="/images/korea/DSC02609-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC02609.jpg"><img loading="lazy" alt="Jokbal" src="https://assets.jono.nz/images/korea/DSC02609-small.jpg"></a>
 
 It's also worth noting that a lot of food in Korea is designed for sharing, so it could be a bit limiting if you are traveling solo.
 
-<a href="/images/korea/DSC02621.jpg"><img loading="lazy" alt="Jongo at night" src="/images/korea/DSC02621-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC02621.jpg"><img loading="lazy" alt="Jongo at night" src="https://assets.jono.nz/images/korea/DSC02621-small.jpg"></a>
 
 Also, the only good zero sugar drinks are makgeolli & soju.
 
@@ -143,8 +143,8 @@ Korea is more walkable than many other places in Asia and there are some really 
 
 <jc-image-flex>
 
-<a href="/images/korea/DSC02645.jpg"><img loading="lazy" alt="Street in Mullae-dong" src="/images/korea/DSC02645-small.jpg"></a>
-<a href="/images/korea/DSC02649.jpg"><img loading="lazy" alt="Alley in Mullae-dong" src="/images/korea/DSC02649-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC02645.jpg"><img loading="lazy" alt="Street in Mullae-dong" src="https://assets.jono.nz/images/korea/DSC02645-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC02649.jpg"><img loading="lazy" alt="Alley in Mullae-dong" src="https://assets.jono.nz/images/korea/DSC02649-small.jpg"></a>
 
 </jc-image-flex>
 
@@ -152,7 +152,7 @@ Both the Seoul & Busan metros cover the city pretty well, but the frequency can 
 
 We didn't have any issues getting tickets for long distance buses & trains and just bought them 20 minutes before departure. It wasn't peak season (middle of summer), so it may be worth booking online if things are busier. Korea has high speed rail between the main centres, which we found to be both frequent and reasonably priced. 
 
-<a href="/images/korea/DSC03090.jpg"><img loading="lazy" alt="Boats at fish market in Busan" src="/images/korea/DSC03090-small.jpg"></a>
+<a href="https://assets.jono.nz/images/korea/DSC03090.jpg"><img loading="lazy" alt="Boats at fish market in Busan" src="https://assets.jono.nz/images/korea/DSC03090-small.jpg"></a>
 
 We hired a car to travel around Jeju. There were a lot of speed cameras everywhere with a constantly changing speed limit, so it does take more mental energy to drive. Other drivers were also not very good, probably because they're from places like Seoul (or other Asian cities with good public transport) so they don't drive often
 
@@ -164,7 +164,7 @@ You can almost get away without cash, but you will need a physical card. Most pl
 
 Cash is useful for markets (although some vendors take card too), but you will need cash to top up your T-Money transit card. They have lots of different designs and you can shop around convenience stores to find one you like. The card works across buses and trains throughout the entire country, and you can top it up at stations or convenience stores, but it needs to be in cash.
 
-<a href="/images/korea/DSC02363.jpg"><img loading="lazy" src="/images/korea/DSC02363-small.jpg" alt="Changing of the guard at Gyeongbokgung Palace"></a>
+<a href="https://assets.jono.nz/images/korea/DSC02363.jpg"><img loading="lazy" src="https://assets.jono.nz/images/korea/DSC02363-small.jpg" alt="Changing of the guard at Gyeongbokgung Palace"></a>
 
 ## Etiquette
 
