@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>example 2</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Arial', sans-serif;
+    }
+    html {
+      scroll-snap-type: y mandatory;
+      scroll-timeline: --page-scroll block;
+      scrollbar-width: none;
+    }
+    :root {
+      --screen-height: 100svh;
+      --drawer-top-margin: 2rem;
+      --drawer-midpoint: 14rem;
+      --collapsed-height: 4rem;
+    }
+    .screen-top {
+      scroll-snap-align: start;
+    }
+    .main-wrapper {
+      height: var(--screen-height);
+      position: sticky;
+      top: 0;
+      z-index: 0;
+      background: #000;
+    }
+    @keyframes main-scroll-opacity {
+      0% { opacity: 1; }
+      90% { opacity: 1; }
+      100% {
+        opacity: 0.7;
+        pointer-events: none;
+      }
+    }
+    .main-content {
+      background: #ccc;
+      height: 100%;
+      animation: main-scroll-opacity auto linear;
+      animation-timeline: --page-scroll;
+
+      /* this is just for the sake of an example image as a map */
+      /* you won't need these rules if you're embedding a real map or something else */
+      scrollbar-width: none;
+      overflow: scroll;
+      overscroll-behavior: none;
+    }
+    .drawer {
+      z-index: 2;
+      position: relative;
+    }
+    .drawer-header {
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+      scroll-margin-top: calc(var(--screen-height) - var(--drawer-midpoint));
+
+      /* we overlay the drawer on the map, so we can use border-radius etc */
+      margin-top: calc(var(--collapsed-height) * -1);
+      height: var(--collapsed-height);
+
+      background: pink;
+
+      & h1 {
+        margin: 0;
+        font-size: 1.25rem;
+      }
+      & p {
+        margin: 0;
+        font-size: 0.9rem;
+      }
+    }
+    .drawer-wrapper {
+      background: #fafafa;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+      scroll-margin-top: var(--collapsed-height);
+
+      height: calc(100dvh - var(--collapsed-height) - var(--drawer-top-margin));
+    }
+    @keyframes drawer-content {
+      0% { overflow-y: hidden; }
+      99% { overflow-y: hidden; }
+      100% { overflow-y: scroll; }
+    }
+    .drawer-content {
+      animation: drawer-content auto linear;
+      animation-timeline: --page-scroll;
+      overflow-y: scroll;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="screen-top"></div>
+    <section class="main-wrapper">
+      <div class="main-content">
+        <img src="map.avif" alt="Map" />
+      </div>
+    </section>
+    <div class="drawer">
+      <header class="drawer-header">
+        <div>
+          <h1>East West Line</h1>
+          <p>Manukau to Swanson</p>
+        </div>
+      </header>
+      <section class="drawer-wrapper">      
+        <div class="drawer-content">
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h2>Lots more content</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h2>Even more content</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

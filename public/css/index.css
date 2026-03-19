@@ -111,6 +111,9 @@ li {
   line-height: 1.5;
   margin-bottom: 0.5em;
 }
+iframe {
+  border: var(--border);
+}
 
 a[href] {
   color: var(--text-color-link);
