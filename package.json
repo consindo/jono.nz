@@ -16,5 +16,8 @@
     "luxon": "^3.7.2",
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-footnote": "^4.0.0"
+  },
+  "allowScripts": {
+    "sharp@0.33.5": true
   }
 }
