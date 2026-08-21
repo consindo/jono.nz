@@ -6,4 +6,4 @@ node_modules
 *.local
 *.env
 *.sublime-project
-
+.git

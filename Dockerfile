@@ -21,5 +21,5 @@ RUN npm run build
 FROM docker.io/library/nginx:alpine
 
 # Copy built application
+COPY default.conf /etc/nginx/conf.d
 COPY --from=build /app/_site /usr/share/nginx/html
-
